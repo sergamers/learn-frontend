@@ -11,3 +11,4 @@
   * [Как сгенерировать SSH-ключ для доступа на сервер](https://selectel.ru/blog/tutorials/how-to-generate-ssh/)
   * [GitHub - Крупнейший веб-сервис для хостинга IT-проектов и их совместной разработки.](https://github.com/)
   * [Шпаргалка по git-flow](https://danielkummer.github.io/git-flow-cheatsheet/index.ru_RU.html)
+  * [Рабочий репозиторий](https://github.com/sergamers/learn-frontend)
