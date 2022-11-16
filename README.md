@@ -12,3 +12,4 @@
   * [GitHub - Крупнейший веб-сервис для хостинга IT-проектов и их совместной разработки.](https://github.com/)
   * [Шпаргалка по git-flow](https://danielkummer.github.io/git-flow-cheatsheet/index.ru_RU.html)
   * [Рабочий репозиторий](https://github.com/sergamers/learn-frontend)
+  * Тест
