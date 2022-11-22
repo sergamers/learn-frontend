@@ -3,38 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Контурные кнопки</title>
-    <style>
-        .btn {
-           background: white;
-           border: 5px solid blue;
-           color: blue;
-           border-radius: 5px; 
-           display: inline-block;
-           padding: 10px;
-           margin: 10px;
-           cursor: pointer;
-           font: 600 16px/16px Arial; 
-           text-decoration: none;  
-        }
-        .btn:focus {
-            box-shadow: 0 0 0 4px rgb(112, 90, 253); 
-        }
-        .btn:hover {
-            background: blue;
-            color: white;    
-        }
-        
-
-    </style>
+    <link rel="stylesheet" href="style.css">
     <body>
-        <button type="button" class="btn btn-outline-primary">Primary</button>
-        <button type="button" class="btn btn-outline-secondary">Secondary</button>
-        <button type="button" class="btn btn-outline-success">Success</button>
+        <button type="button" class="Btn Btn--outlinePrimary">Primary</button>
+        <button type="button" class="Btn">Secondary</button>
+        <button type="button" class="Btn Btn--outlineSuccess">Success</button>
         <button type="button" class="btn btn-outline-danger">Danger</button>
         <button type="button" class="btn btn-outline-warning">Warning</button>
         <button type="button" class="btn btn-outline-info">Info</button>
         <button type="button" class="btn btn-outline-light">Light</button>
         <button type="button" class="btn btn-outline-dark">Dark</button>
+
+        <input type="button" class="Btn" value="qwe">
     </body>
 </head>
 </html>

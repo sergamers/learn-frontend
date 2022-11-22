@@ -1,0 +1,43 @@
+* {
+    outline: solid 1px red;
+}
+
+.Btn {
+    background: white;
+    border: 5px solid transparent;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    font: 600 16px/16px Arial;
+    text-decoration: none;
+}
+
+.Btn--outlinePrimary{
+    border-color: blue;
+    color: blue;
+}
+
+.Btn--outlinePrimary:focus {
+    box-shadow: 0 0 0 4px rgb(112, 90, 253);
+}
+
+.Btn--outlinePrimary:hover {
+    background: blue;
+    color: white;
+}
+
+.Btn--outlineSuccess{
+    border-color: green;
+    color: green;
+}
+
+.Btn--outlineSuccess:focus {
+    box-shadow: 0 0 0 4px #07F10BFF;
+}
+
+.Btn--outlineSuccess:hover {
+    background: green;
+    color: white;
+}
