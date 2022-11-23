@@ -4,25 +4,30 @@
     border-radius: 5px;
     display: inline-block;
     padding: 10px;
-    margin: 10px;
+    margin: 10px;  /** Тут избыточно */
     cursor: pointer;
     font: 600 16px/16px Arial;
     text-decoration: none;
 }
+
+/** Cиний */
 
 .Btn--outlinePrimary{
     border-color: rgb(0, 0, 200);
     color: rgb(0, 0, 200);
 }
 
+.Btn--Primaryб
 .Btn--outlinePrimary:focus {
     box-shadow: 0 0 0 4px rgb(112, 90, 253);
 }
 
 .Btn--outlinePrimary:hover {
-    background: rgb(0, 0, 200);
+    background: blue;
     color: white;
 }
+
+/** Серый */
 
 .Btn--outlineSecondary{
     border-color: rgb(102, 102, 104);
@@ -38,6 +43,8 @@
     color: white;
 }
 
+/** зеленый */
+
 .Btn--outlineSuccess{
     border-color: green;
     color: green;
@@ -51,6 +58,9 @@
     background: green;
     color: white;
 }
+
+
+/* красный */
 
 .Btn--outlineDanger {
     border-color: red;
@@ -66,6 +76,9 @@
     color: white;
 }
 
+
+/* Желтый */
+
 .Btn--outlineWarning {
     border-color: rgb(210, 210, 0);
     color: rgb(215, 215, 0);
@@ -77,6 +90,8 @@
     background: rgb(200, 200, 0);
     color: white;
 }
+
+/*  Морская волны */
 
 .Btn--outlineInfo {
     border-color: rgb(0, 150, 185);
@@ -90,98 +105,60 @@
     color: black;
 }
 
+/* Светло-серый */
+
 .Btn--outlineLight {
     border-color: rgb(210,210,210);
     color: rgb(210,210,210);
 }
+
 .Btn--outlineLight:focus {
     box-shadow:0 0 0 4px  rgb(200,200,200);
 }
+
 .Btn--outlineLight:hover {
     background: rgb(210,210,210);
     color: black;
 }
 
+/* Черный */
+
 .Btn--outlineDark {
     border-color: black;
     color: black;
 }
+
 .Btn--outlineDark:focus {
     box-shadow: 0 0 0 4px black;
 }
+
 .Btn--outlineDark:hover {
     background: black;
     color: white;
 }
 
+/*  Стандартная кнопка - синяя */
 .Btn--Primary {
     border-color: blue;
     background: blue;
     color: white;
 }
+
 .Btn--Primary:focus {
     box-shadow:0 0 0 4px rgb(154, 154, 255);
 }
 
-.Btn--primaryLg {
-    border-color: blue;
-    color: white;
-    background: blue;
-    display: inline;
+/* Большая кнопка */
+
+.Btn--lg {
     padding: 25px;
-    width: 45%;
     font-size: 25px;
 }
-.Btn--primaryLg:focus {
-    box-shadow: 0 0 0 4px rgb(140, 140, 255);
-}
-.Btn--primaryLg:hover {
-    background: rgb(0, 0, 195);
-}
-.Btn--secondaryLg {
-    border-color: rgb(160,160,160);
-    color:white;
-    background: rgb(160,160,160);
-    display: inline;
-    padding: 25px;
-    width: 45%;
-    font-size: 25px;
-}
-.Btn--secondaryLg:focus {
-    box-shadow: 0 0 0 4px rgb(160,160,160);
-}
-.Btn--secondaryLg:hover {
-    background:rgb(110, 110, 110);
+
+/* маленькая кнопка */
+
+.Btn--sm {
+    padding: 2px;
+    font-size: 14px;
 }
 
-.Btn--primarySm {
-    border-color: blue;
-    color: white;
-    background: blue;
-    display: inline;
-    padding: 2px;
-    width: 10%;
-    font-size: 8px;
-}
-.Btn--primarySm:focus {
-    box-shadow: 0 0 0 4px rgb(140, 140, 255);
-}
-.Btn--primarySm:hover {
-    background: rgb(0, 0, 195);
-}
-
-.Btn--secondarySm {
-    border-color: rgb(160,160,160);
-    color:white;
-    background: rgb(160,160,160);
-    display: inline;
-    padding: 2px;
-    width: 10%;
-    font-size: 8px;
-}
-.Btn--secondarySm:focus {
-    box-shadow: 0 0 0 4px rgb(160,160,160);
-}
-.Btn--secondarySm:hover {
-    background:rgb(110, 110, 110);
-}
