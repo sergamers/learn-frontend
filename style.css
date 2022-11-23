@@ -1,7 +1,3 @@
-* {
-    outline: solid 1px red;
-}
-
 .Btn {
     background: white;
     border: 5px solid transparent;
@@ -15,8 +11,8 @@
 }
 
 .Btn--outlinePrimary{
-    border-color: blue;
-    color: blue;
+    border-color: rgb(0, 0, 200);
+    color: rgb(0, 0, 200);
 }
 
 .Btn--outlinePrimary:focus {
@@ -24,7 +20,21 @@
 }
 
 .Btn--outlinePrimary:hover {
-    background: blue;
+    background: rgb(0, 0, 200);
+    color: white;
+}
+
+.Btn--outlineSecondary{
+    border-color: rgb(102, 102, 104);
+    color: rgb(122, 122, 122);
+}
+
+.Btn--outlineSecondary:focus {
+    box-shadow: 0 0 0 4px rgb(166, 166, 166);
+}
+
+.Btn--outlineSecondary:hover {
+    background: rgb(79, 79, 79);
     color: white;
 }
 
@@ -34,10 +44,144 @@
 }
 
 .Btn--outlineSuccess:focus {
-    box-shadow: 0 0 0 4px #07F10BFF;
+    box-shadow: 0 0 0 4px rgb(2, 190, 5);
 }
 
 .Btn--outlineSuccess:hover {
     background: green;
     color: white;
+}
+
+.Btn--outlineDanger {
+    border-color: red;
+    color: red;
+}
+
+.Btn--outlineDanger:focus {
+    box-shadow: 0 0 0 4px rgb(255, 106, 106);
+}
+
+.Btn--outlineDanger:hover {
+    background: red;
+    color: white;
+}
+
+.Btn--outlineWarning {
+    border-color: rgb(210, 210, 0);
+    color: rgb(215, 215, 0);
+}
+.Btn--outlineWarning:focus {
+    box-shadow: 0 0 0 4px rgb(225, 225, 0);
+}
+.Btn--outlineWarning:hover {
+    background: rgb(200, 200, 0);
+    color: white;
+}
+
+.Btn--outlineInfo {
+    border-color: rgb(0, 150, 185);
+    color: rgb(70, 70, 255);
+}
+.Btn--outlineInfo:focus {
+    box-shadow:0 0 0 4px rgb(0, 199, 244);
+}
+.Btn--outlineInfo:hover {
+    background: rgb(0, 150, 185);
+    color: black;
+}
+
+.Btn--outlineLight {
+    border-color: rgb(210,210,210);
+    color: rgb(210,210,210);
+}
+.Btn--outlineLight:focus {
+    box-shadow:0 0 0 4px  rgb(200,200,200);
+}
+.Btn--outlineLight:hover {
+    background: rgb(210,210,210);
+    color: black;
+}
+
+.Btn--outlineDark {
+    border-color: black;
+    color: black;
+}
+.Btn--outlineDark:focus {
+    box-shadow: 0 0 0 4px black;
+}
+.Btn--outlineDark:hover {
+    background: black;
+    color: white;
+}
+
+.Btn--Primary {
+    border-color: blue;
+    background: blue;
+    color: white;
+}
+.Btn--Primary:focus {
+    box-shadow:0 0 0 4px rgb(154, 154, 255);
+}
+
+.Btn--primaryLg {
+    border-color: blue;
+    color: white;
+    background: blue;
+    display: inline;
+    padding: 25px;
+    width: 45%;
+    font-size: 25px;
+}
+.Btn--primaryLg:focus {
+    box-shadow: 0 0 0 4px rgb(140, 140, 255);
+}
+.Btn--primaryLg:hover {
+    background: rgb(0, 0, 195);
+}
+.Btn--secondaryLg {
+    border-color: rgb(160,160,160);
+    color:white;
+    background: rgb(160,160,160);
+    display: inline;
+    padding: 25px;
+    width: 45%;
+    font-size: 25px;
+}
+.Btn--secondaryLg:focus {
+    box-shadow: 0 0 0 4px rgb(160,160,160);
+}
+.Btn--secondaryLg:hover {
+    background:rgb(110, 110, 110);
+}
+
+.Btn--primarySm {
+    border-color: blue;
+    color: white;
+    background: blue;
+    display: inline;
+    padding: 2px;
+    width: 10%;
+    font-size: 8px;
+}
+.Btn--primarySm:focus {
+    box-shadow: 0 0 0 4px rgb(140, 140, 255);
+}
+.Btn--primarySm:hover {
+    background: rgb(0, 0, 195);
+}
+
+.Btn--secondarySm {
+    border-color: rgb(160,160,160);
+    color:white;
+    background: rgb(160,160,160);
+    display: inline;
+    padding: 2px;
+    width: 10%;
+    font-size: 8px;
+}
+.Btn--secondarySm:focus {
+    box-shadow: 0 0 0 4px rgb(160,160,160);
+}
+.Btn--secondarySm:hover {
+    background:rgb(110, 110, 110);
 }
