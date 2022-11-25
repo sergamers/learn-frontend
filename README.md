@@ -17,6 +17,7 @@
 * Схлопывание margin
   * [Схлопывающиеся margin](https://webref.ru/course/block-model/margin-collapse)
   * [Видео](https://www.youtube.com/watch?v=IgJy2bmjK6s)
+* [Команда Git stash. Как прятать изменения в Git](https://pingvinus.ru/git/1718)
 
 # Цель - Сверстать выделенные блоки в макете под UI KIT
 
