@@ -277,20 +277,6 @@
     box-shadow:0 0 0 4px rgb(154, 154, 255);
 }
 
-/** кнопки с неактивными ссылкам*/
-
-.Btn--Primary[disabled] {
-    cursor: default;
-    background: rgb(100, 100, 255);
-    border-color: rgb(100, 100, 255);
-}
-.Btn--Primary.disabled {
-    cursor: default;
-    box-shadow: none;
-    background: rgb(100, 100, 255);
-    border-color: rgb(100, 100, 255);
-}
-
 /** Большая кнопка синяя */
 
 .Btn--lg {
@@ -310,4 +296,22 @@
 .Btn--wd {
     width: 100%;
     text-align: center;
+}
+
+/** кнопки с неактивными ссылкам*/
+
+.Btn.disabled {
+    cursor: default;
+    background: rgb(165, 165, 255);
+    border-color: rgb(165, 165, 255);
+    box-shadow: none;
+    color: black;
+}
+
+.Btn[disabled] {
+    cursor: default;
+    background: rgb(165, 165, 255);
+    border-color: rgb(165, 165, 255);
+    box-shadow: none;
+    color: black;
 }
