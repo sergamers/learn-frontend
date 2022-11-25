@@ -5,6 +5,19 @@
 4. Посмотреть как работают отступы
 3. Посмотреть компонент [button](https://getbootstrap.ru/docs/5.1/components/buttons/)
 
+## Доп. Материалы
+
+* [Разбираемся, что такое и зачем нужен файл normalize.css](https://yandex.ru/q/article/razbiraemsia_chto_takoe_i_zachem_nuzhen_706b78a2/?utm_source=yandex&utm_medium=feature_click)
+* [Единицы измерения: px, em, rem и другие](https://learn.javascript.ru/css-units)
+* Flexbox
+  * [Визуальное руководство по свойствам Flexbox из CSS3](https://css-live.ru/articles/vizualnoe-rukovodstvo-po-svojstvam-flexbox-iz-css3.html)
+  * [Шпаргалка по Flexbox CSS](https://tpverstak.ru/flex-cheatsheet/)
+  * [Игра](https://flexboxfroggy.com/#ru)
+* [Специальные символы HTML](https://htmlweb.ru/html/symbols.php)
+* Схлопывание margin
+  * [Схлопывающиеся margin](https://webref.ru/course/block-model/margin-collapse)
+  * [Видео](https://www.youtube.com/watch?v=IgJy2bmjK6s)
+
 # Цель - Сверстать выделенные блоки в макете под UI KIT
 
 ## Минимальные требования урока
