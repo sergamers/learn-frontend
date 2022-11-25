@@ -4,10 +4,140 @@
     border-radius: 5px;
     display: inline-block;
     padding: 10px;
-    margin: 10px;  /** Тут избыточно */
     cursor: pointer;
     font: 600 16px/16px Arial;
     text-decoration: none;
+}
+
+/**Цветные кнопки: синний */
+
+.Btn--colorPrimary {
+    background: blue;
+    border-color: blue;
+    color: white;
+}
+
+.Btn--colorPrimary:focus {
+    box-shadow: 0 0 0 4px rgb(104, 104, 255);
+}
+
+.Btn--colorPrimary:hover {
+    background: rgb(104, 104, 255);
+}
+
+/**Цветные кнопки: серый */
+
+.Btn--colorSecondary {
+    background: rgb(100, 100, 100);
+    border-color: rgb(100, 100, 100);
+    color: white;
+}
+
+.Btn--colorSecondary:focus {
+    box-shadow: 0 0 0 4px rgb(180, 180, 180);
+}
+
+.Btn--colorSecondary:hover {
+    background: rgb(140, 140, 140);
+}
+
+/**Цветные кнопки: зелёный */
+
+.Btn--colorSuccess {
+    background: green;
+    border-color: green;
+    color: white;
+}
+
+.Btn--colorSuccess:focus {
+    box-shadow: 0 0 0 4px rgb(0, 160, 0);
+}
+
+.Btn--colorSuccess:hover {
+    background: rgb(0, 160, 0);
+}
+
+/**Цветные кнопки: красный */
+
+.Btn--colorDanger {
+    background: red;
+    border-color: red;
+    color: white;
+}
+
+.Btn--colorDanger:focus {
+    box-shadow: 0 0 0 4px rgb(255, 85, 85);
+}
+
+.Btn--colorDanger:hover {
+    background: rgb(255, 85, 85);
+}
+
+/**Цветные кнопки: жёлтый */
+
+.Btn--colorWarning {
+    background: rgb(215, 215, 0);
+    border-color: rgb(215, 215, 0);
+    color: black;
+}
+
+.Btn--colorWarning:focus {
+    box-shadow: 0 0 0 4px yellow;
+}
+
+.Btn--colorWarning:hover {
+    background: yellow;
+}
+
+/**Цветные кнопки: бирюза */
+
+.Btn--colorInfo {
+    background: rgb(0, 216, 220);
+    border-color: rgb(0, 216, 220);
+    color: black;
+}
+
+.Btn--colorInfo:focus {
+    box-shadow: 0 0 0 4px rgb(0, 251, 255);
+}
+
+.Btn--colorInfo:hover {
+    background: rgb(0, 251, 255);
+}
+
+/**Цветные кнопки: светлосерый */
+
+.Btn--colorLight {
+    background: rgb(200, 200, 200);
+    border-color: rgb(200, 200, 200);
+    color: black;
+}
+
+.Btn--colorLight:focus {
+    box-shadow: 0 0 0 4px rgb(220, 220, 220);
+}
+
+/**Цветные кнопки: чёрный */
+
+.Btn--colorDark {
+    background: black;
+    border-color: black;
+    color: white;
+}
+
+.Btn--colorDark:focus {
+    box-shadow: 0 0 0 4px rgb(120, 120, 120);
+}
+
+/**Цветные кнопки: Link */
+
+.Btn--colorLink {
+    color: rgb(50, 50, 255);
+    text-decoration: underline;
+}
+
+.Btn--colorLink:focus {
+    box-shadow: 0 0 0 4px rgb(138, 138, 255);
 }
 
 /** Cиний */
@@ -17,7 +147,6 @@
     color: rgb(0, 0, 200);
 }
 
-.Btn--Primaryб
 .Btn--outlinePrimary:focus {
     box-shadow: 0 0 0 4px rgb(112, 90, 253);
 }
@@ -148,17 +277,37 @@
     box-shadow:0 0 0 4px rgb(154, 154, 255);
 }
 
-/* Большая кнопка */
+/** кнопки с неактивными ссылкам*/
+
+.Btn--Primary[disabled] {
+    cursor: default;
+    background: rgb(100, 100, 255);
+    border-color: rgb(100, 100, 255);
+}
+.Btn--Primary.disabled {
+    cursor: default;
+    box-shadow: none;
+    background: rgb(100, 100, 255);
+    border-color: rgb(100, 100, 255);
+}
+
+/** Большая кнопка синяя */
 
 .Btn--lg {
     padding: 25px;
     font-size: 25px;
 }
 
-/* маленькая кнопка */
+/** маленькая кнопка синяя*/
 
 .Btn--sm {
     padding: 2px;
     font-size: 14px;
 }
 
+/** кнопка синяя на всю длинну*/
+
+.Btn--wd {
+    width: 100%;
+    text-align: center;
+}
