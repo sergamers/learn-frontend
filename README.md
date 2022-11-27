@@ -1,3 +1,24 @@
+# (21.11.2022) - Верстка компонента button
+
+1. Создать ветку урока - lesson-1
+2. Рассмотреть св-во display ( inline, block, inline-block )
+4. Посмотреть как работают отступы
+3. Посмотреть компонент [button](https://getbootstrap.ru/docs/5.1/components/buttons/)
+
+## Доп. Материалы
+
+* [Разбираемся, что такое и зачем нужен файл normalize.css](https://yandex.ru/q/article/razbiraemsia_chto_takoe_i_zachem_nuzhen_706b78a2/?utm_source=yandex&utm_medium=feature_click)
+* [Единицы измерения: px, em, rem и другие](https://learn.javascript.ru/css-units)
+* Flexbox
+  * [Визуальное руководство по свойствам Flexbox из CSS3](https://css-live.ru/articles/vizualnoe-rukovodstvo-po-svojstvam-flexbox-iz-css3.html)
+  * [Шпаргалка по Flexbox CSS](https://tpverstak.ru/flex-cheatsheet/)
+  * [Игра](https://flexboxfroggy.com/#ru)
+* [Специальные символы HTML](https://htmlweb.ru/html/symbols.php)
+* Схлопывание margin
+  * [Схлопывающиеся margin](https://webref.ru/course/block-model/margin-collapse)
+  * [Видео](https://www.youtube.com/watch?v=IgJy2bmjK6s)
+* [Команда Git stash. Как прятать изменения в Git](https://pingvinus.ru/git/1718)
+
 # Цель - Сверстать выделенные блоки в макете под UI KIT
 
 ## Минимальные требования урока
@@ -28,7 +49,7 @@
 8. [catalog-card](https://prnt.sc/9kWKo_eWyPn9)
 9. [news-card](https://prnt.sc/0HYlxgre2eiz)
 
-# (15.11.2022) Цель - Настроить репозиторий. Ознакомиться с материалами для следующего урока 
+# (15.11.2022) Цель - Настроить репозиторий. Ознакомиться с материалами для следующего урока
 
 ## Минимальные требования урока
 
@@ -36,18 +57,18 @@
 
 ## Доп. Материалы
 
-* [Макет](https://www.figma.com/file/ZF1Awe9cnhJkJXVodVDzDn/Sanis-desctop-verstka-temp-(Copy)?node-id=1%3A5702&t=EfpiR2NRFc03WC2F-0) ✅
-* [Сервисы для создания UI/UX прототипов](https://timeweb.com/ru/community/articles/luchshie-analogi-figma-samye-krutye-servisy-dlya-ux-ui-dizaynerov) ✅
+* [Макет](https://www.figma.com/file/ZF1Awe9cnhJkJXVodVDzDn/Sanis-desctop-verstka-temp-(Copy)?node-id=1%3A5702&t=EfpiR2NRFc03WC2F-0)
+* [Сервисы для создания UI/UX прототипов](https://timeweb.com/ru/community/articles/luchshie-analogi-figma-samye-krutye-servisy-dlya-ux-ui-dizaynerov)
 * БЭМ
-  * [видео](https://www.youtube.com/watch?v=fnfQcs0Y0g8&t=178s) ✅
-  * [почитать](https://ru.bem.info/methodology/quick-start/) ✅
-* [Компонентный подход в программировании: что это и где его используют?](https://codernet.ru/articles/drugoe/komponentnyij_podxod_v_programmirovanii_chto_eto_i_gde_ego_ispolzuyut/) ✅
+  * [видео](https://www.youtube.com/watch?v=fnfQcs0Y0g8&t=178s)
+  * [почитать](https://ru.bem.info/methodology/quick-start/)
+* [Компонентный подход в программировании: что это и где его используют?](https://codernet.ru/articles/drugoe/komponentnyij_podxod_v_programmirovanii_chto_eto_i_gde_ego_ispolzuyut/)
 * Git
-  * [LearnGitBranching](https://learngitbranching.js.org/?locale=ru_RU) ✅
+  * [LearnGitBranching](https://learngitbranching.js.org/?locale=ru_RU)
   * [Что такое .gitignore](https://www.atlassian.com/ru/git/tutorials/saving-changes/gitignore)
-  * [Офф. сайт](https://git-scm.com/) ✅
-  * [GitHub Desktop - GUI](https://desktop.github.com/) ✅
-  * [Как сгенерировать SSH-ключ для доступа на сервер](https://selectel.ru/blog/tutorials/how-to-generate-ssh/) ✅
-  * [GitHub - Крупнейший веб-сервис для хостинга IT-проектов и их совместной разработки.](https://github.com/) ✅
-  * [Шпаргалка по git-flow](https://danielkummer.github.io/git-flow-cheatsheet/index.ru_RU.html) ✅
-  * [Рабочий репозиторий](https://github.com/sergamers/learn-frontend) ✅
+  * [Офф. сайт](https://git-scm.com/)
+  * [GitHub Desktop - GUI](https://desktop.github.com/)
+  * [Как сгенерировать SSH-ключ для доступа на сервер](https://selectel.ru/blog/tutorials/how-to-generate-ssh/)
+  * [GitHub - Крупнейший веб-сервис для хостинга IT-проектов и их совместной разработки.](https://github.com/)
+  * [Шпаргалка по git-flow](https://danielkummer.github.io/git-flow-cheatsheet/index.ru_RU.html)
+  * [Рабочий репозиторий](https://github.com/sergamers/learn-frontend)
