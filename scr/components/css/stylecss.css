@@ -1,9 +1,21 @@
-.components_container {
-  max-width: 1170px;
-  margin: 0 auto;
-}
-.components_item {
-  font-size: 20px;
+.Btn{
+  display: inline-block;
+  padding: 12px 17px;
+  text-transform: uppercase;
+  font: 600 14px / 20px 'Arial';
+  /*background: #0d6efd;*/
+  /*color: #fff;*/
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-/*# sourceMappingURL=stylecss.css.map */
+.Btn:hover{
+   color: #fff;
+  background-color: #0b5ed7;
+}
+
+.Btn--lg{
+  font-size: 20px;
+  padding: 20px 20px;
+  border-radius: 10px;
+}
