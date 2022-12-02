@@ -6,68 +6,336 @@
     <link rel="stylesheet" href="style.css">
 <body>
 
-<h2>Цветные кнопки</h2>
+<!--Общий контейнер или блок-->
 
-    <button type="button" class="Btn Btn--colorPrimary">Primary</button>
-    <button type="button" class="Btn Btn--colorSecondary">Secondary</button>
-    <button type="button" class="Btn Btn--colorSuccess">Success</button>
-    <button type="button" class="Btn Btn--colorDanger">Danger</button>
-    <button type="button" class="Btn Btn--colorWarning">Warning</button>
-    <button type="button" class="Btn Btn--colorInfo">Info</button>
-    <button type="button" class="Btn Btn--colorLight">Light</button>
-    <button type="button" class="Btn Btn--colorDark">Dark</button>
+<div class="Content">
 
-    <button type="button" class="Btn Btn--colorLink">Link</button>
+<!--Блок цветных кнопок-->
 
-<h2>Контурные кнопки</h2>
+    <h2 class="Content-header">Цветные кнопки</h2> <!--Заголовок блока-->
 
-    <button type="button" class="Btn Btn--outlinePrimary">Primary</button>
-
-    <button type="button" class="Btn Btn--outlineSecondary">Secondary</button>
-
-    <button type="button" class="Btn Btn--outlineSuccess">Success</button>
-
-    <button type="button" class="Btn Btn--outlineDanger">Danger</button>
-
-    <button type="button" class="Btn Btn--outlineWarning">Warning</button>
-
-    <button type="button" class="Btn Btn--outlineInfo">Info</button>
-
-    <button type="button" class="Btn Btn--outlineLight">Light</button>
-
-    <button type="button" class="Btn Btn--outlineDark">Dark</button>
-
-<h2>Обычные кнопки</h2>
-
-    <a class="Btn Btn--Primary" href="#" role="button">Ссылка</a>
-
-    <button class="Btn Btn--Primary" type="submit">Кнопка</button>
-
-    <input class="Btn Btn--Primary" type="button" value="Поле ввода">
-
-    <input class="Btn Btn--Primary" type="submit" value="Поле Отправить">
-
-    <input class="Btn Btn--Primary" type="reset" value="Поле Сбросить">
-
-<h2>Размеры</h2>
-
-    <button type="button" class="Btn Btn--lg Btn--Primary">Большая кнопка</button>
-
-    <button type="button" class="Btn Btn--lg Btn--colorSecondary">Большая кнопка</button>
-
-    <button type="button" class="Btn Btn--sm Btn--Primary">Маленькая кнопка</button>
-
-    <button type="button" class="Btn Btn--sm Btn--colorSecondary">Маленькая кнопка</button>
-
-<h2>Отключенное состояние</h2>
-    <button class="Btn Btn--Primary" disabled> Кнопка </button>
-
-    <a href="#" class="Btn Btn--Primary disabled">Ссылка</a>
-
-<h2>Блочные кнопки</h2>
-    <button type="button" class="Btn Btn--colorPrimary Btn--wd">Кнопка на всю длину</button>
-    <div type="button" class="Btn Btn--colorPrimary Btn--wd">Кнопка на всю длину</div>
+    <div class="Content-body">   <!--Цветные кнопки на странице-->
+        <button type="button" class="Btn Btn--colorPrimary">Primary</button>
+        <button type="button" class="Btn Btn--colorSecondary">Secondary</button>
+        <button type="button" class="Btn Btn--colorSuccess">Success</button>
+        <button type="button" class="Btn Btn--colorDanger">Danger</button>
+        <button type="button" class="Btn Btn--colorWarning">Warning</button>
+        <button type="button" class="Btn Btn--colorInfo">Info</button>
+        <button type="button" class="Btn Btn--colorLight">Light</button>
+        <button type="button" class="Btn Btn--colorDark">Dark</button>
     
+        <button type="button" class="Btn Btn--colorLink">Link</button>
+    </div>
+
+    <!--Код цветных кнопок на странице-->
+
+    <ul class="Content-code">
+        <li class="Code">
+        <span class="Code-tag"><</span><span class="Code-Btn">button</span>
+        <span class="Code-typeClass">type</span> =
+        <span class="Code-colorBtn">"button"</span>
+        <span class="Code-typeClass">class</span> =
+        <span class="Code-colorBtn">"Btn Btn--colorPrimary"</span>>
+        Primary
+        <span><</span>/<span class="Code-Btn">button</span>>  
+        </li>
+        <li class="Code">
+        <span class="Code-tag"><</span><span class="Code-Btn">button</span>
+        <span class="Code-typeClass">type</span> =
+        <span class="Code-colorBtn">"button"</span>
+        <span class="Code-typeClass">class</span> =
+        <span class="Code-colorBtn">"Btn Btn--colorSecondary"</span>>
+        Secondary
+        <span><</span>/<span class="Code-Btn">button</span>>  
+        </li>
+        <li class="Code">
+        <span class="Code-tag"><</span><span class="Code-Btn">button</span>
+        <span class="Code-typeClass">type</span> =
+        <span class="Code-colorBtn">"button"</span>
+        <span class="Code-typeClass">class</span> =
+        <span class="Code-colorBtn">"Btn Btn--colorSuccess"</span>>
+        Success
+        <span><</span>/<span class="Code-Btn">button</span>>   
+        </li>
+        <li class="Code">
+        <span class="Code-tag"><</span><span class="Code-Btn">button</span>
+        <span class="Code-typeClass">type</span> =
+        <span class="Code-colorBtn">"button"</span>
+        <span class="Code-typeClass">class</span> =
+        <span class="Code-colorBtn">"Btn Btn--colorDanger"</span>>
+        Danger
+        <span><</span>/<span class="Code-Btn">button</span>> 
+        </li>
+        <li class="Code">
+        <span class="Code-tag"><</span><span class="Code-Btn">button</span>
+        <span class="Code-typeClass">type</span> =
+        <span class="Code-colorBtn">"button"</span>
+        <span class="Code-typeClass">class</span> =
+        <span class="Code-colorBtn">"Btn Btn--colorWarning"</span>>
+        Warning
+        <span><</span>/<span class="Code-Btn">button</span>>   
+        </li>
+        <li class="Code">
+        <span class="Code-tag"><</span><span class="Code-Btn">button</span>
+        <span class="Code-typeClass">type</span> =
+        <span class="Code-colorBtn">"button"</span>
+        <span class="Code-typeClass">class</span> =
+        <span class="Code-colorBtn">"Btn Btn--colorInfo"</span>>
+        Info
+        <span><</span>/<span class="Code-Btn">button</span>>   
+        </li>
+        <li class="Code">
+        <span class="Code-tag"><</span><span class="Code-Btn">button</span>
+        <span class="Code-typeClass">type</span> =
+        <span class="Code-colorBtn">"button"</span>
+        <span class="Code-typeClass">class</span> =
+        <span class="Code-colorBtn">"Btn Btn--colorLight"</span>>
+        Light
+        <span><</span>/<span class="Code-Btn">button</span>> 
+        </li>
+        <li class="Code">
+        <span class="Code-tag"><</span><span class="Code-Btn">button</span>
+        <span class="Code-typeClass">type</span> =
+        <span class="Code-colorBtn">"button"</span>
+        <span class="Code-typeClass">class</span> =
+        <span class="Code-colorBtn">"Btn Btn--colorDark"</span>>
+        Dark
+        <span><</span>/<span class="Code-Btn">button</span>>    
+        </li>
+        <br>
+        <li class="Code">
+        <span class="Code-tag"><</span><span class="Code-Btn">button</span>
+        <span class="Code-typeClass">type</span> =
+        <span class="Code-colorBtn">"button"</span>
+        <span class="Code-typeClass">class</span> =
+        <span class="Code-colorBtn">"Btn Btn--colorLink"</span>>
+        Link
+        <span><</span>/<span class="Code-Btn">button</span>>    
+        </li>
+    </ul>
+    </div>
+
+    <!--Блок контурных кнопок-->
+
+    <h2 class="Content-header">Контурные кнопки</h2>
+
+    <div class="Content-body">   <!--Контурные кнопки на странице-->
+    
+            <button type="button" class="Btn Btn--outlinePrimary">Primary</button>
+            <button type="button" class="Btn Btn--outlineSecondary">Secondary</button>
+            <button type="button" class="Btn Btn--outlineSuccess">Success</button>
+            <button type="button" class="Btn Btn--outlineDanger">Danger</button>
+            <button type="button" class="Btn Btn--outlineWarning">Warning</button>
+            <button type="button" class="Btn Btn--outlineInfo">Info</button>
+            <button type="button" class="Btn Btn--outlineLight">Light</button>
+            <button type="button" class="Btn Btn--outlineDark">Dark</button>
+    </div>
+    <div class="Content-code">   <!--Код контурных кнопок на странице-->
+    <ul>
+        <li class="Code">
+            <span class="Code-tag"><</span><span class="Code-Btn">button</span>
+            <span class="Code-typeClass">type</span> =
+            <span class="Code-colorBtn">"button"</span>
+            <span class="Code-typeClass">class</span> =
+            <span class="Code-colorBtn">"Btn Btn--outlinePrimary"</span>>
+            Primary
+            <span><</span>/<span class="Code-Btn">button</span>>  
+        </li>
+        <li class="Code">
+            <span class="Code-tag"><</span><span class="Code-Btn">button</span>
+            <span class="Code-typeClass">type</span> =
+            <span class="Code-colorBtn">"button"</span>
+            <span class="Code-typeClass">class</span> =
+            <span class="Code-colorBtn">"Btn Btn--outlineSecondary"</span>>
+            Secondary
+            <span><</span>/<span class="Code-Btn">button</span>>  
+        </li>
+        <li class="Code">
+            <span class="Code-tag"><</span><span class="Code-Btn">button</span>
+            <span class="Code-typeClass">type</span> =
+            <span class="Code-colorBtn">"button"</span>
+            <span class="Code-typeClass">class</span> =
+            <span class="Code-colorBtn">"Btn Btn--outlineSuccess"</span>>
+            Success
+            <span><</span>/<span class="Code-Btn">button</span>>   
+        </li>
+        <li class="Code">
+            <span class="Code-tag"><</span><span class="Code-Btn">button</span>
+            <span class="Code-typeClass">type</span> =
+            <span class="Code-colorBtn">"button"</span>
+            <span class="Code-typeClass">class</span> =
+            <span class="Code-colorBtn">"Btn Btn--outlineDanger"</span>>
+            Danger
+            <span><</span>/<span class="Code-Btn">button</span>> 
+        </li>
+        <li class="Code">
+            <span class="Code-tag"><</span><span class="Code-Btn">button</span>
+            <span class="Code-typeClass">type</span> =
+            <span class="Code-colorBtn">"button"</span>
+            <span class="Code-typeClass">class</span> =
+            <span class="Code-colorBtn">"Btn Btn--outlineWarning"</span>>
+            Warning
+            <span><</span>/<span class="Code-Btn">button</span>>   
+        </li>
+        <li class="Code">
+            <span class="Code-tag"><</span><span class="Code-Btn">button</span>
+            <span class="Code-typeClass">type</span> =
+            <span class="Code-colorBtn">"button"</span>
+            <span class="Code-typeClass">class</span> =
+            <span class="Code-colorBtn">"Btn Btn--outlineInfo"</span>>
+            Info
+            <span><</span>/<span class="Code-Btn">button</span>>   
+        </li>
+        <li class="Code">
+            <span class="Code-tag"><</span><span class="Code-Btn">button</span>
+            <span class="Code-typeClass">type</span> =
+            <span class="Code-colorBtn">"button"</span>
+            <span class="Code-typeClass">class</span> =
+            <span class="Code-colorBtn">"Btn Btn--outlineLight"</span>>
+            Light
+            <span><</span>/<span class="Code-Btn">button</span>> 
+        </li>
+        <li class="Code">
+            <span class="Code-tag"><</span><span class="Code-Btn">button</span>
+            <span class="Code-typeClass">type</span> =
+            <span class="Code-colorBtn">"button"</span>
+            <span class="Code-typeClass">class</span> =
+            <span class="Code-colorBtn">"Btn Btn--outlineDark"</span>>
+            Dark
+            <span><</span>/<span class="Code-Btn">button</span>>    
+        </li>
+    </ul>
+    </div>
+
+    <!--Блок обычных кнопок-->
+
+    <h2 class="Content-header">Обычные кнопки</h2> <!--Заголовок блока "Обычные кнопки"-->
+
+    <div class="Content-body">   <!--Обычные кнопки на странице-->
+        <a class="Btn Btn--Primary" href="#">Ссылка</a>
+        <button class="Btn Btn--Primary" type="submit">Кнопка</button>
+        <input class="Btn Btn--Primary" type="button" value="Поле ввода">
+        <input class="Btn Btn--Primary" type="submit" value="Поле Отправить">
+        <input class="Btn Btn--Primary" type="reset" value="Поле Сбросить">
+    </div>
+
+    <div class="Content-code">   <!--Код обычных кнопок на странице-->
+        <ul>
+            <li class="Code">
+                <span class="Code-tag"><</span><span class="Code-Btn">a</span>
+                <span class="Code-typeClass">class</span> =
+                <span class="Code-colorBtn">"Btn Btn--Primary"</span>
+                <span class="Code-typeClass">href</span> =
+                <span class="Code-colorBtn">"#"</span>>
+                Ссылка
+                <span><</span>/<span class="Code-Btn">a</span>>  
+            </li>
+            <li class="Code">
+                <span class="Code-tag"><</span><span class="Code-Btn">button</span>
+                <span class="Code-typeClass">class</span> =
+                <span class="Code-colorBtn">"Btn Btn--Primary"</span>
+                <span class="Code-typeClass">type</span> =
+                <span class="Code-colorBtn">"submit"</span>>
+                Кнопка
+                <span><</span>/<span class="Code-Btn">button</span>>   
+            </li>
+            <li class="Code">
+                <span class="Code-tag"><</span><span class="Code-Btn">input</span>
+                <span class="Code-typeClass">class</span> =
+                <span class="Code-colorBtn">"Btn Btn--Primary"</span>
+                <span class="Code-typeClass">type</span> =
+                <span class="Code-colorBtn">"button"</span>
+                <span class="Code-typeClass">value</span> =
+                <span class="Code-colorBtn">"Поле ввода"</span>>  
+            </li>
+            <li class="Code">
+                <span class="Code-tag"><</span><span class="Code-Btn">input</span>
+                <span class="Code-typeClass">class</span> =
+                <span class="Code-colorBtn">"Btn Btn--Primary"</span>
+                <span class="Code-typeClass">type</span> =
+                <span class="Code-colorBtn">"submit"</span>
+                <span class="Code-typeClass">value</span> =
+                <span class="Code-colorBtn">"Поле отправить"</span>>  
+            </li>
+            <li class="Code">
+                <span class="Code-tag"><</span><span class="Code-Btn">input</span>
+                <span class="Code-typeClass">class</span> =
+                <span class="Code-colorBtn">"Btn Btn--Primary"</span>
+                <span class="Code-typeClass">type</span> =
+                <span class="Code-colorBtn">"reset"</span>
+                <span class="Code-typeClass">value</span> =
+                <span class="Code-colorBtn">"Поле сбросить"</span>>  
+            </li>
+        </ul>
+        </div>
+
+    <!--Блок обычных кнопок с размерами-->
+
+    <h2 class="Content-header">Размеры</h2> <!--Заголовок блока "Размеры"-->
+
+    <div class="Content-body">   <!--Обычные кнопки с размерами на странице-->
+        <button type="button" class="Btn Btn--lg Btn--Primary">Большая кнопка</button>
+        <button type="button" class="Btn Btn--lg Btn--colorSecondary">Большая кнопка</button>
+        <button type="button" class="Btn Btn--sm Btn--Primary">Маленькая кнопка</button>
+        <button type="button" class="Btn Btn--sm Btn--colorSecondary">Маленькая кнопка</button>
+    </div>
+
+    <div class="Content-code">   <!--Код кнопок с размерами на странице-->
+        <ul>
+            <li class="Code">
+                <span class="Code-tag"><</span><span class="Code-Btn">button</span>
+                <span class="Code-typeClass">type</span> =
+                <span class="Code-colorBtn">"button"</span>
+                <span class="Code-typeClass">class</span> =
+                <span class="Code-colorBtn">"Btn Btn--lg Btn--Primary"</span>>
+                Большая кнопка
+                <span><</span>/<span class="Code-Btn">button</span>>  
+            </li>
+            <li class="Code">
+                <span class="Code-tag"><</span><span class="Code-Btn">button</span>
+                <span class="Code-typeClass">type</span> =
+                <span class="Code-colorBtn">"button"</span>
+                <span class="Code-typeClass">class</span> =
+                <span class="Code-colorBtn">"Btn Btn--lg Btn--colorSecondary"</span>>
+                Большая кнопка
+                <span><</span>/<span class="Code-Btn">button</span>>  
+            </li>
+            <li class="Code">
+                <span class="Code-tag"><</span><span class="Code-Btn">button</span>
+                <span class="Code-typeClass">type</span> =
+                <span class="Code-colorBtn">"button"</span>
+                <span class="Code-typeClass">class</span> =
+                <span class="Code-colorBtn">"Btn Btn--sm Btn--Primary"</span>>
+                Маленькая кнопка
+                <span><</span>/<span class="Code-Btn">button</span>>   
+            </li>
+            <li class="Code">
+                <span class="Code-tag"><</span><span class="Code-Btn">button</span>
+                <span class="Code-typeClass">type</span> =
+                <span class="Code-colorBtn">"button"</span>
+                <span class="Code-typeClass">class</span> =
+                <span class="Code-colorBtn">"Btn Btn--sm Btn--colorSecondary"</span>>
+                Маленькая кнопка
+                <span><</span>/<span class="Code-Btn">button</span>>   
+            </li>
+        </ul>
+        </div>
+
+    <!--Блок кнопок с отключением-->
+
+    <h2 class="Content-header">Отключенное состояние</h2> <!--Заголовок блока "отключение"-->
+
+    <div class="Content-body">   <!--Кнопки с отключением на странице-->
+        <button class="Btn Btn--Primary" disabled> Кнопка </button>
+        <a href="#" class="Btn Btn--Primary disabled">Ссылка</a>
+    </div>
+
+    
+</div>
+
+<h2 class="Content-header">Блочные кнопки</h2>
+    <button type="button" class="Btn Btn--colorPrimary Btn--wd">Кнопка на всю длину</button>
+    <div type="button" class="Btn Btn--colorPrimary Btn--wd">Кнопка на всю длину</div>    
 
 </body>
 </head>

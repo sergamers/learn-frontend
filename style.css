@@ -1,3 +1,54 @@
+/* Контент */
+
+.Content {
+
+}
+
+.Content-header {
+    border: 1px solid rgb(220, 220, 220);
+    padding: 20px;
+    margin: 0;
+    font: 600 25px/25px Arial;
+}
+
+.Content-body {
+    border: 1px solid rgb(220, 220, 220);
+    padding: 20px;
+    margin-top: -1px;
+}
+
+.Content-code {
+    border: 1px solid rgb(220, 220, 220);
+    background: rgb(220, 220, 220);
+    font: 500 16px/25px Arial;
+    letter-spacing: 2px;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Блок кода */
+
+.Code {
+    font-size: 14px;
+    list-style-type: none;
+}
+
+.Code-tag {
+    color: black;
+}
+
+.Code-Btn {
+    color: rgb(58, 58, 211);
+}
+
+.Code-typeClass {
+    color: blue;
+}
+
+.Code-colorBtn {
+    color: rgb(200, 0, 0);
+}
+
 .Btn {
     background: white;
     border: 5px solid transparent;
