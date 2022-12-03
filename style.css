@@ -6,7 +6,7 @@
 
 .Content-header {
     border: 1px solid rgb(220, 220, 220);
-    padding: 20px;
+    padding: 20px 20px 10px;
     margin: 0;
     font: 600 25px/25px Arial;
 }
@@ -23,6 +23,12 @@
     font: 500 16px/25px Arial;
     letter-spacing: 2px;
     padding: 20px;
+    margin: 0;
+}
+
+.Content-body-wd {
+    border: 1px solid rgb(220, 220, 220);
+    padding: 20px 15px 20px 5px;
     margin: 0;
 }
 
@@ -348,6 +354,7 @@
 .Btn--wd {
     width: 100%;
     text-align: center;
+    margin: 5px;
 }
 
 /** кнопки с неактивными ссылкам*/
