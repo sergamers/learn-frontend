@@ -1,21 +1,29 @@
 .Btn{
+    --bg-default: #000;
+
+    --bg-hover-default: #222;
+
+    --textColor-default: #fff;
+
+    --msAnimate: .2s;
+
+    --text-default: 600 10px/1.5em Arial;
+}
+
+.Btn{
     display: inline-block;
     padding: 12px 17px;
-    text-transform: uppercase;
-    font: 600 14px / 20px 'Arial';
-    background: #0d6efd;
-    color: #fff;
-    border-radius: 5px;
+    border-radius: 3px;
     cursor: pointer;
+    background: var(--bg-default);
+    color: var(--textColor-default);
+    font: 600 10px/1.5em Arial;
+    text-align: center;
+    text-transform: uppercase;
+    transition: background-color var(--msAnimate);
 }
 
 .Btn:hover{
-    color: #fff;
-    background-color: #0b5ed7;
+    background-color: var(--bg-hover-default);
 }
 
-.Btn--lg{
-    font-size: 20px;
-    padding: 20px 20px;
-    border-radius: 10px;
-}

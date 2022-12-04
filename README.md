@@ -1,3 +1,24 @@
+# (04.12.2022) - Доделываем компонент button
+
+1. Создали  компонент button
+2. Познакомились с css переменными
+3. Подключили normalize.css через npm
+4. Дополнить gitignore
+5. [Относительные пути](https://prnt.sc/l2j4qs5T38Sa)
+
+## Доп. Материалы
+
+* Растровая и векторная графика
+  * [Статья](https://htmlacademy.ru/blog/html/rastr-vector)
+  * [Видео](https://www.youtube.com/watch?v=bIRwyRDT-PY)
+  * Иконки
+    * https://getbootstrap.ru/docs/icons/
+    * https://heroicons.com/
+    * https://www.svgrepo.com/
+* npm
+  * https://www.youtube.com/watch?v=FdZoopHL2K4
+  * https://www.youtube.com/watch?v=FDfvuNbSs4U
+
 # (21.11.2022) - Верстка компонента button
 
 1. Создать ветку урока - lesson-1
