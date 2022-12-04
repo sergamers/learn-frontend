@@ -1,3 +1,45 @@
+# (04.12.2022) - Доделываем компонент button
+
+1. Создали  компонент button
+2. Познакомились с css переменными
+3. Подключили normalize.css через npm
+4. Дополнить gitignore
+5. [Относительные пути](https://prnt.sc/l2j4qs5T38Sa)
+
+## Доп. Материалы
+
+* Растровая и векторная графика
+  * [Статья](https://htmlacademy.ru/blog/html/rastr-vector)
+  * [Видео](https://www.youtube.com/watch?v=bIRwyRDT-PY)
+  * Иконки
+    * https://getbootstrap.ru/docs/icons/
+    * https://heroicons.com/
+    * https://www.svgrepo.com/
+* npm
+  * https://www.youtube.com/watch?v=FdZoopHL2K4
+  * https://www.youtube.com/watch?v=FDfvuNbSs4U
+
+# (21.11.2022) - Верстка компонента button
+
+1. Создать ветку урока - lesson-1
+2. Рассмотреть св-во display ( inline, block, inline-block )
+4. Посмотреть как работают отступы
+3. Посмотреть компонент [button](https://getbootstrap.ru/docs/5.1/components/buttons/)
+
+## Доп. Материалы
+
+* [Разбираемся, что такое и зачем нужен файл normalize.css](https://yandex.ru/q/article/razbiraemsia_chto_takoe_i_zachem_nuzhen_706b78a2/?utm_source=yandex&utm_medium=feature_click)
+* [Единицы измерения: px, em, rem и другие](https://learn.javascript.ru/css-units)
+* Flexbox
+  * [Визуальное руководство по свойствам Flexbox из CSS3](https://css-live.ru/articles/vizualnoe-rukovodstvo-po-svojstvam-flexbox-iz-css3.html)
+  * [Шпаргалка по Flexbox CSS](https://tpverstak.ru/flex-cheatsheet/)
+  * [Игра](https://flexboxfroggy.com/#ru)
+* [Специальные символы HTML](https://htmlweb.ru/html/symbols.php)
+* Схлопывание margin
+  * [Схлопывающиеся margin](https://webref.ru/course/block-model/margin-collapse)
+  * [Видео](https://www.youtube.com/watch?v=IgJy2bmjK6s)
+* [Команда Git stash. Как прятать изменения в Git](https://pingvinus.ru/git/1718)
+
 # Цель - Сверстать выделенные блоки в макете под UI KIT
 
 ## Минимальные требования урока
