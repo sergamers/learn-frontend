@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Контурные кнопки</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
 <body>
 
 <!--Общий контейнер или блок-->
@@ -15,23 +16,20 @@
     <h2 class="Content-header">Цветные кнопки</h2>  <!--Заголовок блока-->
 
     <div class="Content-body">   <!--Цветные кнопки на странице-->
-        <button type="button" class="Btn Btn--colorPrimary">Primary</button>
-        <button type="button" class="Btn Btn--colorSecondary">Secondary</button>
-        <button type="button" class="Btn Btn--colorSuccess">Success</button>
-        <button type="button" class="Btn Btn--colorDanger">Danger</button>
-        <button type="button" class="Btn Btn--colorWarning">Warning</button>
-        <button type="button" class="Btn Btn--colorInfo">Info</button>
-        <button type="button" class="Btn Btn--colorLight">Light</button>
-        <button type="button" class="Btn Btn--colorDark">Dark</button>
-    
-        <button type="button" class="Btn Btn--colorLink">Link</button>
+        <button class="Btn Btn--colorPrimary">Primary</button>
+        <button class="Btn Btn--colorSecondary">Secondary</button>
+        <button class="Btn Btn--colorSuccess">Success</button>
+        <button class="Btn Btn--colorDanger">Danger</button>
+        <button class="Btn Btn--colorWarning">Warning</button>
+        <button class="Btn Btn--colorInfo">Info</button>
+        <button class="Btn Btn--colorLight">Light</button>
+        <button class="Btn Btn--colorDark">Dark</button>
+        <button class="Btn Btn--colorLink">Link</button>
     </div>
 
     <ul class="Content-code">  <!--Код цветных кнопок на странице-->
         <li class="Code">
         <span class="Code-tag"><</span><span class="Code-Btn">button</span>
-        <span class="Code-typeClass">type</span> =
-        <span class="Code-colorBtn">"button"</span>
         <span class="Code-typeClass">class</span> =
         <span class="Code-colorBtn">"Btn Btn--colorPrimary"</span>>
         Primary
@@ -39,8 +37,6 @@
         </li>
         <li class="Code">
         <span class="Code-tag"><</span><span class="Code-Btn">button</span>
-        <span class="Code-typeClass">type</span> =
-        <span class="Code-colorBtn">"button"</span>
         <span class="Code-typeClass">class</span> =
         <span class="Code-colorBtn">"Btn Btn--colorSecondary"</span>>
         Secondary
@@ -48,8 +44,6 @@
         </li>
         <li class="Code">
         <span class="Code-tag"><</span><span class="Code-Btn">button</span>
-        <span class="Code-typeClass">type</span> =
-        <span class="Code-colorBtn">"button"</span>
         <span class="Code-typeClass">class</span> =
         <span class="Code-colorBtn">"Btn Btn--colorSuccess"</span>>
         Success
@@ -57,8 +51,6 @@
         </li>
         <li class="Code">
         <span class="Code-tag"><</span><span class="Code-Btn">button</span>
-        <span class="Code-typeClass">type</span> =
-        <span class="Code-colorBtn">"button"</span>
         <span class="Code-typeClass">class</span> =
         <span class="Code-colorBtn">"Btn Btn--colorDanger"</span>>
         Danger
@@ -66,8 +58,6 @@
         </li>
         <li class="Code">
         <span class="Code-tag"><</span><span class="Code-Btn">button</span>
-        <span class="Code-typeClass">type</span> =
-        <span class="Code-colorBtn">"button"</span>
         <span class="Code-typeClass">class</span> =
         <span class="Code-colorBtn">"Btn Btn--colorWarning"</span>>
         Warning
@@ -75,8 +65,6 @@
         </li>
         <li class="Code">
         <span class="Code-tag"><</span><span class="Code-Btn">button</span>
-        <span class="Code-typeClass">type</span> =
-        <span class="Code-colorBtn">"button"</span>
         <span class="Code-typeClass">class</span> =
         <span class="Code-colorBtn">"Btn Btn--colorInfo"</span>>
         Info
@@ -84,8 +72,6 @@
         </li>
         <li class="Code">
         <span class="Code-tag"><</span><span class="Code-Btn">button</span>
-        <span class="Code-typeClass">type</span> =
-        <span class="Code-colorBtn">"button"</span>
         <span class="Code-typeClass">class</span> =
         <span class="Code-colorBtn">"Btn Btn--colorLight"</span>>
         Light
@@ -93,18 +79,13 @@
         </li>
         <li class="Code">
         <span class="Code-tag"><</span><span class="Code-Btn">button</span>
-        <span class="Code-typeClass">type</span> =
-        <span class="Code-colorBtn">"button"</span>
         <span class="Code-typeClass">class</span> =
         <span class="Code-colorBtn">"Btn Btn--colorDark"</span>>
         Dark
         <span><</span>/<span class="Code-Btn">button</span>>    
         </li>
-        <br>
         <li class="Code">
         <span class="Code-tag"><</span><span class="Code-Btn">button</span>
-        <span class="Code-typeClass">type</span> =
-        <span class="Code-colorBtn">"button"</span>
         <span class="Code-typeClass">class</span> =
         <span class="Code-colorBtn">"Btn Btn--colorLink"</span>>
         Link
@@ -118,88 +99,72 @@
 
     <div class="Content-body">   <!--Контурные кнопки на странице-->
     
-            <button type="button" class="Btn Btn--outlinePrimary">Primary</button>
-            <button type="button" class="Btn Btn--outlineSecondary">Secondary</button>
-            <button type="button" class="Btn Btn--outlineSuccess">Success</button>
-            <button type="button" class="Btn Btn--outlineDanger">Danger</button>
-            <button type="button" class="Btn Btn--outlineWarning">Warning</button>
-            <button type="button" class="Btn Btn--outlineInfo">Info</button>
-            <button type="button" class="Btn Btn--outlineLight">Light</button>
-            <button type="button" class="Btn Btn--outlineDark">Dark</button>
+        <button class="Btn Btn--outlinePrimary">Primary</button>
+        <button class="Btn Btn--outlineSecondary">Secondary</button>
+        <button class="Btn Btn--outlineSuccess">Success</button>
+        <button class="Btn Btn--outlineDanger">Danger</button>
+        <button class="Btn Btn--outlineWarning">Warning</button>
+        <button class="Btn Btn--outlineInfo">Info</button>
+        <button class="Btn Btn--outlineLight">Light</button>
+        <button class="Btn Btn--outlineDark">Dark</button>
     </div>
 
     <ul class="Content-code">  <!--Код контурных кнопок на странице-->
         <li class="Code">
-            <span class="Code-tag"><</span><span class="Code-Btn">button</span>
-            <span class="Code-typeClass">type</span> =
-            <span class="Code-colorBtn">"button"</span>
-            <span class="Code-typeClass">class</span> =
-            <span class="Code-colorBtn">"Btn Btn--outlinePrimary"</span>>
-            Primary
-            <span><</span>/<span class="Code-Btn">button</span>>  
+        <span class="Code-tag"><</span><span class="Code-Btn">button</span>
+        <span class="Code-typeClass">class</span> =
+        <span class="Code-colorBtn">"Btn Btn--outlinePrimary"</span>>
+        Primary
+        <span><</span>/<span class="Code-Btn">button</span>>  
         </li>
         <li class="Code">
-            <span class="Code-tag"><</span><span class="Code-Btn">button</span>
-            <span class="Code-typeClass">type</span> =
-            <span class="Code-colorBtn">"button"</span>
-            <span class="Code-typeClass">class</span> =
-            <span class="Code-colorBtn">"Btn Btn--outlineSecondary"</span>>
-            Secondary
-            <span><</span>/<span class="Code-Btn">button</span>>  
+        <span class="Code-tag"><</span><span class="Code-Btn">button</span>
+        <span class="Code-typeClass">class</span> =
+        <span class="Code-colorBtn">"Btn Btn--outlineSecondary"</span>>
+        Secondary
+        <span><</span>/<span class="Code-Btn">button</span>>  
         </li>
         <li class="Code">
-            <span class="Code-tag"><</span><span class="Code-Btn">button</span>
-            <span class="Code-typeClass">type</span> =
-            <span class="Code-colorBtn">"button"</span>
-            <span class="Code-typeClass">class</span> =
-            <span class="Code-colorBtn">"Btn Btn--outlineSuccess"</span>>
-            Success
-            <span><</span>/<span class="Code-Btn">button</span>>   
+        <span class="Code-tag"><</span><span class="Code-Btn">button</span>
+        <span class="Code-typeClass">class</span> =
+        <span class="Code-colorBtn">"Btn Btn--outlineSuccess"</span>>
+        Success
+        <span><</span>/<span class="Code-Btn">button</span>>   
         </li>
         <li class="Code">
-            <span class="Code-tag"><</span><span class="Code-Btn">button</span>
-            <span class="Code-typeClass">type</span> =
-            <span class="Code-colorBtn">"button"</span>
-            <span class="Code-typeClass">class</span> =
-            <span class="Code-colorBtn">"Btn Btn--outlineDanger"</span>>
-            Danger
-            <span><</span>/<span class="Code-Btn">button</span>> 
+        <span class="Code-tag"><</span><span class="Code-Btn">button</span>
+        <span class="Code-typeClass">class</span> =
+        <span class="Code-colorBtn">"Btn Btn--outlineDanger"</span>>
+        Danger
+        <span><</span>/<span class="Code-Btn">button</span>> 
         </li>
         <li class="Code">
-            <span class="Code-tag"><</span><span class="Code-Btn">button</span>
-            <span class="Code-typeClass">type</span> =
-            <span class="Code-colorBtn">"button"</span>
-            <span class="Code-typeClass">class</span> =
-            <span class="Code-colorBtn">"Btn Btn--outlineWarning"</span>>
-            Warning
-            <span><</span>/<span class="Code-Btn">button</span>>   
+        <span class="Code-tag"><</span><span class="Code-Btn">button</span>
+        <span class="Code-typeClass">class</span> =
+        <span class="Code-colorBtn">"Btn Btn--outlineWarning"</span>>
+        Warning
+        <span><</span>/<span class="Code-Btn">button</span>>   
         </li>
         <li class="Code">
-            <span class="Code-tag"><</span><span class="Code-Btn">button</span>
-            <span class="Code-typeClass">type</span> =
-            <span class="Code-colorBtn">"button"</span>
-            <span class="Code-typeClass">class</span> =
-            <span class="Code-colorBtn">"Btn Btn--outlineInfo"</span>>
-            Info
-            <span><</span>/<span class="Code-Btn">button</span>>   
+        <span class="Code-tag"><</span><span class="Code-Btn">button</span>
+        <span class="Code-typeClass">class</span> =
+        <span class="Code-colorBtn">"Btn Btn--outlineInfo"</span>>
+        Info
+        <span><</span>/<span class="Code-Btn">button</span>>   
         </li>
         <li class="Code">
-            <span class="Code-tag"><</span><span class="Code-Btn">button</span>
-            <span class="Code-typeClass">type</span> =
-            <span class="Code-colorBtn">"button"</span>
-            <span class="Code-typeClass">class</span> =
-            <span class="Code-colorBtn">"Btn Btn--outlineLight"</span>>
-            Light
-            <span><</span>/<span class="Code-Btn">button</span>> 
+        <span class="Code-tag"><</span><span class="Code-Btn">button</span>
+        <span class="Code-typeClass">class</span> =
+        <span class="Code-colorBtn">"Btn Btn--outlineLight"</span>>
+        Light
+        <span><</span>/<span class="Code-Btn">button</span>> 
         </li>
         <li class="Code">
-            <span class="Code-tag"><</span><span class="Code-Btn">button</span>
-            <span class="Code-typeClass">type</span> =
-            <span class="Code-colorBtn">"button"</span>
-            <span class="Code-typeClass">class</span> =
-            <span class="Code-colorBtn">"Btn Btn--outlineDark"</span>>
-            Dark
-            <span><</span>/<span class="Code-Btn">button</span>>    
+        <span class="Code-tag"><</span><span class="Code-Btn">button</span>
+        <span class="Code-typeClass">class</span> =
+        <span class="Code-colorBtn">"Btn Btn--outlineDark"</span>>
+        Dark
+        <span><</span>/<span class="Code-Btn">button</span>>    
         </li>
     </ul>
 
@@ -217,49 +182,49 @@
 
     <ul class="Content-code">  <!--Код обычных кнопок на странице-->
         <li class="Code">
-            <span class="Code-tag"><</span><span class="Code-Btn">a</span>
-            <span class="Code-typeClass">class</span> =
-            <span class="Code-colorBtn">"Btn Btn--Primary"</span>
-            <span class="Code-typeClass">href</span> =
-            <span class="Code-colorBtn">"#"</span>>
-            Ссылка
-            <span><</span>/<span class="Code-Btn">a</span>>  
+        <span class="Code-tag"><</span><span class="Code-Btn">a</span>
+        <span class="Code-typeClass">class</span> =
+        <span class="Code-colorBtn">"Btn Btn--Primary"</span>
+        <span class="Code-typeClass">href</span> =
+        <span class="Code-colorBtn">"#"</span>>
+        Ссылка
+        <span><</span>/<span class="Code-Btn">a</span>>  
         </li>
         <li class="Code">
-            <span class="Code-tag"><</span><span class="Code-Btn">button</span>
-            <span class="Code-typeClass">class</span> =
-            <span class="Code-colorBtn">"Btn Btn--Primary"</span>
-            <span class="Code-typeClass">type</span> =
-            <span class="Code-colorBtn">"submit"</span>>
-            Кнопка
-            <span><</span>/<span class="Code-Btn">button</span>>   
+        <span class="Code-tag"><</span><span class="Code-Btn">button</span>
+        <span class="Code-typeClass">class</span> =
+        <span class="Code-colorBtn">"Btn Btn--Primary"</span>
+        <span class="Code-typeClass">type</span> =
+        <span class="Code-colorBtn">"submit"</span>>
+        Кнопка
+        <span><</span>/<span class="Code-Btn">button</span>>   
         </li>
         <li class="Code">
-            <span class="Code-tag"><</span><span class="Code-Btn">input</span>
-            <span class="Code-typeClass">class</span> =
-            <span class="Code-colorBtn">"Btn Btn--Primary"</span>
-            <span class="Code-typeClass">type</span> =
-            <span class="Code-colorBtn">"button"</span>
-            <span class="Code-typeClass">value</span> =
-            <span class="Code-colorBtn">"Поле ввода"</span>>  
+        <span class="Code-tag"><</span><span class="Code-Btn">input</span>
+        <span class="Code-typeClass">class</span> =
+        <span class="Code-colorBtn">"Btn Btn--Primary"</span>
+        <span class="Code-typeClass">type</span> =
+        <span class="Code-colorBtn">"button"</span>
+        <span class="Code-typeClass">value</span> =
+        <span class="Code-colorBtn">"Поле ввода"</span>>  
         </li>
         <li class="Code">
-            <span class="Code-tag"><</span><span class="Code-Btn">input</span>
-            <span class="Code-typeClass">class</span> =
-            <span class="Code-colorBtn">"Btn Btn--Primary"</span>
-            <span class="Code-typeClass">type</span> =
-            <span class="Code-colorBtn">"submit"</span>
-            <span class="Code-typeClass">value</span> =
-            <span class="Code-colorBtn">"Поле отправить"</span>>  
+        <span class="Code-tag"><</span><span class="Code-Btn">input</span>
+        <span class="Code-typeClass">class</span> =
+        <span class="Code-colorBtn">"Btn Btn--Primary"</span>
+        <span class="Code-typeClass">type</span> =
+        <span class="Code-colorBtn">"submit"</span>
+        <span class="Code-typeClass">value</span> =
+        <span class="Code-colorBtn">"Поле отправить"</span>>  
         </li>
         <li class="Code">
-            <span class="Code-tag"><</span><span class="Code-Btn">input</span>
-            <span class="Code-typeClass">class</span> =
-            <span class="Code-colorBtn">"Btn Btn--Primary"</span>
-            <span class="Code-typeClass">type</span> =
-            <span class="Code-colorBtn">"reset"</span>
-            <span class="Code-typeClass">value</span> =
-            <span class="Code-colorBtn">"Поле сбросить"</span>>  
+        <span class="Code-tag"><</span><span class="Code-Btn">input</span>
+        <span class="Code-typeClass">class</span> =
+        <span class="Code-colorBtn">"Btn Btn--Primary"</span>
+        <span class="Code-typeClass">type</span> =
+        <span class="Code-colorBtn">"reset"</span>
+        <span class="Code-typeClass">value</span> =
+        <span class="Code-colorBtn">"Поле сбросить"</span>>  
         </li>
     </ul>
 
@@ -268,48 +233,40 @@
     <h2 class="Content-header">Размеры</h2> <!--Заголовок блока "Размеры"-->
 
     <div class="Content-body">   <!--Обычные кнопки с размерами на странице-->
-        <button type="button" class="Btn Btn--lg Btn--Primary">Большая кнопка</button>
-        <button type="button" class="Btn Btn--lg Btn--colorSecondary">Большая кнопка</button>
-        <button type="button" class="Btn Btn--sm Btn--Primary">Маленькая кнопка</button>
-        <button type="button" class="Btn Btn--sm Btn--colorSecondary">Маленькая кнопка</button>
+        <button class="Btn Btn--lg Btn--Primary">Большая кнопка</button>
+        <button class="Btn Btn--lg Btn--colorSecondary">Большая кнопка</button>
+        <button class="Btn Btn--sm Btn--Primary">Маленькая кнопка</button>
+        <button class="Btn Btn--sm Btn--colorSecondary">Маленькая кнопка</button>
     </div>
    
     <ul class="Content-code">  <!--Код кнопок с размерами на странице-->
         <li class="Code">
-            <span class="Code-tag"><</span><span class="Code-Btn">button</span>
-            <span class="Code-typeClass">type</span> =
-            <span class="Code-colorBtn">"button"</span>
-            <span class="Code-typeClass">class</span> =
-            <span class="Code-colorBtn">"Btn Btn--lg Btn--Primary"</span>>
-            Большая кнопка
-            <span><</span>/<span class="Code-Btn">button</span>>  
+        <span class="Code-tag"><</span><span class="Code-Btn">button</span>
+        <span class="Code-typeClass">class</span> =
+        <span class="Code-colorBtn">"Btn Btn--lg Btn--Primary"</span>>
+        Большая кнопка
+        <span><</span>/<span class="Code-Btn">button</span>>  
         </li>
         <li class="Code">
-            <span class="Code-tag"><</span><span class="Code-Btn">button</span>
-            <span class="Code-typeClass">type</span> =
-            <span class="Code-colorBtn">"button"</span>
-            <span class="Code-typeClass">class</span> =
-            <span class="Code-colorBtn">"Btn Btn--lg Btn--colorSecondary"</span>>
-            Большая кнопка
-            <span><</span>/<span class="Code-Btn">button</span>>  
+        <span class="Code-tag"><</span><span class="Code-Btn">button</span>
+        <span class="Code-typeClass">class</span> =
+        <span class="Code-colorBtn">"Btn Btn--lg Btn--colorSecondary"</span>>
+        Большая кнопка
+        <span><</span>/<span class="Code-Btn">button</span>>  
         </li>
         <li class="Code">
-            <span class="Code-tag"><</span><span class="Code-Btn">button</span>
-            <span class="Code-typeClass">type</span> =
-            <span class="Code-colorBtn">"button"</span>
-            <span class="Code-typeClass">class</span> =
-            <span class="Code-colorBtn">"Btn Btn--sm Btn--Primary"</span>>
-            Маленькая кнопка
-            <span><</span>/<span class="Code-Btn">button</span>>   
+        <span class="Code-tag"><</span><span class="Code-Btn">button</span>
+        <span class="Code-typeClass">class</span> =
+        <span class="Code-colorBtn">"Btn Btn--sm Btn--Primary"</span>>
+        Маленькая кнопка
+        <span><</span>/<span class="Code-Btn">button</span>>   
         </li>
         <li class="Code">
-            <span class="Code-tag"><</span><span class="Code-Btn">button</span>
-            <span class="Code-typeClass">type</span> =
-            <span class="Code-colorBtn">"button"</span>
-            <span class="Code-typeClass">class</span> =
-            <span class="Code-colorBtn">"Btn Btn--sm Btn--colorSecondary"</span>>
-            Маленькая кнопка
-            <span><</span>/<span class="Code-Btn">button</span>>   
+        <span class="Code-tag"><</span><span class="Code-Btn">button</span>
+        <span class="Code-typeClass">class</span> =
+        <span class="Code-colorBtn">"Btn Btn--sm Btn--colorSecondary"</span>>
+        Маленькая кнопка
+        <span><</span>/<span class="Code-Btn">button</span>>   
         </li>
     </ul>
 
@@ -324,21 +281,21 @@
 
     <ul class="Content-code">  <!--Код кнопок с отключением на странице-->
         <li class="Code">
-            <span class="Code-tag"><</span><span class="Code-Btn">button</span>
-            <span class="Code-typeClass">class</span> =
-            <span class="Code-colorBtn">"Btn Btn--Primary"</span>
-            <span class="Code-typeClass">disabled</span>>
-            Кнопка
-            <span><</span>/<span class="Code-Btn">button</span>>  
+        <span class="Code-tag"><</span><span class="Code-Btn">button</span>
+        <span class="Code-typeClass">class</span> =
+        <span class="Code-colorBtn">"Btn Btn--Primary"</span>
+        <span class="Code-typeClass">disabled</span>>
+        Кнопка
+        <span><</span>/<span class="Code-Btn">button</span>>  
         </li>
         <li class="Code">
-            <span class="Code-tag"><</span><span class="Code-Btn">a</span>
-            <span class="Code-typeClass">href</span> =
-            <span class="Code-colorBtn">"#"</span> 
-            <span class="Code-typeClass">class</span> =
-            <span class="Code-colorBtn">"Btn Btn--Primary disabled"</span>>
-            Ссылка
-            <span><</span>/<span class="Code-Btn">a</span>>  
+        <span class="Code-tag"><</span><span class="Code-Btn">a</span>
+        <span class="Code-typeClass">href</span> =
+        <span class="Code-colorBtn">"#"</span> 
+        <span class="Code-typeClass">class</span> =
+        <span class="Code-colorBtn">"Btn Btn--Primary disabled"</span>>
+        Ссылка
+        <span><</span>/<span class="Code-Btn">a</span>>  
         </li>
     </ul>    
 </div>
@@ -347,28 +304,24 @@
 
 <h2 class="Content-header">Блочные кнопки</h2> <!--Заголовок блочных кнопок-->
 
-<div class="Content-body-wd">
-    <button type="button" class="Btn Btn--colorPrimary Btn--wd">Кнопка на всю длину</button>
-    <div type="button" class="Btn Btn--colorPrimary Btn--wd">Кнопка на всю длину</div> 
+<div class="Content-body Content-body--wd">
+    <button class="Btn Btn--colorPrimary Btn--wd">Кнопка на всю длину</button>
+    <div class="Btn Btn--colorPrimary Btn--wd">Кнопка на всю длину</div> 
 </div>
 <ul class="Content-code">  <!--Код блочных кнопок на странице-->
     <li class="Code">
-        <span class="Code-tag"><</span><span class="Code-Btn">button</span>
-        <span class="Code-typeClass">type</span> =
-        <span class="Code-colorBtn">"button"</span>
-        <span class="Code-typeClass">class</span> =
-        <span class="Code-colorBtn">"Btn Btn--colorPrimary Btn--wd"</span>>
-        Кнопка на всю длину
-        <span><</span>/<span class="Code-Btn">button</span>>  
+    <span class="Code-tag"><</span><span class="Code-Btn">button</span>
+    <span class="Code-typeClass">class</span> =
+    <span class="Code-colorBtn">"Btn Btn--colorPrimary Btn--wd"</span>>
+    Кнопка на всю длину
+    <span><</span>/<span class="Code-Btn">button</span>>  
     </li>
     <li class="Code">
-        <span class="Code-tag"><</span><span class="Code-Btn">div</span>
-        <span class="Code-typeClass">type</span> =
-        <span class="Code-colorBtn">"button"</span>
-        <span class="Code-typeClass">class</span> =
-        <span class="Code-colorBtn">"Btn Btn--colorPrimary Btn--wd"</span>>
-        Кнопка на всю длину
-        <span><</span>/<span class="Code-Btn">div</span>>  
+    <span class="Code-tag"><</span><span class="Code-Btn">div</span>
+    <span class="Code-typeClass">class</span> =
+    <span class="Code-colorBtn">"Btn Btn--colorPrimary Btn--wd"</span>>
+    Кнопка на всю длину
+    <span><</span>/<span class="Code-Btn">div</span>>  
     </li>
 </ul>
    

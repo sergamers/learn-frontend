@@ -6,6 +6,7 @@
 
 .Content-header {
     border: 1px solid rgb(220, 220, 220);
+    border-bottom: none;
     padding: 20px 20px 10px;
     margin: 0;
     font: 600 25px/25px Arial;
@@ -13,8 +14,8 @@
 
 .Content-body {
     border: 1px solid rgb(220, 220, 220);
+    border-bottom: none;
     padding: 20px;
-    margin-top: -1px;
 }
 
 .Content-code {
@@ -26,10 +27,8 @@
     margin: 0;
 }
 
-.Content-body-wd {
-    border: 1px solid rgb(220, 220, 220);
-    padding: 20px 15px 20px 5px;
-    margin: 0;
+.Content-body--wd {
+  padding: 20px 15px 20px 5px;
 }
 
 /* Блок кода */
@@ -61,6 +60,7 @@
     border-radius: 5px;
     display: inline-block;
     padding: 10px;
+    margin: 5px;
     cursor: pointer;
     font: 600 16px/16px Arial;
     text-decoration: none;
