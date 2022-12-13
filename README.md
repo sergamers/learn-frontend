@@ -1,3 +1,21 @@
+# (13.12.2022) - Создание компонента icon
+
+1. Создание компонента icon
+   * Делаем акцент на overflow и переменной для квадрата
+2. Показываем как можно влиять на векторную графику с помощью css 
+
+## Доп материалы
+
+1. http://htmlbook.ru/index.php/css/overflow
+2. http://htmlbook.ru/css/selector/child
+3. http://htmlbook.ru/css/selector/universal
+
+## Домашнее задание
+
+1. Сделать компонент icon самостоятельно.
+2. Добавить пару png и svg иконок
+3. Сделать отдельный компонент стрелки вправо/влево, белый/черный
+
 # (04.12.2022) - Доделываем компонент button
 
 1. Создали  компонент button
@@ -23,8 +41,8 @@
 
 1. Создать ветку урока - lesson-1
 2. Рассмотреть св-во display ( inline, block, inline-block )
-4. Посмотреть как работают отступы
-3. Посмотреть компонент [button](https://getbootstrap.ru/docs/5.1/components/buttons/)
+3. Посмотреть как работают отступы
+4. Посмотреть компонент [button](https://getbootstrap.ru/docs/5.1/components/buttons/)
 
 ## Доп. Материалы
 
