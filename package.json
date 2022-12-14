@@ -10,6 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/sergamers/learn-frontend.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -18,5 +19,6 @@
   "homepage": "https://github.com/sergamers/learn-frontend#readme",
   "dependencies": {
     "sass": "^1.56.1"
+    "normalize.css": "^8.0.1"
   }
 }
