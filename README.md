@@ -1,3 +1,31 @@
+# (##.12.2022) - Создание компонента icon
+
+doc-step-card - верстаю сам. В качестве домашнего задания даю new-item-card
+
+# (13.12.2022) - Создание компонента icon
+
+1. Создание компонента icon
+   * Делаем акцент на overflow и переменной для квадрата
+2. Показываем как можно влиять на векторную графику с помощью css 
+
+## Доп материалы
+
+1. http://htmlbook.ru/index.php/css/overflow
+2. http://htmlbook.ru/css/selector/child
+3. http://htmlbook.ru/css/selector/universal
+
+## Домашнее задание
+
+1. Сделать компонент icon самостоятельно.
+2. Добавить пару png и svg иконок
+3. Сделать отдельный компонент стрелки вправо/влево, белый/черный
+
+### Самостоятельно выполнить следующие компоненты
+
+1. circle-button 
+2. label 
+3. partner-card 
+
 # (04.12.2022) - Доделываем компонент button
 
 1. Создали  компонент button
@@ -23,8 +51,8 @@
 
 1. Создать ветку урока - lesson-1
 2. Рассмотреть св-во display ( inline, block, inline-block )
-4. Посмотреть как работают отступы
-3. Посмотреть компонент [button](https://getbootstrap.ru/docs/5.1/components/buttons/)
+3. Посмотреть как работают отступы
+4. Посмотреть компонент [button](https://getbootstrap.ru/docs/5.1/components/buttons/)
 
 ## Доп. Материалы
 
@@ -60,15 +88,15 @@
 
 ## Компоненты
 
-1. [icon](https://prnt.sc/0zIRXXfnDVlP)
-2. [button](https://prnt.sc/uuI5-_P8T6NF)
-3. [partner-card](https://prnt.sc/Do6kAjII8jar)
-4. [doc-step-card](https://prnt.sc/PIV_RpEFQR-L)
-5. [circle-button](https://prnt.sc/5p2FZMX8f40x)
-6. [label](https://prnt.sc/wlgqvGYhBloe)
-7. [new-item-card](https://prnt.sc/wlgqvGYhBloe)
-8. [catalog-card](https://prnt.sc/9kWKo_eWyPn9)
-9. [news-card](https://prnt.sc/0HYlxgre2eiz)
+1. ~~[icon](https://prnt.sc/0zIRXXfnDVlP)~~
+1. ~~[button](https://prnt.sc/uuI5-_P8T6NF)~~
+1. [circle-button](https://prnt.sc/5p2FZMX8f40x) +
+1. [label](https://prnt.sc/wlgqvGYhBloe) +
+1. [partner-card](https://prnt.sc/Do6kAjII8jar) +
+1. [doc-step-card](https://prnt.sc/PIV_RpEFQR-L)
+1. [new-item-card](https://prnt.sc/wlgqvGYhBloe)
+1. [catalog-card](https://prnt.sc/9kWKo_eWyPn9)
+1. [news-card](https://prnt.sc/0HYlxgre2eiz)
 
 # (15.11.2022) Цель - Настроить репозиторий. Ознакомиться с материалами для следующего урока
 
