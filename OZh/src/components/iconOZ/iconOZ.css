@@ -3,6 +3,7 @@
 }
 
 .IconOZ {
+    background: rgb(181, 181, 181);
     height: var(--size);
     width: var(--size);
     display: inline-flex;
