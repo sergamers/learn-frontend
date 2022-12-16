@@ -3,13 +3,14 @@
 }
 
 .Circle-buttonOZ {
-    margin: 5px;
+    background: rgb(224, 224, 224);
     height: var(--size);
     width: var(--size);
     display: inline-flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    margin: 5px;
 }
 
 .Circle-buttonOZ > * {

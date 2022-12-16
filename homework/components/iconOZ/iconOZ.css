@@ -3,7 +3,6 @@
 }
 
 .IconOZ {
-    outline: solid 1px red;
     height: var(--size);
     width: var(--size);
     display: inline-flex;
