@@ -13,6 +13,27 @@ doc-step-card - верстаю сам. В качестве домашнего з
 1. http://htmlbook.ru/index.php/css/overflow
 2. http://htmlbook.ru/css/selector/child
 3. http://htmlbook.ru/css/selector/universal
+4. [что такое .gitkeep](https://translated.turbopages.org/proxy_u/en-ru.ru.b353b128-639c6f1c-111eac19-74722d776562/https/www.freecodecamp.org/news/what-is-gitkeep/)
+5. [Видео на английском про gitkeep](https://www.youtube.com/watch?v=PdJqFpxA9zA)
+6. SVG to Inline
+   * [npm](https://www.npmjs.com/package/svg-to-inline?activeTab=readme)
+   * [git](https://github.com/tiagoporto/svg-to-inline)
+```
+<script src="/node_modules/svg-to-inline/dist/svg-to-inline.js"></script> 
+ 
+<svg-to-inline
+  path="images/logos/logo.svg"
+  lazy="true"
+  class-Name="my-class other-class"
+  loading-Label="Loading"
+></svg-to-inline>
+
+```
+
+* `path` - String. Обязательный атрибут. Получает путь до svg картинки.
+* `lazy` - Boolean. Не обязательный атрибут. Если передает true, от подгружает svg только когда она будет рядом с областью просмотра.
+* `class-Name` - String. Не обязательный атрибут. Передает тегу svg класс
+* `loading-Label` - String. Не обязательный атрибут. По умолчанию `Loading...`. Для загрузки svg требуется время. Пока идет загрузка отображается этот текст. ( аналог alt в теге img)
 
 ## Домашнее задание
 
