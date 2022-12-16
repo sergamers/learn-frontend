@@ -7,9 +7,9 @@
     height: var(--size);
     width: var(--size);
     display: inline-flex;
-    /*Отцентровка по середине*/
+    /*Центрировать элементы в поперечной оси*/
     align-items: center;
-    /*отцентровка по ширине*/
+    /*Выравнивание элементов по центру */
     justify-content: center;
     /*Свойство overflow управляет отображением содержания блочного элемента*/
     overflow: hidden;
