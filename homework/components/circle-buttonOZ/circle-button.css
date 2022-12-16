@@ -1,9 +1,9 @@
 .Circle-buttonOZ {
-    --size: 45px;
+    --size: 85px;
 }
 
 .Circle-buttonOZ {
-    outline: solid 1px red;
+    margin: 5px;
     height: var(--size);
     width: var(--size);
     display: inline-flex;
@@ -15,4 +15,8 @@
 .Circle-buttonOZ > * {
     max-height: var(--size);
     max-width: var(--size);
+}
+
+.Circle-buttonOZ--rotate {
+    transform: rotate(180deg);
 }
