@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Icon.css">
+    <link rel="stylesheet" href="../../global/global.css">
+    <script src="/node_modules/svg-to-inline/dist/svg-to-inline.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+<!--   Как инлайн SVG-->
+<div>
+    <div class="Arrow Arrow--black">
+        <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9 1L2 8L9 15" stroke="black" stroke-width="2"/>
+            <path d="M3 8H17" stroke="black" stroke-width="2"/>
+        </svg>
+    </div>
+    <p class="Content Content-nameIcon">- Как инлайн SVG</p>
+</div>
+<!--   Как экспорт из либы-->
+<div>
+    <div class="Arrow">
+        <svg-to-inline
+            path="../../assets/svg/arrow.svg"
+            lazy="true"
+            class-Name=""
+            loading-Label="Loading">
+        </svg-to-inline>
+    </div>
+    <div class="Arrow Arrow-right"><svg-to-inline
+            path="../../assets/svg/arrow.svg"
+            lazy="true"
+            class-Name=""
+            loading-Label="Loading"
+    ></svg-to-inline>
+    </div>
+    <div class="Arrow Arrow--black">
+        <svg-to-inline
+                path="../../assets/svg/arrow.svg"
+                lazy="true"
+                class-Name=""
+                loading-Label="Loading"
+        ></svg-to-inline>
+    </div>
+    <div class="Arrow Arrow-right Arrow--black">
+        <svg-to-inline
+            path="../../assets/svg/arrow.svg"
+            lazy="true"
+            class-Name=""
+            loading-Label="Loading"
+    ></svg-to-inline></div>
+    <p class="Content Content-nameIcon">- Подключение при помощи скрипта</p>
+</div>
+<div>
+    <div class="Arrow Arrow--black"><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M9 1L2 8L9 15" stroke="black" stroke-width="2"/>
+        <path d="M3 8H17" stroke="black" stroke-width="2"/>
+    </svg></div>
+    <div class="Arrow Arrow--black">
+        <svg-to-inline
+                path="../../assets/svg/arrow.svg"
+                lazy="true"
+                class-Name=""
+                loading-Label="Loading"
+        ></svg-to-inline>
+    </div>
+    <p class="Content Content-nameIcon">- Сравение отображения SVG инлайн и библиотеки. Что происходит?? Они различаются!!!</p>
+</div>
+<div>
+    <div class="Arrow Arrow--black">
+        <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M9 1L2 8L9 15" stroke="black" stroke-width="2"/>
+        <path d="M3 8H17" stroke="black" stroke-width="2"/>
+        </svg>
+    </div>
+    <div class="Arrow">
+        <svg-to-inline
+                path="../../assets/svg/arrow.svg"
+                lazy="true"
+                class-Name="Arrow--black"
+                loading-Label="Loading"
+        ></svg-to-inline>
+    </div>
+    <p class="Content Content-nameIcon">- Передали в класс скрипта модификатор и урали модификатор у родителя</p>
+</div>
+
+</body>
+</html>

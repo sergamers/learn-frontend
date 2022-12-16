@@ -23,15 +23,20 @@
     max-height: var(--size);
     max-width: var(--size);
 }
+
 .Arrow-right {
     transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 .Arrow--black {
-
+    background-color: #000000;
 }
 
-.Arrow-right--black {
+.Arrow--black path {
+    stroke: #ffffff;
+}
 
+.Arrow-right {
+    transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
