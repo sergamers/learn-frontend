@@ -1,0 +1,39 @@
+.CC {
+    --bg-default: rgb(220, 220, 220);
+    --size-base: 300px;
+    --size-zap: 630px 300px;
+    --size-kol: 630px;
+}
+
+.CC {
+    background: var(--bg-default);
+    border-radius: 10px;
+    height: 220px;
+    width: 180px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 65px 50px;
+    margin: 5px;;
+}
+
+.CC {
+    max-height: var(--size-base);
+    max-width: var(--size-base);
+}
+
+.CC-kol {
+    max-height: var(--size-kol);
+    max-width: var(--size-kol);
+    height: 630px;
+    width: 630px;
+    padding: 0;
+}
+
+.CC-zap {
+    max-height: var(--size-zap);
+    max-width: var(--size-zap);
+    height: 300px;
+    width: 630px;
+    padding: 0;
+}

@@ -1,0 +1,21 @@
+.PC {
+    --bg-default: rgb(181, 181, 181);
+    --size-box: 310px 170px;
+}
+
+.PC {
+    background: var(--bg-default);
+    border-radius: 10px;
+    height: 124px;
+    width: 240px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 23px 35px;
+    margin: 5px;;
+}
+
+.PC > * {
+    max-height: var(--size-box);
+    max-width: var(--size-box);
+}
