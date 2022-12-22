@@ -1,0 +1,22 @@
+.NC {
+    --bg-default: rgb(220, 220, 220);
+    --size-height: 524px;
+    --size-width: 390px;
+}
+
+.NC {
+    background: var(--bg-default);
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 105px 30px;
+    margin: 3px;;
+}
+
+.NC {
+    max-height: var(--size-height);
+    max-width: var(--size-width);
+}

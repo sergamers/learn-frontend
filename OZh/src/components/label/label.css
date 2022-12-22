@@ -1,0 +1,7 @@
+.NC {
+    height: 265px;
+    width: 400px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
