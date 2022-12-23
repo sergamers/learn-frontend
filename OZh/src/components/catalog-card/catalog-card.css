@@ -1,8 +1,6 @@
 .CC {
     --bg-default: rgb(220, 220, 220);
-    --size-base: 300px;
-    --size-zap: 630px 300px;
-    --size-kol: 630px;
+    --size: 310px;
 }
 
 .CC {
@@ -13,26 +11,25 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 30px 65px 50px;
-    margin: 5px;;
+    padding: 45px 65px;
+    margin: 3px;
 }
 
-.CC {
-    max-height: var(--size-base);
-    max-width: var(--size-base);
+.CC > * {
+    max-height: var(--size);
+    max-width: var(--size);
 }
 
-.CC-kol {
-    max-height: var(--size-kol);
-    max-width: var(--size-kol);
+.CC--kol {
+    
     height: 630px;
     width: 630px;
     padding: 0;
 }
 
-.CC-zap {
-    max-height: var(--size-zap);
-    max-width: var(--size-zap);
+.CC--zap {
+    max-height: 310px;
+    max-width: 630px;
     height: 300px;
     width: 630px;
     padding: 0;
