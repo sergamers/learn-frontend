@@ -2,7 +2,7 @@
 
 1. Поправить архитектуру приложения
 2. Сверстать doc-step-card используя Perfect Pixel
-3. https://sanis.ru/ 
+3.  
 
 
 ## Доп материалы
@@ -10,11 +10,20 @@
 1. Perfect Pixel
    * [Pixel Perfect - что это? Как верстать четко в макет?](https://www.youtube.com/watch?v=3goWqJcV4u8)
    * [Ссылка на расширение](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi)
-   
+2. [Официальная страница сайта](https://sanis.ru/)
+3. Code review
+   * [Про code review](https://www.youtube.com/watch?v=nrNSc_i9SiE)
+   * [Code Review - Процессы](https://www.youtube.com/watch?v=MkCZocjg9to)
+   * [Что такое Pull Request](https://www.youtube.com/watch?v=Svx5wiDqWyE)
+   * [разрешение конфликтов в git merge](https://www.youtube.com/watch?v=PXK1hIifpWU)
+     * [Git: курс](https://www.youtube.com/playlist?list=PLDyvV36pndZFHXjXuwA_NywNrVQO0aQqb)
+   * https://www.atlassian.com/ru/git/tutorials/using-branches/merge-conflicts
+   * [Устранение конфликта слияния в коде Visual Studio](https://www.youtube.com/watch?v=lz5OuKzvadQ)
 
 ## Домашнее задание
 
 1. Сверстать `new-item-card`
+2. Найти 5 сообществ где можно пообщаться на ИТ темы и позадовать вопросы для новичков.
 
 
 # (13.12.2022) - Создание компонента icon
