@@ -1,6 +1,30 @@
-# (##.12.2022) - Создание компонента icon
+# (##.12.2022) - Создание компонента doc-step-card
 
-doc-step-card - верстаю сам. В качестве домашнего задания даю new-item-card
+1. Поправить архитектуру приложения
+2. Сверстать doc-step-card используя Perfect Pixel
+3.  
+
+
+## Доп материалы
+
+1. Perfect Pixel
+   * [Pixel Perfect - что это? Как верстать четко в макет?](https://www.youtube.com/watch?v=3goWqJcV4u8)
+   * [Ссылка на расширение](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi)
+2. [Официальная страница сайта](https://sanis.ru/)
+3. Code review
+   * [Про code review](https://www.youtube.com/watch?v=nrNSc_i9SiE)
+   * [Code Review - Процессы](https://www.youtube.com/watch?v=MkCZocjg9to)
+   * [Что такое Pull Request](https://www.youtube.com/watch?v=Svx5wiDqWyE)
+   * [разрешение конфликтов в git merge](https://www.youtube.com/watch?v=PXK1hIifpWU)
+     * [Git: курс](https://www.youtube.com/playlist?list=PLDyvV36pndZFHXjXuwA_NywNrVQO0aQqb)
+   * https://www.atlassian.com/ru/git/tutorials/using-branches/merge-conflicts
+   * [Устранение конфликта слияния в коде Visual Studio](https://www.youtube.com/watch?v=lz5OuKzvadQ)
+
+## Домашнее задание
+
+1. Сверстать `new-item-card`
+2. Найти 5 сообществ где можно пообщаться на ИТ темы и позадовать вопросы для новичков.
+
 
 # (13.12.2022) - Создание компонента icon
 
@@ -14,7 +38,7 @@ doc-step-card - верстаю сам. В качестве домашнего з
 2. http://htmlbook.ru/css/selector/child
 3. http://htmlbook.ru/css/selector/universal
 4. [что такое .gitkeep](https://translated.turbopages.org/proxy_u/en-ru.ru.b353b128-639c6f1c-111eac19-74722d776562/https/www.freecodecamp.org/news/what-is-gitkeep/)
-5. [Видео на английском про gitkeep](https://www.youtube.com/watch?v=PdJqFpxA9zA)
+5. [Видео на английском про .gitkeep](https://www.youtube.com/watch?v=PdJqFpxA9zA)
 6. SVG to Inline
    * [npm](https://www.npmjs.com/package/svg-to-inline?activeTab=readme)
    * [git](https://github.com/tiagoporto/svg-to-inline)
@@ -31,9 +55,9 @@ doc-step-card - верстаю сам. В качестве домашнего з
 ```
 
 * `path` - String. Обязательный атрибут. Получает путь до svg картинки.
-* `lazy` - Boolean. Не обязательный атрибут. Если передает true, от подгружает svg только когда она будет рядом с областью просмотра.
+* `lazy` - Boolean. Не обязательный атрибут. Если передает true, то подгружает svg только когда она будет рядом с областью просмотра.
 * `class-Name` - String. Не обязательный атрибут. Передает тегу svg класс
-* `loading-Label` - String. Не обязательный атрибут. По умолчанию `Loading...`. Для загрузки svg требуется время. Пока идет загрузка отображается этот текст. ( аналог alt в теге img)
+* `loading-Label` - String. Не обязательный атрибут. По умолчанию `Loading...`. Для загрузки svg требуется время. Пока идет загрузка отображается этот текст. (аналог alt в теге img)
 
 ## Домашнее задание
 
@@ -110,14 +134,14 @@ doc-step-card - верстаю сам. В качестве домашнего з
 ## Компоненты
 
 1. ~~[icon](https://prnt.sc/0zIRXXfnDVlP)~~
-1. ~~[button](https://prnt.sc/uuI5-_P8T6NF)~~
-1. [circle-button](https://prnt.sc/5p2FZMX8f40x) +
-1. [label](https://prnt.sc/wlgqvGYhBloe) +
-1. [partner-card](https://prnt.sc/Do6kAjII8jar) +
-1. [doc-step-card](https://prnt.sc/PIV_RpEFQR-L)
-1. [new-item-card](https://prnt.sc/wlgqvGYhBloe)
-1. [catalog-card](https://prnt.sc/9kWKo_eWyPn9)
-1. [news-card](https://prnt.sc/0HYlxgre2eiz)
+2. ~~[button](https://prnt.sc/uuI5-_P8T6NF)~~
+3. [circle-button](https://prnt.sc/5p2FZMX8f40x) +
+4. [label](https://prnt.sc/wlgqvGYhBloe) +
+5. [partner-card](https://prnt.sc/Do6kAjII8jar) +
+6. [doc-step-card](https://prnt.sc/PIV_RpEFQR-L)
+7. [new-item-card](https://prnt.sc/wlgqvGYhBloe)
+8. [catalog-card](https://prnt.sc/9kWKo_eWyPn9)
+9. [news-card](https://prnt.sc/0HYlxgre2eiz)
 
 # (15.11.2022) Цель - Настроить репозиторий. Ознакомиться с материалами для следующего урока
 
