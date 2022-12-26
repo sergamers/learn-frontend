@@ -1,8 +1,8 @@
-.Circle-buttonOZ {
+.CircleBtn {
     --size: 85px;
 }
 
-.Circle-buttonOZ {
+.CircleBtn {
     background: rgb(224, 224, 224);
     height: var(--size);
     width: var(--size);
@@ -13,11 +13,11 @@
     margin: 5px;
 }
 
-.Circle-buttonOZ > * {
+.CircleBtn > * {
     max-height: var(--size);
     max-width: var(--size);
 }
 
-.Circle-buttonOZ--rotate {
+.CircleBtn--rotate {
     transform: rotate(180deg);
 }

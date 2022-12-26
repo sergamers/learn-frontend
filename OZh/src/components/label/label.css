@@ -2,71 +2,9 @@
     background: black;
     color: white;
     border-radius: 3px;
-    width: 44px;
-    height: 26px;
     font: 600 12px/18px Arial;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+    display: inline-block;
+    padding: 4px 11px;
+    text-transform: uppercase;
     margin: 3px;
-}
-
-.Lab--new {
-    width: 82px; 
-}
-
-.Lab--Hr {
-    width: 110px; 
-}
-
-.Lab--Vse {
-    width: 39px; 
-}
-
-.Lab--Per {
-    width: 79px; 
-}
-
-.Lab--Cep {
-    width: 89px; 
-}
-
-.Lab--Nitka {
-    width: 73px; 
-}
-
-.Lab--Zven {
-    width: 79px; 
-}
-
-.Lab--Lit {
-    width: 67px; 
-}
-
-.Lab--Sht {
-    width: 114px; 
-}
-
-.Lab--Rol {
-    width: 72px; 
-}
-
-.Lab--Ms {
-    width: 118px; 
-}
-
-.Lab--Serg {
-    width: 64px; 
-}
-
-.Lab--Kres {
-    width: 64px; 
-}
-
-.Lab--Podv {
-    width: 79px; 
-}
-
-.Lab--Zap {
-    width: 68px; 
 }
