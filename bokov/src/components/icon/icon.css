@@ -7,9 +7,9 @@
     height: var(--size);
     width: var(--size);
     display: inline-flex;
-    /*Центрировать элементы в поперечной оси*/
+    /*Центрировать элементы по вертикале*/
     align-items: center;
-    /*Выравнивание элементов по центру */
+    /*Выравнивание элементов по горизонтали */
     justify-content: center;
     /*Свойство overflow управляет отображением содержания блочного элемента*/
     overflow: hidden;
@@ -25,7 +25,9 @@
 }
 
 .Arrow-right {
-    transform: matrix(-1, 0, 0, 1, 0, 0);
+    transform: rotate(180deg);
+    display: inline-flex;
+
 }
 
 .Arrow--black {
@@ -36,7 +38,7 @@
     stroke: #ffffff;
 }
 
-.Arrow-right {
-    transform: matrix(-1, 0, 0, 1, 0, 0);
+.StaticHeight {
+    height: 16px;
 }
 
