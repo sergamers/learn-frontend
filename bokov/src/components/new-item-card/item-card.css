@@ -6,4 +6,6 @@
     padding: 4px 8px;
     text-transform: uppercase;
     margin: 2px;
+    /*А мало ли не отцентруется*/
+    text-align: center;
 }
