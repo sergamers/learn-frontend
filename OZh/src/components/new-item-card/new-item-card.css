@@ -1,17 +1,23 @@
 .NC {
-    border-radius: 10px;
-    height: 250px;
-    width: 350px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+    --bg-default: rgb(220, 220, 220);
+    --height: 524px;
+    --width: 390px;
 }
 
-.Big {
+.NC {
+    background: var(--bg-default);
     border-radius: 10px;
-    height: 704px;
-    width: 870px;
+    height: 524px;
+    width: 390px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
+
+    margin: 3px;
+}
+
+.NC {
+    max-height: var(--height);
+    max-width: var(--width);
 }
