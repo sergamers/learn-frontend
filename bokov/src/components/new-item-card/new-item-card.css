@@ -1,0 +1,45 @@
+.ContainerItemCard {
+    display: inline-flex;
+}
+
+/*ToDo - Одну карточку то сделал, а как теперь зафлексить, вот тут проблема*/
+
+.ItemCard {
+    position: absolute;
+    width: 390px;
+    height: 524px;
+    background: #F1F1F1;
+    border-radius: 10px;
+}
+
+.Label {
+    margin-top: 29px;
+    margin-left: 26px;
+}
+
+.ItemCard-icon {
+    /*хотелось бы выстраивать иконку относительно главного контейнера, но что - то так и не получилось*/
+    position: relative;
+    top: 51px;
+    left: 32px;
+}
+
+.ItemCard-text {
+    position: relative;
+    width: 251px;
+    height: 46px;
+    top: 62px;
+    left: 26px;
+    font: 500 18px/22px Arial;
+    color: #000000;
+}
+
+.ItemCard-describe {
+    position: relative;
+    width: 291px;
+    height: 46px;
+    top: 68px;
+    left: 26px;
+    font: 400 12px/15px Arial;
+    color: #9A9A9A;
+}

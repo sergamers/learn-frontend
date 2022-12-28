@@ -1,11 +1,16 @@
-.itemCard {
+.LabelCard {
     display: inline-flex;
+    height: 14px;
     background: #000000;
     border-radius: 2px;
     color: white;
-    padding: 4px 8px;
+    padding: 6px 9px;
     text-transform: uppercase;
-    margin: 2px;
     /*А мало ли не отцентруется*/
-    text-align: center;
+    /*justify-content: center;*/
+    align-items: center;
+    font: 600 12px/15px Inter, Arial;
+    letter-spacing: 0.05em;
+    font-style: normal;
+
 }
