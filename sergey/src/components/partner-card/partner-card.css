@@ -1,0 +1,17 @@
+.PartnetCard{
+    --w: 310px;
+    --h: 172px;
+
+    width: var(--w);
+    height: var(--h);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: #F3F3F3;
+    border-radius: 10px;
+}
+
+.PartnetCard > * {
+    max-width: var(--w);
+    max-height: var(--h);
+}

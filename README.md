@@ -1,3 +1,101 @@
+# (28.12.2022) - Создание компонента doc-step-card
+
+## План урока
+
+1. Работа с таймером ( Тайм менеджмент )
+2. Рассказать про изменение архитектуры приложения
+3. Слить изменения в `master` и создать ветку урока `lesson-3`
+4. Сверстать `doc-step-card` используя Perfect Pixel 
+    * Подключить компонент кнопок
+    * Показать принцип работы с плагином
+5. Разобрать домашнее задание
+
+
+## Доп материалы
+
+1. Perfect Pixel
+   * [Pixel Perfect - что это? Как верстать четко в макет?](https://www.youtube.com/watch?v=3goWqJcV4u8)
+   * [Ссылка на расширение](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi)
+2. [Официальная страница сайта](https://sanis.ru/)
+3. Code review
+   * [Про code review](https://www.youtube.com/watch?v=nrNSc_i9SiE)
+   * [Code Review - Процессы](https://www.youtube.com/watch?v=MkCZocjg9to)
+   * [Что такое Pull Request](https://www.youtube.com/watch?v=Svx5wiDqWyE)
+   * [разрешение конфликтов в git merge](https://www.youtube.com/watch?v=PXK1hIifpWU)
+     * [Git: курс](https://www.youtube.com/playlist?list=PLDyvV36pndZFHXjXuwA_NywNrVQO0aQqb)
+   * https://www.atlassian.com/ru/git/tutorials/using-branches/merge-conflicts
+   * [Устранение конфликта слияния в коде Visual Studio](https://www.youtube.com/watch?v=lz5OuKzvadQ)
+4. Расширения
+   * [Timer](https://chrome.google.com/webstore/detail/timer/hepmlgghomccjinhcnkkikjpgkjibglj)
+   * [Toggl Track: Productivity & Time Tracker](https://chrome.google.com/webstore/detail/toggl-track-productivity/oejgccbfbmkkpaidnkphaiaecficdnfn)
+   * [PixelParallel by htmlBurger](https://chrome.google.com/webstore/detail/pixelparallel-by-htmlburg/iffnoibnepbcloaaagchjonfplimpkob)
+   * [Google Переводчик](https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb)
+
+
+
+## Домашнее задание
+
+1. Сверстать `new-item-card` и `doc-step-card`
+2. Создать pull request 
+3. Найти 5 сообществ где можно пообщаться на ИТ темы и задавать вопросы для новичков. Поделиться найденным в телеграмме.
+4. Подписаться на 5 youtube каналов ИТ тематики. Поделиться найденным в телеграмме. 
+5. Самостоятельно изучить и поделиться найденным в телеграмме на темы:
+   * Markdown 
+   * Scrum
+   * Kanban
+   * Trello
+   * gitflow
+   * workflow
+   * Тайм менеджмент
+6. Создать первую рабочую область в trello
+7. Пригласить в рабочую область друг друга
+
+
+# (13.12.2022) - Создание компонента icon
+
+1. Создание компонента icon
+   * Делаем акцент на overflow и переменной для квадрата
+2. Показываем как можно влиять на векторную графику с помощью css 
+
+## Доп материалы
+
+1. http://htmlbook.ru/index.php/css/overflow
+2. http://htmlbook.ru/css/selector/child
+3. http://htmlbook.ru/css/selector/universal
+4. [что такое .gitkeep](https://translated.turbopages.org/proxy_u/en-ru.ru.b353b128-639c6f1c-111eac19-74722d776562/https/www.freecodecamp.org/news/what-is-gitkeep/)
+5. [Видео на английском про .gitkeep](https://www.youtube.com/watch?v=PdJqFpxA9zA)
+6. SVG to Inline
+   * [npm](https://www.npmjs.com/package/svg-to-inline?activeTab=readme)
+   * [git](https://github.com/tiagoporto/svg-to-inline)
+```
+<script src="/node_modules/svg-to-inline/dist/svg-to-inline.js"></script> 
+ 
+<svg-to-inline
+  path="images/logos/logo.svg"
+  lazy="true"
+  class-Name="my-class other-class"
+  loading-Label="Loading"
+></svg-to-inline>
+
+```
+
+* `path` - String. Обязательный атрибут. Получает путь до svg картинки.
+* `lazy` - Boolean. Не обязательный атрибут. Если передает true, то подгружает svg только когда она будет рядом с областью просмотра.
+* `class-Name` - String. Не обязательный атрибут. Передает тегу svg класс
+* `loading-Label` - String. Не обязательный атрибут. По умолчанию `Loading...`. Для загрузки svg требуется время. Пока идет загрузка отображается этот текст. (аналог alt в теге img)
+
+## Домашнее задание
+
+1. Сделать компонент icon самостоятельно.
+2. Добавить пару png и svg иконок
+3. Сделать отдельный компонент стрелки вправо/влево, белый/черный
+
+### Самостоятельно выполнить следующие компоненты
+
+1. circle-button 
+2. label 
+3. partner-card 
+
 # (04.12.2022) - Доделываем компонент button
 
 1. Создали  компонент button
@@ -23,8 +121,8 @@
 
 1. Создать ветку урока - lesson-1
 2. Рассмотреть св-во display ( inline, block, inline-block )
-4. Посмотреть как работают отступы
-3. Посмотреть компонент [button](https://getbootstrap.ru/docs/5.1/components/buttons/)
+3. Посмотреть как работают отступы
+4. Посмотреть компонент [button](https://getbootstrap.ru/docs/5.1/components/buttons/)
 
 ## Доп. Материалы
 
@@ -60,12 +158,12 @@
 
 ## Компоненты
 
-1. [icon](https://prnt.sc/0zIRXXfnDVlP)
-2. [button](https://prnt.sc/uuI5-_P8T6NF)
-3. [partner-card](https://prnt.sc/Do6kAjII8jar)
-4. [doc-step-card](https://prnt.sc/PIV_RpEFQR-L)
-5. [circle-button](https://prnt.sc/5p2FZMX8f40x)
-6. [label](https://prnt.sc/wlgqvGYhBloe)
+1. ~~[icon](https://prnt.sc/0zIRXXfnDVlP)~~
+2. ~~[button](https://prnt.sc/uuI5-_P8T6NF)~~
+3. ~~[circle-button](https://prnt.sc/5p2FZMX8f40x)~~
+4. ~~[label](https://prnt.sc/wlgqvGYhBloe)~~
+5. ~~[partner-card](https://prnt.sc/Do6kAjII8jar)~~
+6. [doc-step-card](https://prnt.sc/PIV_RpEFQR-L)
 7. [new-item-card](https://prnt.sc/wlgqvGYhBloe)
 8. [catalog-card](https://prnt.sc/9kWKo_eWyPn9)
 9. [news-card](https://prnt.sc/0HYlxgre2eiz)

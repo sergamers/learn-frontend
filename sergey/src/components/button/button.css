@@ -27,3 +27,7 @@
     background-color: var(--bg-hover-default);
 }
 
+.Btn--block{
+    display: block;
+}
+

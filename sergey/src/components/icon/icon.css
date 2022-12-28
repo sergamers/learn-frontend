@@ -1,0 +1,16 @@
+.Icon{
+    --size: 21px;
+}
+
+.Icon{
+    height: var(--size);
+    width: var(--size);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Icon > * {
+    max-height: var(--size);
+    max-width: var(--size);
+}
