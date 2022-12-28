@@ -7,3 +7,10 @@
     letter-spacing: 2px;
     padding: 20px;
 }
+
+.BlockCenter {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
