@@ -1,0 +1,29 @@
+.ArrowBtn{
+    --s: 45px;
+    --bg-light: #fff;
+    --bg-dark: #000;
+}
+
+.ArrowBtn {
+    width: var(--s);
+    height: var(--s);
+    background: var(--bg-light);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+}
+
+.ArrowBtn--black {
+    background: var(--bg-dark);
+}
+
+.ArrowBtn--black path {
+    stroke: var(--bg-light);
+}
+
+.ArrowBtn--left{
+     transform: rotate(180deg);
+}
