@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="circle-button.css">
+    <script src="/node_modules/svg-to-inline/dist/svg-to-inline.js"></script>
+</head>
+<body>
+<style>
+    .Content{
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid #d6d6d6;
+    }
+
+    .Content > * {
+        margin: 10px;
+    }
+</style>
+
+<h1>
+    Круглые кнопки
+</h1>
+
+<div class="Content">
+    <div class="ArrowBtn">
+        <svg-to-inline path="../../assets/svg/arrow.svg" />
+    </div>
+
+    <div class="ArrowBtn ArrowBtn--left">
+        <svg-to-inline path="../../assets/svg/arrow.svg" />
+    </div>
+
+    <div class="ArrowBtn ArrowBtn--black">
+        <svg-to-inline path="../../assets/svg/arrow.svg" />
+    </div>
+
+    <div class="ArrowBtn ArrowBtn--black ArrowBtn--left">
+        <svg-to-inline path="../../assets/svg/arrow.svg" />
+    </div>
+</div>
+
+</body>
+</html>
