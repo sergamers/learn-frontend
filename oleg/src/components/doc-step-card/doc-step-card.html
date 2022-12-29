@@ -1,22 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
     <meta charset="UTF-8">
-    <title>Карта</title>
+    <title>Doc-step-card</title>
+    <link rel="stylesheet" href="doc-step-card.ccs"> 
+    <link rel="stylesheet" href="../buttonMaket/button.css">
+    <link rel="stylesheet" href="/node_modules/normalize.css/normalize.css">
     <script src="/node_modules/svg-to-inline/dist/svg-to-inline.js"></script> 
-<style>
-    #map {
-        background-image: url(/OZh/src/assets/doc-step-card/PNG/map.png), url(/OZh/src/assets/doc-step-card/PNG/blackCard.png);
-        background-size: 1592px 600px;
-
-
-    }
-</style>
-
-
-
+</head>
+    
 <body>
 
-    <div id="map">  </div>
+<div class="DocStepCard">
+    <div class="DocStepCard-num">
+        1
+    </div>
+    <div class="DocStepCard-icon">
+        <svg-to-inline path="../../assets/icon/SVG/tel.svg"/>
+    </div>
+    <div class="DocStepCard-text">
+        Оставьте свою заявку
+    </div>
+    <div class="DocStepCard-btn">
+        <div class="Btn">
+            Оставьте свою заявку
+        </div>
+    </div>
+</div>
+
   
 </body>
 </html>
