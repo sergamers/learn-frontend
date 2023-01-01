@@ -2,16 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>new-item-card</title>
     <link rel="stylesheet" href="new-item-card.css">
     <link rel="stylesheet" href="../label/label.css">
     <link rel="stylesheet" href="../../global/global.css">
-    <script src="/node_modules/svg-to-inline/dist/svg-to-inline.js"></script>
 </head>
 <body>
 
-<div class="ContainerItemCard">
-    <div class="ItemCard">
+<style>
+    .helper, .helper *{ outline: solid 1px red; }
+</style>
+
+<div class="helper ContainerItemCard">
+
+    <div class="ItemCard itemCard--icon1">
+
         <div class="Label">
             <div class="LabelCard">
                 новинка
@@ -21,56 +26,57 @@
             </div>
         </div>
 
-        <div class="ItemCard-icon">
-            <img src="../../assets/images/earrings.png" alt="">
+        <div class="itemCard-BlockText">
+            <div class="itemCard-text">
+                Кольцо из белого золота с бриллиантами
+            </div>
+            <div class="itemCard-describe">
+                Состав: белое золото 585 пробы, бриллианты
+            </div>
         </div>
-        <div class="ItemCard-text">
-            Кольцо из белого золота с бриллиантами
+
+    </div>
+
+    <div class="ItemCard itemCard--icon2">
+
+        <div class="Label">
+            <div class="LabelCard">
+                новинка
+            </div>
+
+            <div class="LabelCard">
+                хит
+            </div>
         </div>
-        <div class="ItemCard-describe">
-            Состав: белое золото 585 пробы, бриллианты
+
+        <div class="itemCard-BlockText">
+            <div class="itemCard-text">
+                Кольцо из белого золота с бриллиантами
+            </div>
+            <div class="itemCard-describe">
+                Состав: белое золото 585 пробы, бриллианты
+            </div>
         </div>
     </div>
 
-    <div class="ItemCard">
+    <div class="ItemCard itemCard--icon3">
+
         <div class="Label">
             <div class="LabelCard">
                 новинка
             </div>
-
             <div class="LabelCard">
                 хит
             </div>
         </div>
-        <div class="ItemCard-icon">
-            <img src="../../assets/images/earrings_2.png" alt="">
-        </div>
-        <div class="ItemCard-text">
-            Кольцо из белого золота с бриллиантами
-        </div>
-        <div class="ItemCard-describe">
-            Состав: белое золото 585 пробы, бриллианты
-        </div>
-    </div>
 
-    <div class="ItemCard">
-        <div class="Label">
-            <div class="LabelCard">
-                новинка
+        <div class="itemCard-BlockText">
+            <div class="itemCard-text">
+                Кольцо из белого золота с бриллиантами
             </div>
-
-            <div class="LabelCard">
-                хит
+            <div class="itemCard-describe">
+                Состав: белое золото 585 пробы, бриллианты
             </div>
-        </div>
-        <div class="ItemCard-icon">
-            <img src="../../assets/images/ring.png" alt="">
-        </div>
-        <div class="ItemCard-text">
-            Кольцо из белого золота с бриллиантами
-        </div>
-        <div class="ItemCard-describe">
-            Состав: белое золото 585 пробы, бриллианты
         </div>
     </div>
 </div>
