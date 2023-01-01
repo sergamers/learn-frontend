@@ -18,7 +18,6 @@
 2. SCSS
    * [Основы Sass](https://sass-scss.ru/guide/)
    * [Scss online](https://www.sassmeister.com/)
-* 
 
 ## Домашнее задание
 
@@ -194,8 +193,8 @@
 3. ~~[circle-button](https://prnt.sc/5p2FZMX8f40x)~~
 4. ~~[label](https://prnt.sc/wlgqvGYhBloe)~~
 5. ~~[partner-card](https://prnt.sc/Do6kAjII8jar)~~
-6. [doc-step-card](https://prnt.sc/PIV_RpEFQR-L) +
-7. [new-item-card](https://prnt.sc/wlgqvGYhBloe) +
+6. ~~[doc-step-card](https://prnt.sc/PIV_RpEFQR-L)~~
+7. ~~[new-item-card](https://prnt.sc/wlgqvGYhBloe)~~ 
 8. [catalog-card](https://prnt.sc/9kWKo_eWyPn9)
 9. [news-card](https://prnt.sc/0HYlxgre2eiz)
 
