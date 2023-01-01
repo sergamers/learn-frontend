@@ -1,3 +1,34 @@
+# (##.01.2023)
+
+## План урока
+
+1. Сверстать `catalog-card`
+2. Сгенерировать сетку
+3. Разобрать `news-card`
+    * Показать готовый вариант в астре
+
+## Доп материалы
+
+1. CSS игры и  инструменты
+   * [Flexbox Froggy](https://flexboxfroggy.com/#ru)
+   * [Grid Garden](https://cssgridgarden.com/#ru)
+   * [CSS Grid Layout Generator](https://angrytools.com/css-grid/)
+   * [koala](http://koala-app.com/)
+   * [Плагин eCSStractor](https://www.youtube.com/watch?v=pZiYs_Sput8)
+2. SCSS
+   * [Основы Sass](https://sass-scss.ru/guide/)
+   * [Scss online](https://www.sassmeister.com/)
+* 
+
+## Домашнее задание
+
+1. Работа в Trello:
+   * Создать задачу: Сверстать `news-card` и `catalog-card`
+   * Дать оценку за сколько будет выполнена задача. Сделать сравнение план/факт.
+   * прикрепить pull request в задачу.
+   * Назначить Сергея проверяющим (в карточке Trello и в pull request)
+* Написать инструкцию что делать если в ветку попали несанкционированны изменения в формате md
+
 # (28.12.2022) - Создание компонента doc-step-card
 
 ## План урока
@@ -163,8 +194,8 @@
 3. ~~[circle-button](https://prnt.sc/5p2FZMX8f40x)~~
 4. ~~[label](https://prnt.sc/wlgqvGYhBloe)~~
 5. ~~[partner-card](https://prnt.sc/Do6kAjII8jar)~~
-6. [doc-step-card](https://prnt.sc/PIV_RpEFQR-L)
-7. [new-item-card](https://prnt.sc/wlgqvGYhBloe)
+6. [doc-step-card](https://prnt.sc/PIV_RpEFQR-L) +
+7. [new-item-card](https://prnt.sc/wlgqvGYhBloe) +
 8. [catalog-card](https://prnt.sc/9kWKo_eWyPn9)
 9. [news-card](https://prnt.sc/0HYlxgre2eiz)
 
