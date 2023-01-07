@@ -1,32 +1,47 @@
 # (##.01.2023)
 
+адаптивная верстка
+`news-card` и
+приступаем к чтению https://learn.javascript.ru/ до  ч.1 - 3.1 
+Что такой IP адрес, сервер, домен, порт, localhost
+что такое рефакторинг
+
+# (##.01.2023)
+
 ## План урока
 
 1. Сверстать `catalog-card`
 2. Сгенерировать сетку
-3. Разобрать `news-card`
-    * Показать готовый вариант в астре
+3. Разместить в сетке
+4. Разобрать домашнее задание
+
 
 ## Доп материалы
 
-1. CSS игры и  инструменты
+1. CSS игры и инструменты
    * [Flexbox Froggy](https://flexboxfroggy.com/#ru)
    * [Grid Garden](https://cssgridgarden.com/#ru)
    * [CSS Grid Layout Generator](https://angrytools.com/css-grid/)
    * [koala](http://koala-app.com/)
-   * [Плагин eCSStractor](https://www.youtube.com/watch?v=pZiYs_Sput8)
+   * [Плагин eCSStractor](https://www.youtube.com/watch?v=pZiYs_Sput8) 
 2. SCSS
    * [Основы Sass](https://sass-scss.ru/guide/)
    * [Scss online](https://www.sassmeister.com/)
+3. [Grid в CSS](https://wp-kama.ru/id_8945/grid-v-css.html)
+
 
 ## Домашнее задание
 
 1. Работа в Trello:
-   * Создать задачу: Сверстать `news-card` и `catalog-card`
+   * Создать задачу: Сверстать `catalog-card`
    * Дать оценку за сколько будет выполнена задача. Сделать сравнение план/факт.
    * прикрепить pull request в задачу.
    * Назначить Сергея проверяющим (в карточке Trello и в pull request)
-* Написать инструкцию что делать если в ветку попали несанкционированны изменения в формате md
+2. Написать инструкцию, что делать если в ветку попали несанкционированны изменения в формате md
+3. Познакомиться с css grid
+   * Сверстать grid в 5, 4, 3 и 2 колонки
+4. Полностью прочитать основы scss
+
 
 # (28.12.2022) - Создание компонента doc-step-card
 
@@ -61,8 +76,7 @@
    * [PixelParallel by htmlBurger](https://chrome.google.com/webstore/detail/pixelparallel-by-htmlburg/iffnoibnepbcloaaagchjonfplimpkob)
    * [Google Переводчик](https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb)
 
-
-
+    
 ## Домашнее задание
 
 1. Сверстать `new-item-card` и `doc-step-card`
