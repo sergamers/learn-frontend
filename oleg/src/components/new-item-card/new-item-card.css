@@ -1,53 +1,48 @@
-.NewItemCard {
-    --bg-default: rgb(220, 220, 220);
-    --height: 524px;
-    --width: 390px;
-}
-
-.NewItemCard {
-    background: var(--bg-default);
+.newItemCard {
+    background: rgb(220, 220, 220);
     border-radius: 10px;
     height: 524px;
     width: 390px;
+    display: inline-flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    overflow: hidden;
-    margin-left: 10px;
-    margin-top: 10px;
+    justify-content: space-between;
+    
 }
 
-.NewItemCard {
-    max-height: var(--height);
-    max-width: var(--width);
+.newItemCard-Lab {
+    box-sizing: border-box;
+    width: 342px;
+    height: 105px;
+    padding-top: 27px;
+    
 }
 
-.NewItemCard-Lab {
-    margin-top: 35px;
-    margin-left: 28px;
+.newItemCard-Img {
+    box-sizing: border-box;
+    width: 342px;
+    height: 314px;
+    padding-top: 46px;
+    text-align: center;
 }
 
-.NewItemCardImg {
-    margin-top: 88px;
-    margin-left: 90px;
+.newItemCard-text {
+    box-sizing: border-box;
+    width: 342px;
+    height: 105px;
 }
 
-.NewItemCard-text1 {
+.newItemCard-textBig {
     font: 500 18px/1.5em Inter Arial;
     color: #000000;
-    width: 255px;
-    height: 36px;
-    margin-top: 67px;
-    margin-left: 28px;
+    margin-top: 12px;
+    overflow: hidden;
 }
 
-.NewItemCard-text2 {
-   font:400 12px/1.5em Inter Arial;
+.newItemCard-textSmall {
+    font: 400 12px/1.5em Inter Arial;
     color: #9A9A9A;
-    margin-top: 15px;
-    margin-left: 28px;
+    margin-top: 28px;
+    overflow: hidden;
 }
 
-.Content {
-    display: inline-flex;
-}
