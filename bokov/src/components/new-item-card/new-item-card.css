@@ -23,7 +23,7 @@
     margin-top: 3px;
 }
 
-.itemCard--icon1 {
+.ItemCard--icon1 {
     /*устанавливаем одно или несколько фоновых изображений для элемента*/
     background-image: url(../../assets/images/earrings.png);
     /*Изображение без повторений*/
@@ -32,27 +32,27 @@
     background-position: center;
 }
 
-.itemCard--icon2 {
+.ItemCard--icon2 {
     background-image: url(../../assets/images/earrings_2.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.itemCard--icon3 {
+.ItemCard--icon3 {
     background-image: url(../../assets/images/ring.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 
-.itemCard-blockText {
+.ItemCard-blockText {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 15px;
 }
 
-.itemCard-text {
+.ItemCard-text {
     /*display: flex;*/
     /*width: 251px;*/
     /*height: 46px;*/
@@ -61,7 +61,7 @@
     /*margin-top: 15px;*/
 }
 
-.itemCard-describe {
+.ItemCard-describe {
     /*display: flex;*/
     /*width: 291px;*/
     /*height: 26px;*/
