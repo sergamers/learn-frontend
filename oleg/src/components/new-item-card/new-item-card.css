@@ -1,4 +1,4 @@
-.newItemCard {
+.NewItemCard {
     background: rgb(220, 220, 220);
     border-radius: 10px;
     height: 524px;
@@ -11,26 +11,26 @@
     
 }
 
-.newItemCard-Lab {
+.NewItemCard-lab {
 
 }
 
-.newItemCard-Img {
+.NewItemCard-img {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.newItemCard-text {
+.NewItemCard-text {
 
 }
 
-.newItemCard-textBig {
+.NewItemCard-textBig {
     font: 500 18px/22px Inter, Arial;
     color: #000000;
 }
 
-.newItemCard-textSmall {
+.NewItemCard-textSmall {
     margin-top: 9px;
     font: 400 12px/15px Inter, Arial;
     color: #9A9A9A;
