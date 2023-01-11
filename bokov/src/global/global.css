@@ -1,0 +1,15 @@
+.Content {
+    display: inline-flex;
+}
+
+.Content-nameIcon {
+    font: 500 16px/25px Arial;
+    letter-spacing: 2px;
+    padding: 20px;
+}
+
+.BlockCenter {
+    display: flex;
+    justify-content: center;
+
+}
