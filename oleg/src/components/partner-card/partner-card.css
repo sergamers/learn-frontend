@@ -1,0 +1,23 @@
+.PC {
+    --bg-default: rgb(181, 181, 181);
+    --w: 310px;
+    --h: 171px;
+
+    margin: 3px;
+}
+
+.PC {
+    background: var(--bg-default);
+    border-radius: 10px;
+    width: var(--w);
+    height: var(--h);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.PC > * {
+    max-height: var(--h);
+    max-width: var(--w);
+}

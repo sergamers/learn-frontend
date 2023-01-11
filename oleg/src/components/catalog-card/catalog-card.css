@@ -1,0 +1,36 @@
+.CC {
+    --bg-default: rgb(220, 220, 220);
+    --size: 310px;
+}
+
+.CC {
+    background: var(--bg-default);
+    border-radius: 10px;
+    height: 220px;
+    width: 180px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 45px 65px;
+    margin: 3px;
+}
+
+.CC > * {
+    max-height: var(--size);
+    max-width: var(--size);
+}
+
+.CC--kol {
+    
+    height: 630px;
+    width: 630px;
+    padding: 0;
+}
+
+.CC--zap {
+    max-height: 310px;
+    max-width: 630px;
+    height: 300px;
+    width: 630px;
+    padding: 0;
+}

@@ -1,0 +1,376 @@
+/* Контент */
+
+.Content {
+    font: 14px Arial;
+}
+
+.Content-header {
+    border: 1px solid rgb(220, 220, 220);
+    border-bottom: none;
+    padding: 20px 20px 10px;
+    margin: 0;
+    font: 600 25px/25px Arial;
+}
+
+.Content-body {
+    border: 1px solid rgb(220, 220, 220);
+    border-bottom: none;
+    padding: 20px;
+}
+
+.Content-code {
+    border: 1px solid rgb(220, 220, 220);
+    background: rgb(220, 220, 220);
+    font: 500 16px/25px Arial;
+    letter-spacing: 2px;
+    padding: 20px;
+    margin: 0;
+}
+
+.Content-body--wd {
+  padding: 20px 15px 20px 5px;
+}
+
+/* Блок кода */
+
+.Code {
+    font-size: 14px;
+    list-style-type: none;
+}
+
+.Code-tag {
+    color: black;
+}
+
+.Code-Btn {
+    color: rgb(58, 58, 211);
+}
+
+.Code-typeClass {
+    color: blue;
+}
+
+.Code-colorBtn {
+    color: rgb(200, 0, 0);
+}
+
+.Btn {
+    background: white;
+    border: 5px solid transparent;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    font: 600 16px/16px Arial;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/**Цветные кнопки: синний */
+
+.Btn--colorPrimary {
+    background: blue;
+    border-color: blue;
+    color: white;
+}
+
+.Btn--colorPrimary:focus {
+    box-shadow: 0 0 0 4px rgb(104, 104, 255);
+}
+
+.Btn--colorPrimary:hover {
+    background: rgb(104, 104, 255);
+}
+
+/**Цветные кнопки: серый */
+
+.Btn--colorSecondary {
+    background: rgb(100, 100, 100);
+    border-color: rgb(100, 100, 100);
+    color: white;
+}
+
+.Btn--colorSecondary:focus {
+    box-shadow: 0 0 0 4px rgb(180, 180, 180);
+}
+
+.Btn--colorSecondary:hover {
+    background: rgb(140, 140, 140);
+}
+
+/**Цветные кнопки: зелёный */
+
+.Btn--colorSuccess {
+    background: green;
+    border-color: green;
+    color: white;
+}
+
+.Btn--colorSuccess:focus {
+    box-shadow: 0 0 0 4px rgb(0, 160, 0);
+}
+
+.Btn--colorSuccess:hover {
+    background: rgb(0, 160, 0);
+}
+
+/**Цветные кнопки: красный */
+
+.Btn--colorDanger {
+    background: red;
+    border-color: red;
+    color: white;
+}
+
+.Btn--colorDanger:focus {
+    box-shadow: 0 0 0 4px rgb(255, 85, 85);
+}
+
+.Btn--colorDanger:hover {
+    background: rgb(255, 85, 85);
+}
+
+/**Цветные кнопки: жёлтый */
+
+.Btn--colorWarning {
+    background: rgb(215, 215, 0);
+    border-color: rgb(215, 215, 0);
+    color: black;
+}
+
+.Btn--colorWarning:focus {
+    box-shadow: 0 0 0 4px yellow;
+}
+
+.Btn--colorWarning:hover {
+    background: yellow;
+}
+
+/**Цветные кнопки: бирюза */
+
+.Btn--colorInfo {
+    background: rgb(0, 216, 220);
+    border-color: rgb(0, 216, 220);
+    color: black;
+}
+
+.Btn--colorInfo:focus {
+    box-shadow: 0 0 0 4px rgb(0, 251, 255);
+}
+
+.Btn--colorInfo:hover {
+    background: rgb(0, 251, 255);
+}
+
+/**Цветные кнопки: светлосерый */
+
+.Btn--colorLight {
+    background: rgb(200, 200, 200);
+    border-color: rgb(200, 200, 200);
+    color: black;
+}
+
+.Btn--colorLight:focus {
+    box-shadow: 0 0 0 4px rgb(220, 220, 220);
+}
+
+/**Цветные кнопки: чёрный */
+
+.Btn--colorDark {
+    background: black;
+    border-color: black;
+    color: white;
+}
+
+.Btn--colorDark:focus {
+    box-shadow: 0 0 0 4px rgb(120, 120, 120);
+}
+
+/**Цветные кнопки: Link */
+
+.Btn--colorLink {
+    color: rgb(50, 50, 255);
+    text-decoration: underline;
+}
+
+.Btn--colorLink:focus {
+    box-shadow: 0 0 0 4px rgb(138, 138, 255);
+}
+
+/** Cиний */
+
+.Btn--outlinePrimary{
+    border-color: rgb(0, 0, 200);
+    color: rgb(0, 0, 200);
+}
+
+.Btn--outlinePrimary:focus {
+    box-shadow: 0 0 0 4px rgb(112, 90, 253);
+}
+
+.Btn--outlinePrimary:hover {
+    background: blue;
+    color: white;
+}
+
+/** Серый */
+
+.Btn--outlineSecondary{
+    border-color: rgb(102, 102, 104);
+    color: rgb(122, 122, 122);
+}
+
+.Btn--outlineSecondary:focus {
+    box-shadow: 0 0 0 4px rgb(166, 166, 166);
+}
+
+.Btn--outlineSecondary:hover {
+    background: rgb(79, 79, 79);
+    color: white;
+}
+
+/** зеленый */
+
+.Btn--outlineSuccess{
+    border-color: green;
+    color: green;
+}
+
+.Btn--outlineSuccess:focus {
+    box-shadow: 0 0 0 4px rgb(2, 190, 5);
+}
+
+.Btn--outlineSuccess:hover {
+    background: green;
+    color: white;
+}
+
+
+/* красный */
+
+.Btn--outlineDanger {
+    border-color: red;
+    color: red;
+}
+
+.Btn--outlineDanger:focus {
+    box-shadow: 0 0 0 4px rgb(255, 106, 106);
+}
+
+.Btn--outlineDanger:hover {
+    background: red;
+    color: white;
+}
+
+
+/* Желтый */
+
+.Btn--outlineWarning {
+    border-color: rgb(210, 210, 0);
+    color: rgb(215, 215, 0);
+}
+.Btn--outlineWarning:focus {
+    box-shadow: 0 0 0 4px rgb(225, 225, 0);
+}
+.Btn--outlineWarning:hover {
+    background: rgb(200, 200, 0);
+    color: white;
+}
+
+/*  Морская волны */
+
+.Btn--outlineInfo {
+    border-color: rgb(0, 150, 185);
+    color: rgb(70, 70, 255);
+}
+.Btn--outlineInfo:focus {
+    box-shadow:0 0 0 4px rgb(0, 199, 244);
+}
+.Btn--outlineInfo:hover {
+    background: rgb(0, 150, 185);
+    color: black;
+}
+
+/* Светло-серый */
+
+.Btn--outlineLight {
+    border-color: rgb(210,210,210);
+    color: rgb(210,210,210);
+}
+
+.Btn--outlineLight:focus {
+    box-shadow:0 0 0 4px  rgb(200,200,200);
+}
+
+.Btn--outlineLight:hover {
+    background: rgb(210,210,210);
+    color: black;
+}
+
+/* Черный */
+
+.Btn--outlineDark {
+    border-color: black;
+    color: black;
+}
+
+.Btn--outlineDark:focus {
+    box-shadow: 0 0 0 4px black;
+}
+
+.Btn--outlineDark:hover {
+    background: black;
+    color: white;
+}
+
+/*  Стандартная кнопка - синяя */
+.Btn--Primary {
+    border-color: blue;
+    background: blue;
+    color: white;
+}
+
+.Btn--Primary:focus {
+    box-shadow:0 0 0 4px rgb(154, 154, 255);
+}
+
+/** Большая кнопка синяя */
+
+.Btn--lg {
+    padding: 25px;
+    font-size: 25px;
+}
+
+/** маленькая кнопка синяя*/
+
+.Btn--sm {
+    padding: 2px;
+    font-size: 14px;
+}
+
+/** кнопка синяя на всю длинну*/
+
+.Btn--wd {
+    width: 100%;
+    text-align: center;
+    margin: 5px;
+}
+
+/** кнопки с неактивными ссылкам*/
+
+.Btn.disabled {
+    cursor: default;
+    background: rgb(165, 165, 255);
+    border-color: rgb(165, 165, 255);
+    box-shadow: none;
+    color: black;
+}
+
+.Btn[disabled] {
+    cursor: default;
+    background: rgb(165, 165, 255);
+    border-color: rgb(165, 165, 255);
+    box-shadow: none;
+    color: black;
+}
