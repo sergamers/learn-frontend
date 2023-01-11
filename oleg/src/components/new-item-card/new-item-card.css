@@ -5,44 +5,34 @@
     width: 390px;
     display: inline-flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-between;
+    padding: 27px 24px 24px;
+    box-sizing: border-box;
     
 }
 
 .newItemCard-Lab {
-    box-sizing: border-box;
-    width: 342px;
-    height: 105px;
-    padding-top: 27px;
-    
+
 }
 
 .newItemCard-Img {
-    box-sizing: border-box;
-    width: 342px;
-    height: 314px;
-    padding-top: 46px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .newItemCard-text {
-    box-sizing: border-box;
-    width: 342px;
-    height: 105px;
+
 }
 
 .newItemCard-textBig {
-    font: 500 18px/1.5em Inter Arial;
+    font: 500 18px/22px Inter, Arial;
     color: #000000;
-    margin-top: 12px;
-    overflow: hidden;
 }
 
 .newItemCard-textSmall {
-    font: 400 12px/1.5em Inter Arial;
+    margin-top: 9px;
+    font: 400 12px/15px Inter, Arial;
     color: #9A9A9A;
-    margin-top: 28px;
-    overflow: hidden;
 }
 
