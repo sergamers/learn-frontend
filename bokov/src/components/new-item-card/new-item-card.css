@@ -12,7 +12,7 @@
     height: 524px;
     background: #F1F1F1;
     border-radius: 10px;
-    padding: 24px;
+    padding: 27px 24px 24px;
     /*  box-sizing - используется для того, что бы при паддинге не изменялся размер блока контейнера*/
     box-sizing:border-box;
     flex-direction: column;
@@ -48,12 +48,12 @@
 }
 
 .ItemCard-text {
-    font: 500 18px/22px Arial;
+    font: 500 18px/22px Inter Arial;
     color: #000000;
 }
 
 .ItemCard-describe {
-    font: 400 12px/15px Arial;
+    font: 400 12px/15px Inter Arial;
     color: #9A9A9A;
     margin-top: 8px;
 }
