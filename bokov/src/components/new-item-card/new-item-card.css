@@ -10,13 +10,31 @@
     display: flex;
     width: 390px;
     height: 524px;
-    background: #F1F1F1 no-repeat center center / 300px  url("../../assets/images/no_img.png");
+    background: #F1F1F1 no-repeat center center url("../../assets/images/no_img.png");
     border-radius: 10px;
     padding: 27px 24px 24px;
     /*  box-sizing - используется для того, что бы при паддинге не изменялся размер блока контейнера*/
     box-sizing:border-box;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.ItemCard--lg {
+    width: 630px;
+    height: 630px;
+    padding: 21px;
+}
+
+.ItemCard--md{
+    width: 630px;
+    height: 310px;
+    padding: 21px;
+}
+
+.ItemCard--sm {
+    width: 310px;
+    height: 310px;
+    padding: 21px;
 }
 
 .ItemCard-blockText {
@@ -34,4 +52,8 @@
     font: 400 12px/15px Inter Arial;
     color: #9A9A9A;
     margin-top: 8px;
+}
+
+.TextTitleCatalogCard {
+    font: 400 20px/24px Inter Arial;
 }
