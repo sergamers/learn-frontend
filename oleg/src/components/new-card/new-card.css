@@ -1,0 +1,17 @@
+.NC {
+    border-radius: 10px;
+    height: 250px;
+    width: 350px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Big {
+    border-radius: 10px;
+    height: 704px;
+    width: 870px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
