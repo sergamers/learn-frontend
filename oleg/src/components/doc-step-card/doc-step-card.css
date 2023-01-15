@@ -1,0 +1,40 @@
+.Box {
+    display: flex;
+    width: 1006px;
+    justify-content: space-between;
+}
+
+.docStepCard {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.docStepCard-num {
+    font: 400 16px/1.5em Stapel, Arial;
+    color: #BFBFBF;
+}
+
+.docStepCard-icon {
+    margin-top: 42px;
+}
+
+.docStepCard-text {
+    font: 500 22px/1.5em Inter, Arial;
+    color: #000000;
+    margin-top: 15px;
+}
+
+.docStepCard-btn {
+    width: 216px;
+    margin-top: 47px;
+    
+}
+
+.docStepCard--iconEnv {
+    margin-top: 38px;
+}
+
+.docStepCard--iconDoc {
+    margin-top: 38px;
+}

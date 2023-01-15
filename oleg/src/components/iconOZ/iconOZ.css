@@ -1,0 +1,18 @@
+.IconOZ {
+    --size: 21px;
+}
+
+.IconOZ {
+    background: rgb(181, 181, 181);
+    height: var(--size);
+    width: var(--size);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.IconOZ > * {
+    max-height: var(--size);
+    max-width: var(--size);
+}
