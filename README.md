@@ -1,3 +1,53 @@
+# (##.01.2023)
+
+адаптивная верстка
+`news-card` и
+приступаем к чтению https://learn.javascript.ru/ до  ч.1 - 3.1 
+Что такой IP адрес, сервер, домен, порт, localhost
+что такое рефакторинг
+парное программирование
+Что такое кеш ( в нашем случае можем сузить до кеша в браузере и зачем он нужен )
+введение gitflow
+Что такое Сервер. Что такое express. что такое модуль.
+
+# (##.01.2023)
+
+## План урока
+
+1. Сверстать `catalog-card`
+2. Сгенерировать сетку
+3. Разместить в сетке
+4. Разобрать домашнее задание
+
+
+## Доп материалы
+
+1. CSS игры и инструменты
+   * [Flexbox Froggy](https://flexboxfroggy.com/#ru)
+   * [Grid Garden](https://cssgridgarden.com/#ru)
+   * [CSS Grid Layout Generator](https://angrytools.com/css-grid/)
+   * [koala](http://koala-app.com/)
+   * [Плагин eCSStractor](https://www.youtube.com/watch?v=pZiYs_Sput8) 
+2. SCSS
+   * [Основы Sass](https://sass-scss.ru/guide/)
+   * [Scss online](https://www.sassmeister.com/)
+3. [Grid в CSS](https://wp-kama.ru/id_8945/grid-v-css.html)
+4. [Вёрстка на Grid в CSS. Полное руководство и справочник](https://medium.com/@stasonmars/%D0%B2%D0%B5%CC%88%D1%80%D1%81%D1%82%D0%BA%D0%B0-%D0%BD%D0%B0-grid-%D0%B2-css-%D0%BF%D0%BE%D0%BB%D0%BD%D0%BE%D0%B5-%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE-%D0%B8-%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D1%87%D0%BD%D0%B8%D0%BA-220508316f8b)
+
+
+## Домашнее задание
+
+1. Работа в Trello:
+   * Создать задачу: Сверстать `catalog-card`
+   * Дать оценку за сколько будет выполнена задача. Сделать сравнение план/факт.
+   * прикрепить pull request в задачу.
+   * Назначить Сергея проверяющим (в карточке Trello и в pull request)
+2. Написать инструкцию, что делать если в ветку попали несанкционированны изменения в формате md
+3. Познакомиться с css grid
+   * Сверстать grid в 5, 4, 3 и 2 колонки
+4. Полностью прочитать основы scss
+
+
 # (28.12.2022) - Создание компонента doc-step-card
 
 ## План урока
@@ -31,8 +81,7 @@
    * [PixelParallel by htmlBurger](https://chrome.google.com/webstore/detail/pixelparallel-by-htmlburg/iffnoibnepbcloaaagchjonfplimpkob)
    * [Google Переводчик](https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb)
 
-
-
+    
 ## Домашнее задание
 
 1. Сверстать `new-item-card` и `doc-step-card`
@@ -163,8 +212,8 @@
 3. ~~[circle-button](https://prnt.sc/5p2FZMX8f40x)~~
 4. ~~[label](https://prnt.sc/wlgqvGYhBloe)~~
 5. ~~[partner-card](https://prnt.sc/Do6kAjII8jar)~~
-6. [doc-step-card](https://prnt.sc/PIV_RpEFQR-L)
-7. [new-item-card](https://prnt.sc/wlgqvGYhBloe)
+6. ~~[doc-step-card](https://prnt.sc/PIV_RpEFQR-L)~~
+7. ~~[new-item-card](https://prnt.sc/wlgqvGYhBloe)~~ 
 8. [catalog-card](https://prnt.sc/9kWKo_eWyPn9)
 9. [news-card](https://prnt.sc/0HYlxgre2eiz)
 

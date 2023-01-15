@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/sergamers/learn-frontend#readme",
   "dependencies": {
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "svg-to-inline": "^1.0.0-alpha.1"
   }
 }

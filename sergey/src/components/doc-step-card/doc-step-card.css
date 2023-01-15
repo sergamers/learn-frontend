@@ -1,0 +1,21 @@
+.DocStepCard{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+.DocStepCard-num{
+    font: 400 16px/1.5em Stapel, Arial;
+    color: #BFBFBF;
+}
+.DocStepCard-icon{
+    margin-top: 42px;
+}
+.DocStepCard-text{
+    font: 500 22px/1.25em Inter, Arial;
+    color: #000000;
+    margin-top: 18px;
+}
+.DocStepCard-btn{
+    width: 216px;
+    margin-top: 48px;
+}
