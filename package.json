@@ -1,7 +1,7 @@
 {
   "name": "learn-frontend",
   "version": "1.0.0",
-  "description": "",
+  "description": "1. Создали  компонент button 2. Познакомились с css переменными 3. Подключили normalize.css через npm 4. Дополнить gitignore 5. [Относительные пути](https://prnt.sc/l2j4qs5T38Sa)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
