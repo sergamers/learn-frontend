@@ -2,7 +2,7 @@
     box-sizing: border-box;
     height: 310px;
     width: 310px;
-    background: #F1F1F1 no-repeat center url();
+    background: #F1F1F1 no-repeat center;
     border-radius: 10px;
     display: inline-flex;
     flex-direction: column;
