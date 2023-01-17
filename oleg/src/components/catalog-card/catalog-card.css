@@ -16,7 +16,10 @@
 }
 
 .CatalogCard-lab {
-    
+}
+
+.CatalogCard--lab {
+    margin-top: 3px;
 }
 
 .CatalogCard--md { /* модификатор для карточки запонки*/
