@@ -1,0 +1,84 @@
+.angry-grid {
+    display: inline-grid;
+
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    grid-template-areas:
+	'label0 label0 label1'
+	'label0 label0 label2'
+	'label5 label5 label3'
+	'label7 label6 label4'
+	'label10 label9 label8';
+
+    gap: 10px;
+    height: 100%;
+
+}
+
+#item-0 {
+
+    background-color: #EB5CB5;
+    grid-area: label0;
+
+}
+#item-1 {
+
+    background-color: #BFCBBA;
+    grid-area: label1;
+
+}
+#item-2 {
+
+    background-color: #B7DBD9;
+    grid-area: label2;
+
+}
+#item-3 {
+
+    background-color: #AA55F9;
+    grid-area: label3;
+
+}
+#item-4 {
+
+    background-color: #A9B5E5;
+    grid-area: label4;
+
+}
+#item-5 {
+
+    background-color: #7BB5DD;
+    grid-area: label5;
+
+}
+#item-6 {
+
+    background-color: #A6AF8C;
+    grid-area: label6;
+
+}
+#item-7 {
+
+    background-color: #8C6ACD;
+    grid-area: label7;
+
+}
+#item-8 {
+
+    background-color: #DFA99D;
+    grid-area: label8;
+
+}
+#item-9 {
+
+    background-color: #59BA5D;
+    grid-area: label9;
+
+}
+#item-10 {
+
+    background-color: #975BBC;
+    grid-area: label10;
+
+}

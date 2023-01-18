@@ -1,6 +1,11 @@
 .LabelCard-common > *{
     margin-top: 4px;
+    /*Ровнение по верстке*/
     /*!*margin-left: 4px; пока не придумал как сделать отступ слева когда он уже есть между блоков */
+}
+.LabelCard-common {
+    /*Ровнение по верстке*/
+    margin-bottom: 7px;
 }
 
 .LabelCard {
@@ -12,8 +17,12 @@
     padding: 6px 9px;
     text-transform: uppercase;
     align-items: center;
-    font: 600 12px/15px Inter, Arial;
+    font: 500 13px/16px Inter, Arial;
     letter-spacing: 0.05em;
     font-style: normal;
-
 }
+
+.LabelCard--catalog {
+    text-transform: none;
+    padding: 4px 6px;
+ }
