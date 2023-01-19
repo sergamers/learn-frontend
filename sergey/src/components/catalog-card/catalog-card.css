@@ -1,0 +1,25 @@
+@import '../label/label.css';
+.CatalogCard {
+  box-sizing: border-box;
+  width: 310px;
+  height: 310px;
+  border-radius: 10px;
+  padding: 23px 20px 24px;
+  background: #F1F1F1 no-repeat center center/310px url("../../assets/images/no_img.png");
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.CatalogCard--md {
+  width: 630px;
+}
+.CatalogCard--lg {
+  width: 630px;
+  height: 630px;
+}
+.CatalogCard-header {
+  font: 400 20px/24px Inter, Arial;
+  color: #000000;
+}
+
+/*# sourceMappingURL=catalog-card.css.map */
