@@ -1,48 +1,54 @@
 .angry-grid {
-    display: inline-grid;
-
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-
-    grid-template-areas:
-	'label0 label0 label1 label2 label3'
-	'label0 label0 label5 label5 label4'
-	'label10 label9 label8 label7 label6';
-
-    gap: 10px;
-    height: 100%;
+  display: inline-grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: "label0 label0 label1 label2 label3" "label0 label0 label5 label5 label4" "label10 label9 label8 label7 label6";
+  gap: 10px;
+  height: 100%;
 }
 
 #item-0 {
-    grid-area: label0;
+  grid-area: label0;
 }
+
 #item-1 {
-    grid-area: label1;
+  grid-area: label1;
 }
+
 #item-2 {
-    grid-area: label2;
+  grid-area: label2;
 }
+
 #item-3 {
-    grid-area: label3;
+  grid-area: label3;
 }
+
 #item-4 {
-    grid-area: label4;
+  grid-area: label4;
 }
+
 #item-5 {
-    grid-area: label5;
+  grid-area: label5;
 }
+
 #item-6 {
-    grid-area: label6;
+  grid-area: label6;
 }
+
 #item-7 {
-    grid-area: label7;
+  grid-area: label7;
 }
+
 #item-8 {
-    grid-area: label8;
+  grid-area: label8;
 }
+
 #item-9 {
-    grid-area: label9;
+  grid-area: label9;
 }
+
 #item-10 {
-    grid-area: label10;
+  grid-area: label10;
 }
+
+/*# sourceMappingURL=catalog-card.css.map */
