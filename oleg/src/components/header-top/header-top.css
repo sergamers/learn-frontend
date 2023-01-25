@@ -1,0 +1,28 @@
+.Text-mapNav {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 61px;
+}
+.Text-mapNav--Nav {
+  margin-left: 20px;
+}
+
+.Text {
+  background: black;
+  color: #FFFFFF;
+  font: 600 11px/14px Inter, Arial;
+  display: inline-block;
+  padding: 4px 2px;
+  text-transform: uppercase;
+}
+
+/**
+.Text-box {
+    background: black;
+    width: 1920px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} **//*# sourceMappingURL=header-top.css.map */
