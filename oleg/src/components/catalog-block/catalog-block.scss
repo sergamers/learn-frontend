@@ -1,0 +1,42 @@
+@import '../catalog-card/old/catalog-card';
+@import '../label/label.css';
+
+$gap: 10px;
+$padd: 20px;
+
+@function grid-width($nColumn) {
+    @return $padd * 2 + $gap * ($nColumn - 1) + $size * $nColumn;
+  }
+
+.Content {
+    padding: $padd;
+    display: flex;
+    justify-content: center;
+}
+
+.CatalogBlock {
+    display: inline-grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: $gap;
+    grid-auto-flow: row dense;
+
+    @for $i from 3 through 5 {
+        @media screen and (min-width: grid-width($i) ) {
+        grid-template-columns: repeat($i, 1fr)
+        }
+    }
+}
+
+.CatalogCard {
+    grid-row: span 1;
+    grid-column: span 1;
+
+    &--md {
+        grid-column: span 2; 
+    }
+
+    &--lg {
+        grid-row: span 2;
+        grid-column: span 2;
+    }
+}

@@ -1,28 +1,43 @@
-.Text-mapNav {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 61px;
-}
-.Text-mapNav--Nav {
-  margin-left: 20px;
-}
-
-.Text {
+.HeaderTop {
   background: black;
   color: #FFFFFF;
   font: 600 11px/14px Inter, Arial;
-  display: inline-block;
-  padding: 4px 2px;
+  width: 1920px;
+  height: 35px;
   text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.HeaderTop-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.HeaderTop-map {
+  margin-left: 52px;
+  padding: 4px 11px;
+}
+.HeaderTop-nav {
+  margin-left: 112px;
+  padding: 4px 11px;
+}
+.HeaderTop-middle {
+  margin-right: 500px;
+}
+.HeaderTop-right {
+  margin-right: 54px;
+  font: 600 13px/16px Inter, Arial;
 }
 
-/**
-.Text-box {
-    background: black;
-    width: 1920px;
-    height: 35px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-} **//*# sourceMappingURL=header-top.css.map */
+.MapBlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.NavBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 372px;
+}/*# sourceMappingURL=header-top.css.map */
