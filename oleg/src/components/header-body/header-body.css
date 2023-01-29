@@ -1,8 +1,23 @@
-.HeaderTop {
+.Conteiner {
   background: #FFFFFF;
   width: 1920px;
-  height: 158px;
+  height: 120px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: right;
+}
+.Conteiner-center {
+  margin: 0px;
+}
+.Conteiner-right {
+  display: flex;
+  flex-direction: row;
+  margin-left: 742px;
+  margin-right: 54px;
+}
+.Conteiner-right-man {
+  margin-right: 25px;
+}
+.Conteiner-right-lop {
+  margin-right: 25px;
 }/*# sourceMappingURL=header-body.css.map */

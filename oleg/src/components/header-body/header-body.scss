@@ -1,11 +1,23 @@
-
-.HeaderTop{
+.Conteiner {
     background: #FFFFFF;
     width: 1920px;
-    height: 158px;
+    height: 120px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
 
+    &-center {
+        margin: 0px;
+    }
+    
+    &-right {
+        display: flex;
+        flex-direction: row;
+        margin-left: 742px;
+        margin-right: 54px;
+
+        &-man{margin-right: 25px;}
+        &-lop{margin-right: 25px;}
+    }
+      
 }
-
