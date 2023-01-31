@@ -1,3 +1,5 @@
+@import '../label/label.css';
+@import '../new-item-card/new-item-card.css';
 .angry-grid {
   display: inline-grid;
   grid-template: repeat(3, 1fr)/repeat(5, 1fr);

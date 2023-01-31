@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import '../label/label.css';
 .ContainerItemCard {
   display: inline-flex;
 }
@@ -59,4 +60,23 @@
   font: 400 20px/24px Inter Arial;
 }
 
-/*# sourceMappingURL=new-item-card.css.map */
+.CatalogBlock {
+  display: inline-grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.ItemCard--sm {
+  grid-row: span 1;
+  grid-column: span 1;
+}
+.ItemCard--md {
+  grid-row: span 2;
+  grid-column: span 1;
+}
+.ItemCard--lg {
+  grid-row: span 2;
+  grid-column: span 2;
+}
+
+/*# sourceMappingURL=catalog-block.css.map */

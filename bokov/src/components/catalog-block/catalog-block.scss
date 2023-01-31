@@ -1,0 +1,30 @@
+@import '../label/label.css';
+@import '../new-item-card/new-item-card';
+
+//.Content {
+//  display: inline-flex;
+//  justify-content: center;
+//}
+
+.CatalogBlock {
+  display: inline-grid;
+  grid-template-columns: repeat(2 , 1fr);
+  gap: 10px;
+}
+
+.ItemCard {
+  &--sm{
+    grid-row: span 1;
+    grid-column: span 1;
+  }
+
+  &--md {
+    grid-row: span 2;
+    grid-column: span 1;
+  }
+
+  &--lg{
+    grid-row: span 2;
+    grid-column: span 2;
+  }
+}
