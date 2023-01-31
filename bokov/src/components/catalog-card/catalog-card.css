@@ -1,5 +1,52 @@
+@charset "UTF-8";
 @import '../label/label.css';
-@import '../new-item-card/new-item-card.css';
+.ContainerCatalogCard {
+  display: inline-flex;
+}
+
+.ContainerCatalogCard > * {
+  margin-left: 10px;
+}
+
+.CatalogCard {
+  display: flex;
+  width: 310px;
+  height: 310px;
+  background: #F1F1F1 no-repeat center center url("../../assets/images/no_img.png");
+  border-radius: 10px;
+  padding: 21px;
+  /*  box-sizing - используется для того, что бы при паддинге не изменялся размер блока контейнера*/
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.CatalogCard--lg {
+  width: 630px;
+  height: 630px;
+}
+.CatalogCard--md {
+  width: 630px;
+  height: 310px;
+}
+.CatalogCard-blockText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.CatalogCard-text {
+  font: 500 18px/22px Inter Arial;
+  color: #000000;
+}
+.CatalogCard-describe {
+  font: 400 12px/15px Inter Arial;
+  color: #9A9A9A;
+  margin-top: 8px;
+}
+
+.TextTitleCatalogCard {
+  font: 400 20px/24px Inter Arial;
+}
+
 .angry-grid {
   display: inline-grid;
   grid-template: repeat(3, 1fr)/repeat(5, 1fr);

@@ -1,9 +1,9 @@
 @charset "UTF-8";
-.ContainerItemCard {
+.ContainerCatalogCard {
   display: inline-flex;
 }
 
-.ContainerItemCard > * {
+.ContainerCatalogCard > * {
   margin-left: 10px;
 }
 

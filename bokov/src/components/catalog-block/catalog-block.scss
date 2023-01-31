@@ -1,26 +1,36 @@
 @import '../label/label.css';
-@import '../new-item-card/new-item-card';
+@import '../catalog-card/catalog-card';
 
-//.Content {
-//  display: inline-flex;
-//  justify-content: center;
-//}
+$gap: 10px;
+$commonPadding: 10px;
+
+@function grid-width ($countColumn) {
+  @return $commonPadding * 2 + $gap * ( $countColumn - 1 ) + $size * $countColumn;
+}
+
+.Content {
+  display: flex;
+  justify-content: center;
+  padding: $commonPadding;
+}
 
 .CatalogBlock {
   display: inline-grid;
-  grid-template-columns: repeat(2 , 1fr);
-  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: $gap;
+  grid-auto-flow: row dense;
+
+  @for $i from 3 through 5 {
+    @media screen and (min-width: grid-width($i)) {
+    grid-template-columns: repeat($i, 1fr);
+    }
+  }
 }
 
-.ItemCard {
-  &--sm{
-    grid-row: span 1;
-    grid-column: span 1;
-  }
+.CatalogCard {
 
   &--md {
-    grid-row: span 2;
-    grid-column: span 1;
+    grid-column: span 2;
   }
 
   &--lg{
