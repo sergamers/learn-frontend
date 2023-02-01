@@ -1,0 +1,36 @@
+$sizeh: 250px;
+$sizew: 350px
+$sizelg: 630px;
+
+.NewCard { /* блок для карточки*/
+    box-sizing: border-box;
+    height: $sizeh;
+    width: $sizew;
+    background: #F1F1F1 no-repeat center;
+    border-radius: 10px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 23px 19px;   
+}
+
+.CatalogCard-text { /* элемент текста в карточке*/
+    font: 400 20px/24px Inter, Arial;
+    color: #000000;
+}
+
+.CatalogCard-lab {
+}
+
+.CatalogCard--lab {
+    margin-top: 3px;
+}
+
+.CatalogCard--md { /* модификатор для карточки запонки*/
+    width: $size-lg;
+}
+
+.CatalogCard--lg { /* модификатор для карточки колье*/
+    width: $size-lg;
+    height: $size-lg;
+}
