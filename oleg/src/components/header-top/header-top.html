@@ -13,7 +13,64 @@
      
 <body>
 
-<div class="HeaderTop">
+    <style>
+        .helper, .helper * {
+            outline: 1px solid red;
+        }
+
+.Header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Headerp-top{
+    background: #000;
+}
+
+.Box{
+    box-sizing: border-box;
+    min-width: 320px;
+    max-width: 1000px;
+    padding: 0 15px;
+    margin: 0 auto; 
+}
+
+.HeaderTop{
+    border: 1px solid green;
+}
+
+.HeaderMiddle{
+    border: 1px solid yellow;
+}
+
+.HeaderBottom{
+    border: 1px solid blue;
+}
+    </style>
+
+<div class="Header">
+    <div class="Headerp-top">
+        <div class="HeaderTop Box">
+            HeaderTop
+        </div>
+    </div>
+
+    <div class="Box">
+        <div class="Headerp-middle">
+            <div class="HeaderMiddle">
+                HeaderMiddle
+            </div>
+        </div>
+        <div class="Headerp-bottom">
+            <div class="HeaderBottom">
+                HeaderBottom
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 
+<div class="helper HeaderTop">
     <div class="HeaderTop-left">
         <div class="HeaderTop-map">
             <div class="MapBlock">
@@ -41,7 +98,7 @@
     <div class="HeaderTop-middle">ОПТОВЫЙ ИНТЕРНЕТ-МАГАЗИН ЮВЕЛИРНЫХ УКРАШЕНИЙ</div>
     
     <div class="HeaderTop-right">+7 (812) 363-47-44</div>
-</div>
+</div> -->
 
 </body>
 

@@ -1,0 +1,81 @@
+.HeaderTop {
+  background: black;
+  color: #FFFFFF;
+  font: 600 11px/14px Inter, Arial;
+  width: 1920px;
+  height: 35px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.HeaderTop-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.HeaderTop-map {
+  margin-left: 52px;
+  padding: 4px 11px;
+}
+.HeaderTop-nav {
+  margin-left: 112px;
+  padding: 4px 11px;
+}
+.HeaderTop-middle {
+  margin-right: 500px;
+}
+.HeaderTop-right {
+  margin-right: 54px;
+  font: 600 13px/16px Inter, Arial;
+}
+
+.MapBlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.NavBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 372px;
+}
+.Conteiner {
+  background: #FFFFFF;
+  width: 1920px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.Conteiner-center {
+  margin: 0px;
+}
+.Conteiner-right {
+  display: flex;
+  flex-direction: row;
+  margin-left: 742px;
+  margin-right: 54px;
+}
+.Conteiner-right-man {
+  margin-right: 25px;
+}
+.Conteiner-right-lop {
+  margin-right: 25px;
+}
+
+.HeaderBottom {
+  background: #FFFFFF;
+  width: 1920px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.HeaderBottom-text {
+  font: 600 13px/16px Inter, Arial;
+  color: #111111;
+  text-transform: uppercase;
+  padding: 4px 5px;
+}/*# sourceMappingURL=header-block.css.map */

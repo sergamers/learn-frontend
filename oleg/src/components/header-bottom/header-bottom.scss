@@ -1,0 +1,15 @@
+.HeaderBottom {
+    background: #FFFFFF;
+    width: 1920px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    &-text{
+        font: 600 13px/16px Inter, Arial;
+        color: #111111;
+        text-transform: uppercase;
+        padding: 4px 5px;
+    }
+}
