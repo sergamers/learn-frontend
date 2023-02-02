@@ -1,0 +1,82 @@
+$size: 350px;
+$sizelg: 710px;
+
+.NewCard { /* блок для карточки*/
+    height: $size;
+    width: $size;
+    background: white no-repeat top;
+    display: inline-flex;
+    
+    &-textBox {  /* расположение блок-текста в карточке*/
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: end;
+        margin-bottom: 35px;
+        
+        &-data { /* текст-дата в карточке*/
+            font: 500 12px/15px Inter, Arial;
+            color: #000000;
+        }
+        &-text { /* текст в карточке*/
+            font: 500 14px/140% Inter, Arial;
+            color: #000000;
+        }
+
+    }
+}
+
+.NewCard--lg {
+    height: $sizelg;
+    width: $sizelg;
+    
+    &-textBox {  /* расположение блок-текста в большой карточке*/
+        border-radius: 10px;
+        margin-bottom: 0px;
+        width: 100%;
+
+        &-data { /* текст-дата в карточке*/
+            font: 600 12px/15px Inter, Arial;
+            color: #FFFFFF;
+            padding: 7px 21px;
+        }
+        &-text { /* текст в карточке*/
+            font: 500 18px/140% Inter, Arial;
+            color: #FFFFFF;
+            padding: 7px 21px 28px;    
+        }
+    }
+   
+}
+
+.angry-grid {
+    display: grid; 
+    grid-template: 1fr 1fr / 1fr 1fr 1fr 1fr; 
+    grid-template-areas: 
+     'lg lg a b'
+     'lg lg c d';
+    
+    gap: 10px;
+    height: 100%;
+    
+ }
+   
+ #item-0 {
+    grid-area: lg;
+    
+ }
+ #item-1 {
+    grid-area: a;
+    
+ }
+ #item-2 {
+    grid-area: b;
+    
+ }
+ #item-3 {
+    grid-area: c;
+    
+ }
+ #item-4 {
+    grid-area: d;
+    
+ }

@@ -1,0 +1,35 @@
+@charset "UTF-8";
+.NewCard { /* блок для карточки*/
+  height: 316px;
+  width: 350px;
+  background: white no-repeat top;
+  display: inline-flex;
+}
+.NewCard-text { /* расположение текста в карточке*/
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.NewCard-text1 { /* текста-дата в карточке*/
+  font: 500 12px/15px Inter, Arial;
+  color: #000000;
+}
+.NewCard-text2 { /* текста в карточке*/
+  font: 500 14px/140% Inter, Arial;
+  color: #000000;
+}
+
+.NewCard--lg {
+  height: 704px;
+  width: 870px;
+}
+.NewCard--lg-text1 { /* текста-дата в карточке*/
+  font: 600 12px/15px Inter, Arial;
+  color: #FFFFFF;
+  padding: 0px 21px;
+}
+.NewCard--lg-text2 { /* текста в карточке*/
+  font: 500 18px/140% Inter, Arial;
+  color: #FFFFFF;
+  padding: 7px 21px 28px;
+}/*# sourceMappingURL=new-card.css.map */

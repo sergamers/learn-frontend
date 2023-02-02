@@ -1,36 +1,42 @@
-$sizeh: 250px;
-$sizew: 350px
-$sizelg: 630px;
+$size: 350px;
+$sizeLg: 810px;
 
 .NewCard { /* блок для карточки*/
-    box-sizing: border-box;
-    height: $sizeh;
-    width: $sizew;
-    background: #F1F1F1 no-repeat center;
-    border-radius: 10px;
+    height: $size;
+    width: $size;
+    background: white no-repeat top;
     display: inline-flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 23px 19px;   
+    
+    &-textBox {  /* расположение текста в карточке*/
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: end;
+        
+        &-data { /* текст-дата в карточке*/
+            font: 500 12px/15px Inter, Arial;
+            color: #000000;
+        }
+        &-text { /* текст в карточке*/
+            font: 500 14px/140% Inter, Arial;
+            color: #000000;
+        }
+        }
 }
 
-.CatalogCard-text { /* элемент текста в карточке*/
-    font: 400 20px/24px Inter, Arial;
-    color: #000000;
+.NewCard--lg {
+    height: $sizeHlg;
+    width: $sizeWlg;
+
+    &-text1 { /* текста-дата в карточке*/
+        font: 600 12px/15px Inter, Arial;
+        color: #FFFFFF;
+        padding: 0px 21px;
+    }
+    &-text2 { /* текста в карточке*/
+        font: 500 18px/140% Inter, Arial;
+        color: #FFFFFF;
+        padding: 7px 21px 28px;
+        
+    }
 }
 
-.CatalogCard-lab {
-}
-
-.CatalogCard--lab {
-    margin-top: 3px;
-}
-
-.CatalogCard--md { /* модификатор для карточки запонки*/
-    width: $size-lg;
-}
-
-.CatalogCard--lg { /* модификатор для карточки колье*/
-    width: $size-lg;
-    height: $size-lg;
-}
