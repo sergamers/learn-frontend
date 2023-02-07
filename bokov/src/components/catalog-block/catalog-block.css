@@ -1,0 +1,157 @@
+@charset "UTF-8";
+@import '../label/label.css';
+@import '../label/label.css';
+.ContainerCatalogCard {
+  display: inline-flex;
+}
+
+.ContainerCatalogCard > * {
+  margin-left: 10px;
+}
+
+.CatalogCard {
+  display: flex;
+  width: 310px;
+  height: 310px;
+  background: #F1F1F1 no-repeat center center url("../../assets/images/no_img.png");
+  border-radius: 10px;
+  padding: 21px;
+  /*  box-sizing - используется для того, что бы при паддинге не изменялся размер блока контейнера*/
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.CatalogCard--lg {
+  width: 630px;
+  height: 630px;
+}
+.CatalogCard--md {
+  width: 630px;
+  height: 310px;
+}
+.CatalogCard-blockText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.CatalogCard-text {
+  font: 500 18px/22px Inter Arial;
+  color: #000000;
+}
+.CatalogCard-describe {
+  font: 400 12px/15px Inter Arial;
+  color: #9A9A9A;
+  margin-top: 8px;
+}
+
+.TextTitleCatalogCard {
+  font: 400 20px/24px Inter Arial;
+}
+
+.angry-grid {
+  display: inline-grid;
+  grid-template: repeat(3, 1fr)/repeat(5, 1fr);
+  grid-template-areas: "label0 label0 label1 label2 label3" "label0 label0 label5 label5 label4" "label10 label9 label8 label7 label6";
+  gap: 10px;
+  height: 100%;
+}
+@media (max-width: 1305px) {
+  .angry-grid {
+    grid-template: repeat(4, 1fr)/repeat(4, 1fr);
+    grid-template-areas: "label0 label0 label1 label2" "label0 label0 label5 label5" "label7 label6 label3 label4" "label10 label9 label8 .";
+  }
+}
+@media (max-width: 985px) {
+  .angry-grid {
+    grid-template: repeat(5, 1fr)/repeat(3, 1fr);
+    grid-template-areas: "label0 label0 label1" "label0 label0 label2" "label5 label5 label3" "label7 label6 label4" "label10 label9 label8";
+  }
+}
+@media (max-width: 665px) {
+  .angry-grid {
+    grid-template: repeat(8, 1fr)/repeat(2, 1fr);
+    grid-template-areas: "label0 label0" "label0 label0" "label5 label5" "label2 label1" "label4 label3" "label7 label6" "label9 label8" ". label10";
+  }
+}
+
+#item-0 {
+  grid-area: label0;
+}
+
+#item-1 {
+  grid-area: label1;
+}
+
+#item-2 {
+  grid-area: label2;
+}
+
+#item-3 {
+  grid-area: label3;
+}
+
+#item-4 {
+  grid-area: label4;
+}
+
+#item-5 {
+  grid-area: label5;
+}
+
+#item-6 {
+  grid-area: label6;
+}
+
+#item-7 {
+  grid-area: label7;
+}
+
+#item-8 {
+  grid-area: label8;
+}
+
+#item-9 {
+  grid-area: label9;
+}
+
+#item-10 {
+  grid-area: label10;
+}
+
+.Content {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.CatalogBlock {
+  display: inline-grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  grid-auto-flow: row dense;
+}
+@media screen and (min-width: 970px) {
+  .CatalogBlock {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 1290px) {
+  .CatalogBlock {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media screen and (min-width: 1610px) {
+  .CatalogBlock {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+.CatalogCard--md {
+  grid-column: span 2;
+}
+.CatalogCard--lg {
+  grid-row: span 2;
+  grid-column: span 2;
+}
+
+/*# sourceMappingURL=catalog-block.css.map */

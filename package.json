@@ -4,7 +4,7 @@
   "description": "1. Создали  компонент button 2. Познакомились с css переменными 3. Подключили normalize.css через npm 4. Дополнить gitignore 5. [Относительные пути](https://prnt.sc/l2j4qs5T38Sa)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "gulp watch"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,10 @@
   "dependencies": {
     "normalize.css": "^8.0.1",
     "svg-to-inline": "^1.0.0-alpha.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.57.1"
   }
 }

@@ -1,0 +1,40 @@
+@import '../label/label.css';
+@import '../catalog-card/catalog-card';
+
+$gap: 10px;
+$commonPadding: 10px;
+
+@function grid-width ($countColumn) {
+  @return $commonPadding * 2 + $gap * ( $countColumn - 1 ) + $size * $countColumn;
+}
+
+.Content {
+  display: flex;
+  justify-content: center;
+  padding: $commonPadding;
+}
+
+.CatalogBlock {
+  display: inline-grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: $gap;
+  grid-auto-flow: row dense;
+
+  @for $i from 3 through 5 {
+    @media screen and (min-width: grid-width($i)) {
+    grid-template-columns: repeat($i, 1fr);
+    }
+  }
+}
+
+.CatalogCard {
+
+  &--md {
+    grid-column: span 2;
+  }
+
+  &--lg{
+    grid-row: span 2;
+    grid-column: span 2;
+  }
+}
