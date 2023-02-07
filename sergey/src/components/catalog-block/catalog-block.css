@@ -1,0 +1,65 @@
+@import '../label/label.css';
+.CatalogCard {
+  box-sizing: border-box;
+  width: 310px;
+  height: 310px;
+  border-radius: 10px;
+  padding: 23px 20px 24px;
+  background: #F1F1F1 no-repeat center center/310px url("../../assets/images/no_img.png");
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.CatalogCard--md {
+  width: 630px;
+}
+.CatalogCard--lg {
+  width: 630px;
+  height: 630px;
+}
+.CatalogCard-header {
+  font: 400 20px/24px Inter, Arial;
+  color: #000000;
+}
+.Content {
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.CatalogBlock {
+  display: inline-grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-flow: row dense;
+}
+@media screen and (min-width: 990px) {
+  .CatalogBlock {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 1310px) {
+  .CatalogBlock {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media screen and (min-width: 1630px) {
+  .CatalogBlock {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+.CatalogCard {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+.CatalogCard--md {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+.CatalogCard--lg {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+/*# sourceMappingURL=catalog-block.css.map */
