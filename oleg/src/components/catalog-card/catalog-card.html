@@ -3,63 +3,114 @@
     <meta charset="UTF-8">
     <title>Карточки для каталога</title>
     <link rel="stylesheet" href="catalog-card.css">
+    <link rel="stylesheet" href="../label/label.css">
     <script src="/node_modules/svg-to-inline/dist/svg-to-inline.js"></script> 
 <body>
+    <style>
+        .helper, .helper * { 
+            outline: 1px solid red;
+        }
+    </style> <!--Стиль для наглядности расположения блоков, элементов - сетка-->
 
-    <!--Карточка для каталога "религия"-->
-    <div class="CC">       
-        <img src="../../assets/catalog-card/PNG/Религия.png" alt="Религия">
+    <!--Карточка для каталога "Коллекции"-->
+<div class="CatalogCard helper" style="background-image: url(../../assets/catalog-card/PNG/Коллекции.png);">
+    <div class="CatalogCard-text">
+        Коллекции
     </div>
+</div>
 
-    <!--Карточка для каталога "из дерева"-->
-    <div class="CC">       
-        <img src="../../assets/catalog-card/PNG/Из дерева.png" alt="Из дерева">
+    <!--Карточка для каталога "Броши"-->
+<div class="CatalogCard helper" style="background-image: url(../../assets/catalog-card/PNG/Броши.png);">
+    <div class="CatalogCard-text">
+        Броши
     </div>
+</div>
 
-    <!--Карточка для каталога "коллекции"-->
-    <div class="CC">       
-        <img src="../../assets/catalog-card/PNG/Коллекции.png" alt="коллекции">
+    <!--Карточка для каталога "Пирсинг"-->
+<div class="CatalogCard helper" style="background-image: url(../../assets/catalog-card/PNG/Пирсинг.png);">
+    <div class="CatalogCard-text">
+        Пирсинг
     </div>
+</div>
 
-    <!--Карточка для каталога "броши"-->
-    <div class="CC">       
-        <img src="../../assets/catalog-card/PNG/Броши.png" alt="броши">
+    <!--Карточка для каталога "Подарки"-->
+<div class="CatalogCard helper" style="background-image: url(../../assets/catalog-card/PNG/Подарки.png);">
+    <div class="CatalogCard-text">
+        Подарки
     </div>
+</div>
 
-    <!--Карточка для каталога "пирсинг"-->
-    <div class="CC">       
-        <img src="../../assets/catalog-card/PNG/Пирсинг.png" alt="пирсинг">
+    <!--Карточка для каталога "Подвески"-->
+<div class="CatalogCard helper" style="background-image: url(../../assets/catalog-card/PNG/Подвески.png);">
+    <div class="CatalogCard-text">
+        Подвески
     </div>
+</div>
 
-    <!--Карточка для каталога "подарки"-->
-    <div class="CC">       
-        <img src="../../assets/catalog-card/PNG/Подарки.png" alt="подарки">
+    <!--Карточка для каталога "Кольца"-->
+<div class="CatalogCard helper" style="background-image: url(../../assets/catalog-card/PNG/Колца.png);">
+    <div class="CatalogCard-text">
+        Кольца
     </div>
-
-    <!--Карточка для каталога "подвески"-->
-    <div class="CC">       
-        <img src="../../assets/catalog-card/PNG/Подвески.png" alt="подвески">
+    <div class="CatalogCard-lab">
+        <div class="Lab">Все</div>
+        <div class="Lab">Перчатки</div>
     </div>
+</div>
 
-    <!--Карточка для каталога "браслеты"-->
-    <div class="CC">       
-        <img src="../../assets/catalog-card/PNG/Браслеты.png" alt="браслеты">
+    <!--Карточка для каталога "Религиозные"-->
+<div class="CatalogCard helper" style="background-image: url(../../assets/catalog-card/PNG/Религия.png);">
+    <div class="CatalogCard-text">
+        Религиозные
     </div>
-
-    <!--Карточка для каталога "колца"-->
-    <div class="CC">       
-        <img src="../../assets/catalog-card/PNG/Колца.png" alt="колца">
+    <div class="CatalogCard-lab">
+        <div class="Lab">Христианские</div>
+        <div class="Lab">Мусульманские</div>
     </div>
+</div>
 
-    <!--Карточка для каталога "колье"-->
-    <div class="CC CC--kol">       
-        <img src="../../assets/catalog-card/PNG/Колье.png" alt="колье">
+    <!--Карточка для каталога "Браслеты"-->
+<div class="CatalogCard helper" style="background-image: url(../../assets/catalog-card/PNG/Браслеты.png)";>
+    <div class="CatalogCard-text">
+        Браслеты
     </div>
+    <div class="CatalogCard-lab">
+        <div class="Lab CatalogCard--lab">На цепочке</div>
+        <div class="Lab CatalogCard--lab">На нитке</div>
+        <div class="Lab CatalogCard--lab">Из звеньев</div>
+        <div class="Lab CatalogCard--lab">Литьевые</div>
+        <div class="Lab CatalogCard--lab">Штампованные</div>
+        <div class="Lab CatalogCard--lab">Ролексы</div>
+    </div>
+</div>
 
-        <!--Карточка для каталога "запонки"-->
-        <div class="CC CC--zap">       
-            <img src="../../assets/catalog-card/PNG/Запонки.png" alt="запонки">
-        </div>
+    <!--Карточка для каталога "Изделия из дерева"-->
+<div class="CatalogCard helper" style="background-image: url(../../assets/catalog-card/PNG/Дерево.png);">
+    <div class="CatalogCard-text">
+        Изделия из дерева
+    </div>
+    <div class="CatalogCard-lab">
+        <div class="Lab CatalogCard--lab">Серьги</div>
+        <div class="Lab CatalogCard--lab">Кресты</div>
+        <div class="Lab CatalogCard--lab">Подвески</div>
+        <div class="Lab CatalogCard--lab">Запонки</div>
+    </div>
+</div>
+
+    <!--Карточка для каталога "Запонки"-->
+<div class="CatalogCard CatalogCard--md helper" style="background-image: url(../../assets/catalog-card/PNG/Запонки.png);">
+    <div class="CatalogCard-text">
+        Запонки
+    </div>
+</div>
+
+    <!--Карточка для каталога "Колье"-->
+<div class="CatalogCard CatalogCard--lg helper" style="background-image: url(../../assets/catalog-card/PNG/Колье.png);">
+    <div class="CatalogCard-text">
+        Колье
+    </div>
+</div>
+
 
 </body>
 </html>
