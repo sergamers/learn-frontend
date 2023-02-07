@@ -1,21 +1,21 @@
 @import "../catalog-card/catalog-card";
 
-$g: 10px;
-$p: 20px;
+$gap: 10px;
+$padding: 20px;
 
 @function grid-width($n) {
-  @return $p * 2 + $s * $n + $g * ( $n - 1 );
+  @return $padding * 2 + $s * $n + $gap * ( $n - 1 );
 }
 
 .Content{
   display: flex;
   justify-content: center;
-  padding: 0 $p;
+  padding: 0 $padding;
 }
 
 .CatalogBlock{
   display: inline-grid;
-  gap: $g;
+  gap: $gap;
   grid-template-columns: repeat(2, 1fr);
   grid-auto-flow: row dense;
 
