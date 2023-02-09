@@ -1,0 +1,41 @@
+@import "../catalog-card/catalog-card";
+
+$gap: 10px;
+$padding: 20px;
+
+@function grid-width($n) {
+  @return $padding * 2 + $s * $n + $gap * ( $n - 1 );
+}
+
+.Content{
+  display: flex;
+  justify-content: center;
+  padding: 0 $padding;
+}
+
+.CatalogBlock{
+  display: inline-grid;
+  gap: $gap;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-flow: row dense;
+
+  @for $i from 3 through 5 {
+    @media screen and (min-width: grid-width($i)) {
+      grid-template-columns: repeat($i, 1fr);
+    }
+  }
+}
+
+.CatalogCard {
+  grid-column: span 1;
+  grid-row: span 1;
+
+  &--md{
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+  &--lg{
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+}
