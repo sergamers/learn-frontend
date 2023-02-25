@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<style>
+    table {
+        width: 100%;
+        max-width: 100%;
+        border-collapse: collapse;
+        border: solid #e0e0dc;
+        border-width: 1px 0 0 1px
+    }
+    table.standard-table {
+        /*border: 2px solid #fff;*/
+        /*border: 2px solid #b2b2b2;*/
+        border: 2px solid #EEEEEE;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
+    }
+    table.standard-table td {
+        /*background-color: #f9fafb;
+        background-color: rgba(212, 221, 228, .15);*/
+        background-color: #F9FFF6;
+        background-color: rgba(212, 333, 196, .15);
+        /*border: 2px solid #fff;*/
+        border: 1px solid #EEEEEE;
+        box-shadow: inset 0 -1px 0 0 rgba(212, 221, 228, .5)
+    }
+    table.standard-table tr:nth-child(odd) td {
+        /*background-color: #f4f7f8;
+        background-color: rgba(212, 221, 228, .25)*/
+        background-color: #F4FFED;
+        background-color: rgba(212, 354, 182, .25);
+    }
+    table.standard-table td.header,
+    table.standard-table th {
+        /*border: 2px solid #fff;*/
+        border: 2px solid #EEEEEE;
+        border-bottom: 2px solid #d4dde4;
+        /*background: #eaeef2;
+        background: rgba(212, 221, 228, .5);*/
+        background: #E9FFF1;
+        background: rgba(212, 270, 228, .5);
+        padding: 2px 8px 4px;
+        font-family: x-locale-heading-primary, zillaslab, Palatino, "Palatino Linotype", x-locale-heading-secondary, serif;
+        font-weight: 700
+    }
+    .standard-table a,
+    .standard-table a:hover,
+    .standard-table a:active,
+    .standard-table a code {
+        color: #1A5C4F !important;
+        /*color: #000 !important;*/
+    }
+
+    td,
+    th {
+        border: solid #e0e0dc;
+        border-width: 0 1px 1px 0;
+        padding: 6px 8px;
+        text-align: left
+    }
+    thead th {
+        background: #eaeef2;
+        background: rgba(212, 221, 228, .5)
+    }
+</style>
+
+<table class="standard-table">
+    <caption>Табnица истинности дпя логических операторов</caption>
+    <tbody>
+    <tr>
+        <th>X</th>
+        <th>Y</th>
+        <th>X || Y ( или )</th>
+        <th>X &amp;&amp; Y ( и )</th>
+        <th>!X ( не )</th>
+    </tr>
+    <tr>
+        <td>false</td>
+        <td>false</td>
+        <td>false</td>
+        <td>false</td>
+        <td>true</td>
+    </tr>
+    <tr>
+        <td>true</td>
+        <td>false</td>
+        <td>true</td>
+        <td>false</td>
+        <td>false</td>
+    </tr>
+    <tr>
+        <td>false</td>
+        <td>true</td>
+        <td>true</td>
+        <td>false</td>
+        <td>true</td>
+    </tr>
+    <tr>
+        <td>true</td>
+        <td>true</td>
+        <td>true</td>
+        <td>true</td>
+        <td>false</td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
