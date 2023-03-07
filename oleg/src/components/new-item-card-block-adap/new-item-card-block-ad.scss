@@ -1,7 +1,8 @@
-@import "../new-item-card/new-item-card"; 
+@import '../new-item-card/new-item-card'; 
+
 
 $gap: 10px;
-$pad: 20px;
+$pad: 10px;
 
 @function grid-width($nColumn) {
     @return $pad * 2 + $gap * ($nColumn - 1) + $size * $nColumn;
@@ -13,7 +14,7 @@ $pad: 20px;
     justify-content: center;
 }
 
-.NewCatalogBlock {
+.ContentBox {
     display: inline-grid;
     grid-template-columns: repeat(2, 1fr);
     gap: $gap;

@@ -23,6 +23,7 @@
 .NewCard--lg {
   height: 710px;
   width: 710px;
+  border-radius: 10px;
 }
 .NewCard--lg-textBox { /* расположение блок-текста в большой карточке*/
   border-radius: 10px;
@@ -41,7 +42,7 @@
 }
 
 .angry-grid {
-  display: grid;
+  display: inline-grid;
   grid-template: 1fr 1fr/1fr 1fr 1fr 1fr;
   grid-template-areas: "lg lg a b" "lg lg c d";
   gap: 10px;

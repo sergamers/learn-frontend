@@ -28,6 +28,7 @@ $sizelg: 710px;
 .NewCard--lg {
     height: $sizelg;
     width: $sizelg;
+    border-radius: 10px;
     
     &-textBox {  /* расположение блок-текста в большой карточке*/
         border-radius: 10px;
@@ -49,7 +50,7 @@ $sizelg: 710px;
 }
 
 .angry-grid {
-    display: grid; 
+    display: inline-grid; 
     grid-template: 1fr 1fr / 1fr 1fr 1fr 1fr; 
     grid-template-areas: 
      'lg lg a b'
