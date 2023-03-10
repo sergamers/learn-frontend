@@ -2,42 +2,53 @@
   background: black;
   color: #FFFFFF;
   font: 600 11px/14px Inter, Arial;
-  width: 1920px;
   height: 35px;
   text-transform: uppercase;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+}
+.HeaderTop > * {
+  width: 33.3333333333%;
 }
 .HeaderTop-left {
+  padding-left: 20px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 .HeaderTop-map {
-  margin-left: 52px;
   padding: 4px 11px;
 }
 .HeaderTop-nav {
-  margin-left: 112px;
   padding: 4px 11px;
 }
 .HeaderTop-middle {
-  margin-right: 500px;
+  padding: 4px 0px;
+  text-align: center;
 }
 .HeaderTop-right {
-  margin-right: 54px;
+  padding-right: 20px;
+  text-align: end;
   font: 600 13px/16px Inter, Arial;
 }
 
 .MapBlock {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
+.MapBlock-icon {
+  padding: 4px 2px;
+}
+.MapBlock-text {
+  padding: 4px 0px;
+}
+
 .NavBlock {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 372px;
+}
+.NavBlock-link {
+  padding: 4px 10px;
 }/*# sourceMappingURL=header-top.css.map */

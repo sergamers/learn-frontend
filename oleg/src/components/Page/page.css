@@ -114,4 +114,75 @@
 
 .HeaderBlock {
   padding: 0px;
-}/*# sourceMappingURL=header-block.css.map */
+}
+
+.Btn {
+  --bg-default: #000;
+  --bg-hover-default: #222;
+  --textColor-default: #fff;
+  --msAnimate: .2s;
+  --text-default: 600 10px/1.5em Arial;
+}
+
+.Btn {
+  display: inline-block;
+  padding: 12px 17px;
+  border-radius: 3px;
+  cursor: pointer;
+  background: var(--bg-default);
+  color: var(--textColor-default);
+  font: 600 10px/1.5em Arial;
+  text-align: center;
+  text-transform: uppercase;
+  transition: background-color var(--msAnimate);
+}
+
+.Btn:hover {
+  background-color: var(--bg-hover-default);
+}
+
+.Btn--block {
+  display: block;
+}
+
+.Page2 {
+  background-image: url(../../assets/header-top/Women.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #E0DBD8;
+  height: 800px;
+}
+.Page2-box {
+  display: flex;
+  justify-content: center;
+}
+
+.Women {
+  display: flex;
+  justify-content: space-between;
+}
+.Women-arrowLinkL {
+  background: no-repeat;
+  padding-left: 30px;
+}
+.Women-arrowLinkR {
+  background: no-repeat;
+  padding-right: 30px;
+}
+
+.WomenBlock {
+  width: 535px;
+  height: 150px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 250px;
+  margin-left: 800px;
+}
+.WomenBlock-text {
+  color: #000000;
+  font: 300 34px/41px "Inter", "Arial";
+}
+.WomenBlock-btn {
+  padding: 0px;
+}/*# sourceMappingURL=page.css.map */

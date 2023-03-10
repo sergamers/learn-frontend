@@ -1,19 +1,23 @@
 .Conteiner {
   background: #FFFFFF;
-  width: 1920px;
   height: 120px;
   display: flex;
   align-items: center;
-  justify-content: right;
+}
+.Conteiner > * {
+  width: 33.3333333333%;
+}
+.Conteiner-left {
+  padding: 20px;
 }
 .Conteiner-center {
-  margin: 0px;
+  text-align: center;
 }
 .Conteiner-right {
+  padding-right: 20px;
   display: flex;
-  flex-direction: row;
-  margin-left: 742px;
-  margin-right: 54px;
+  align-items: center;
+  justify-content: end;
 }
 .Conteiner-right-man {
   margin-right: 25px;
