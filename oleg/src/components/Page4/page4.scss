@@ -1,16 +1,10 @@
-@import '../partner-card/partner-card';
+@import '../doc-step-card/doc-step-card';
 
-.PageCard {
+.PageBox {
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin-top: 40px;
-    :not(:first-child) {
-        margin-left: 10px;
+    margin-top: 47px;
     }
-    
-  
-}
 
 .PageText {
     color: #111111;
@@ -23,7 +17,7 @@
     display: flex;
     justify-content: center;
     color: white;
-    margin-top: 2px;
+    margin-top: 7px;
      
     &-bottom {
         border-bottom: #F9C859 4px solid;   

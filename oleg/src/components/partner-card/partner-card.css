@@ -1,23 +1,23 @@
-.PC {
-    --bg-default: rgb(181, 181, 181);
-    --w: 310px;
-    --h: 171px;
-
-    margin: 3px;
+.PartCard {
+    --bg-default: #F3F3F3;
+    --w-default: 310px;
+    --h-default: 171px;
 }
 
-.PC {
+
+.PartCard {
     background: var(--bg-default);
     border-radius: 10px;
-    width: var(--w);
-    height: var(--h);
+    width: var(--w-default);
+    height: var(--h-default);
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    padding: 5px;
     overflow: hidden;
 }
 
 .PC > * {
-    max-height: var(--h);
-    max-width: var(--w);
+    max-height: var(--h-default);
+    max-width: var(--w-default);
 }

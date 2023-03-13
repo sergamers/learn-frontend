@@ -1,0 +1,49 @@
+.PartCard {
+  --bg-default: #F3F3F3;
+  --w-default: 310px;
+  --h-default: 171px;
+}
+
+.PartCard {
+  background: var(--bg-default);
+  border-radius: 10px;
+  width: var(--w-default);
+  height: var(--h-default);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.PC > * {
+  max-height: var(--h-default);
+  max-width: var(--w-default);
+}
+
+.PageCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.PageCard :not(:first-child) {
+  margin-left: 10px;
+}
+
+.PageText {
+  color: #111111;
+  font: 600 30px/36px "Inter", "Arial";
+  text-align: center;
+  margin-top: 115px;
+}
+
+.Line {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 2px;
+}
+.Line-bottom {
+  border-bottom: #F9C859 4px solid;
+}/*# sourceMappingURL=page3.css.map */
