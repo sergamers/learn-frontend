@@ -20,7 +20,7 @@
   color: #000000;
 }
 
-.NewCard--lg {
+.NewCard--lg { /* блок большой для карточки, модификатор*/
   height: 710px;
   width: 710px;
   border-radius: 10px;

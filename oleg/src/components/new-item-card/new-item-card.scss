@@ -25,7 +25,7 @@ $sizeLg: 710px;
     }
 }
 
-.NewCard--lg {
+.NewCard--lg {  /* блок большой для карточки, модификатор*/
     height: $sizeLg;
     width: $sizeLg;
     border-radius: 10px;

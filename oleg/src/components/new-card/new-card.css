@@ -1,8 +1,8 @@
 .NewItemCard {
-    background: rgb(220, 220, 220);
+    background: #F1F1F1;
     border-radius: 10px;
     height: 524px;
-    width: 390px;
+    width: 370px;
     display: inline-flex;
     flex-direction: column;
     justify-content: space-between;
@@ -12,7 +12,7 @@
 }
 
 .NewItemCard-lab {
-
+    margin-top: 0px;
 }
 
 .NewItemCard-img {
@@ -22,7 +22,7 @@
 }
 
 .NewItemCard-text {
-
+    margin-top: 0px;
 }
 
 .NewItemCard-textBig {
