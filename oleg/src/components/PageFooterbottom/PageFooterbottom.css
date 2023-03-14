@@ -1,0 +1,25 @@
+.FooterBottom {
+  background: #000000;
+  height: 80px;
+  display: flex;
+}
+.FooterBottom > * {
+  width: 33.3333333333%;
+}
+.FooterBottom-left {
+  color: #FFFFFF;
+  font: 600 10pxx/12px "Inter", "Arial";
+  margin-left: 60px;
+}
+.FooterBottom-center {
+  text-align: center;
+}
+.FooterBottom-center :not(:first-child) {
+  margin-left: 15px;
+}
+.FooterBottom-right {
+  text-align: end;
+  color: #FFFFFF;
+  font: 600 10px/12px "Inter", "Arial";
+  margin-right: 60px;
+}/*# sourceMappingURL=PageFooterbottom.css.map */

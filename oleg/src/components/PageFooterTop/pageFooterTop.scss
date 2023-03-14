@@ -1,0 +1,53 @@
+.FooterTop{
+    background: black;
+    color: #FFFFFF;
+    height: 120px;
+    font: 600 10px/12px 'Inter', 'Arial';
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+
+    & > * {
+        width: calc(100%/3);
+    }
+
+    &-left{
+        display: flex;
+        margin-left: 40px;
+
+        &-nav{
+            font: 600 10px/12px 'Inter', 'Arial';
+        }
+    }
+            
+    &-center{
+        text-align: center;
+    }
+    &-right{
+        margin-right: 50px;
+
+        &-tei {
+            font: 600 13px/16px 'Inter', 'Arial';
+        }
+    }
+}
+
+.NavBlock{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &-link{
+        padding: 4px 20px;
+    }
+}
+
+.TelBlock{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+    &-link{
+        padding: 0px 15px;
+    }
+}

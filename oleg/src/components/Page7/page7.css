@@ -1,0 +1,35 @@
+.Wrapper {
+  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 1760px;
+  min-width: 600px;
+  width: 100%;
+}
+
+.helper, .helper * {
+  outline: 1px solid red;
+}
+
+* {
+  font: 400 16px/1.5em "Roboto", "Arial";
+  box-sizing: border-box;
+}
+
+.Page7 {
+  margin-top: 150px;
+  background-image: url(../../assets/woman/png/woman2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+.Page7-box {
+  display: flex;
+  justify-content: end;
+}
+
+.Page7-text {
+  color: #FFFFFF;
+  font: 400 30px/33px "Inter", "Arial";
+  margin-top: 150px;
+  margin-right: 100px;
+}/*# sourceMappingURL=page7.css.map */
