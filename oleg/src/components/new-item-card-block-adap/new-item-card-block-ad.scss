@@ -9,23 +9,23 @@ $pad: 20px;
 
 .Content {
     padding: $pad;
-    display: inline-flex;
+    display: flex;
     justify-content: center;
 }
 
-.NewCatalogCard {
+.NewCatalogBlock {
     display: inline-grid;
     grid-template-columns: repeat(2, 1fr);
     gap: $gap;
     grid-auto-flow: row dense;
-}
 
-@for $i from 2 through 5 {
-    @media screen and (min-width: grid-width($i)) { 
+    @for $i from 3 through 4 {
+        @media screen and (min-width: grid-width($i)){ 
         grid-template-columns:repeat($i, 1fr);
-     }   
-}
+        }
 
+    }  
+}
 
 .NewCatalogCard {
     grid-row: span 1;

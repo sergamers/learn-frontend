@@ -343,6 +343,12 @@
   margin-top: 28px;
 }
 
+.VideoBox {
+  text-align: center;
+  height: 600px;
+  margin-top: 50px;
+}
+
 .NewItemCard {
   background: #F1F1F1;
   border-radius: 10px;
@@ -569,6 +575,148 @@
   margin-top: 15px;
 }
 
+.NewCard { /* блок для карточки*/
+  height: 350px;
+  width: 350px;
+  background: white no-repeat top;
+  display: inline-flex;
+}
+.NewCard-textBox { /* расположение текста в карточке*/
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: end;
+  margin-bottom: 35px;
+}
+.NewCard-textBox-data { /* текст-дата в карточке*/
+  font: 500 12px/15px Inter, Arial;
+  color: #000000;
+}
+.NewCard-textBox-text { /* текст в карточке*/
+  font: 500 14px/140% Inter, Arial;
+  color: #000000;
+}
+
+.NewCard--lg { /* блок большой для карточки, модификатор*/
+  height: 710px;
+  width: 710px;
+  border-radius: 10px;
+}
+.NewCard--lg-textBox { /* расположение блок-текста в большой карточке*/
+  margin-bottom: 0px;
+  width: 100%;
+}
+.NewCard--lg-textBox-data { /* текст-дата в карточке*/
+  font: 600 12px/15px Inter, Arial;
+  color: #FFFFFF;
+  padding: 7px 21px;
+}
+.NewCard--lg-textBox-text { /* текст в карточке*/
+  font: 500 18px/140% Inter, Arial;
+  color: #FFFFFF;
+  padding: 7px 21px 28px;
+}
+
+.Content {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.NewCatalogBlock {
+  display: inline-grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  grid-auto-flow: row dense;
+}
+@media screen and (min-width: 1110px) {
+  .NewCatalogBlock {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 1470px) {
+  .NewCatalogBlock {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.NewCatalogCard {
+  grid-row: span 1;
+  grid-column: span 1;
+}
+.NewCatalogCard--lg {
+  grid-row: span 2;
+  grid-column: span 2;
+}
+
+.Wrapper {
+  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 1760px;
+  min-width: 600px;
+  width: 100%;
+}
+
+.helper, .helper * {
+  outline: 1px solid red;
+}
+
+* {
+  font: 400 16px/1.5em "Roboto", "Arial";
+  box-sizing: border-box;
+}
+
+.Page10 {
+  margin-top: 0px;
+}
+
+.PageText10 {
+  color: #111111;
+  font: 600 30px/36px "Inter", "Arial";
+  text-align: center;
+  margin-top: 115px;
+}
+
+.Conteiner10 {
+  display: flex;
+  justify-content: center;
+}
+.Conteiner10 > * {
+  width: 33.3333333333%;
+}
+.Conteiner10-left {
+  padding: 0;
+}
+.Conteiner10-center {
+  padding: 0;
+}
+.Conteiner10-right {
+  display: inline-flex;
+  align-items: center;
+  justify-content: end;
+}
+.Conteiner10-right-text {
+  padding: 2px 5px;
+}
+.Conteiner10-right-line {
+  padding: 2px 150px 2px 5px;
+}
+
+.Line10 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 2px;
+}
+.Line10-bottom {
+  border-bottom: #F9C859 4px solid;
+}
+
+.Content10 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
 .FooterTop {
   background: black;
   color: #FFFFFF;
@@ -643,7 +791,7 @@
 }
 
 .FooterBlock {
-  margin-top: 50px;
+  margin-top: 160px;
 }
 
 .Page {

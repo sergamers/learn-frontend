@@ -5,7 +5,7 @@
   background: white no-repeat top;
   display: inline-flex;
 }
-.NewCard-textBox { /* расположение блок-текста в карточке*/
+.NewCard-textBox { /* расположение текста в карточке*/
   display: inline-flex;
   flex-direction: column;
   justify-content: end;
@@ -21,12 +21,11 @@
 }
 
 .NewCard--lg { /* блок большой для карточки, модификатор*/
-  height: 700px;
-  width: 700px;
+  height: 710px;
+  width: 710px;
   border-radius: 10px;
 }
 .NewCard--lg-textBox { /* расположение блок-текста в большой карточке*/
-  border-radius: 10px;
   margin-bottom: 0px;
   width: 100%;
 }
@@ -41,30 +40,34 @@
   padding: 7px 21px 28px;
 }
 
-.angry-grid {
+.Content {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.NewCatalogBlock {
   display: inline-grid;
-  grid-template: 1fr 1fr/1fr 1fr 1fr 1fr;
-  grid-template-areas: "lg lg a b" "lg lg c d";
+  grid-template-columns: repeat(2, 1fr);
   gap: 10px;
-  height: 100%;
+  grid-auto-flow: row dense;
+}
+@media screen and (min-width: 1110px) {
+  .NewCatalogBlock {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 1470px) {
+  .NewCatalogBlock {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
-#item-0 {
-  grid-area: lg;
+.NewCatalogCard {
+  grid-row: span 1;
+  grid-column: span 1;
 }
-
-#item-1 {
-  grid-area: a;
-}
-
-#item-2 {
-  grid-area: b;
-}
-
-#item-3 {
-  grid-area: c;
-}
-
-#item-4 {
-  grid-area: d;
-}/*# sourceMappingURL=new-item-card-block.css.map */
+.NewCatalogCard--lg {
+  grid-row: span 2;
+  grid-column: span 2;
+}/*# sourceMappingURL=new-item-card-block-ad.css.map */
