@@ -7,6 +7,7 @@
 @import "./Inter/500/inter.css";
 @import "./Inter/600/inter.css";
 
-* {
+/* * {
     font: 400 16px/1.5em 'Inter', 'Arial';
-}
+} */ 
+/* для проекта Санис верхняя строка ломает меню на карте */

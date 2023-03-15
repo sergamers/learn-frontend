@@ -1,3 +1,20 @@
+@import '../menuMap/menuMap';
+
+.BoxMap {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 600px;
+    background: no-repeat center url(../../assets/icon/PNG/MapGroup.png);
+
+    &-menuL {
+        margin-right: 400px;
+    }
+    &-menuR {
+        margin-left: 0;
+    }
+}
+
 
 .PageText91 {
     color: #111111;
@@ -18,7 +35,7 @@
 }
 
 .PageText92 {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     color: #000000;
@@ -31,10 +48,4 @@
     &-right {
         padding: 2px 10px;
     }
-}
-
-.Map {
-    text-align: center;
-    height: 600px;
-    margin-top: 50px;
 }

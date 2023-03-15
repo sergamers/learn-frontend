@@ -12,11 +12,6 @@
   outline: 1px solid red;
 }
 
-* {
-  font: 400 16px/1.5em "Roboto", "Arial";
-  box-sizing: border-box;
-}
-
 .HeaderTop {
   background: black;
   color: #FFFFFF;
@@ -124,11 +119,6 @@
 
 .helper, .helper * {
   outline: 1px solid red;
-}
-
-* {
-  font: 400 16px/1.5em "Roboto", "Arial";
-  box-sizing: border-box;
 }
 
 .HeaderBlock {
@@ -425,11 +415,6 @@
   outline: 1px solid red;
 }
 
-* {
-  font: 400 16px/1.5em "Roboto", "Arial";
-  box-sizing: border-box;
-}
-
 .Page7 {
   margin-top: 150px;
   background-image: url(../../assets/woman/png/woman2.png);
@@ -575,6 +560,107 @@
   margin-top: 15px;
 }
 
+* {
+  font-family: "Inter", "Arial";
+  box-sizing: border-box;
+}
+
+.BtnMenuMap {
+  display: inline-block;
+  padding: 30px 55px 30px 20px;
+  color: #FFFFFF;
+  background: #000000;
+  font: 500 24px/29px "Inter", "Arial";
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.List {
+  display: inline-flex;
+  flex-direction: column;
+  color: #FFFFFF;
+  background: #000000;
+  font: 400 14px/40px "Inter", "Arial";
+}
+.List-item {
+  padding: 5px 5px;
+  border-radius: 3px;
+  transition: background 0.5s;
+  cursor: pointer;
+}
+.List-item:hover {
+  color: #000000;
+  background: #ffffff;
+}
+
+.Dropdown {
+  display: inline-flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.Dropdown-content {
+  opacity: 0;
+  transition-property: opacity;
+  transition-delay: 0.6s;
+}
+.Dropdown:hover .Dropdown-content {
+  opacity: 1;
+  transition-delay: 0.1s;
+}
+
+.BoxMenuMap {
+  width: 335px;
+  height: 500px;
+  background: #000000;
+  border-radius: 15px;
+}
+
+.BoxMap {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 600px;
+  background: no-repeat center url(../../assets/icon/PNG/MapGroup.png);
+}
+.BoxMap-menuL {
+  margin-right: 400px;
+}
+.BoxMap-menuR {
+  margin-left: 0;
+}
+
+.PageText91 {
+  color: #111111;
+  font: 600 30px/36px "Inter", "Arial";
+  text-align: center;
+  margin-top: 115px;
+}
+
+.Line {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 2px;
+}
+.Line-bottom {
+  border-bottom: #F9C859 4px solid;
+}
+
+.PageText92 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  font: 300 20px/26px "Inter", "Arial";
+  margin-top: 28px;
+}
+.PageText92-left {
+  padding: 2px 10px;
+}
+.PageText92-right {
+  padding: 2px 10px;
+}
+
 .NewCard { /* блок для карточки*/
   height: 350px;
   width: 350px;
@@ -658,11 +744,6 @@
 
 .helper, .helper * {
   outline: 1px solid red;
-}
-
-* {
-  font: 400 16px/1.5em "Roboto", "Arial";
-  box-sizing: border-box;
 }
 
 .Page10 {
