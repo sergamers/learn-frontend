@@ -8,9 +8,4 @@
 
 .helper, .helper * {
   outline: 1px solid red;
-}
-
-* {
-  font: 400 16px/1.5em "Inter", "Arial";
-  box-sizing: border-box;
 }/*# sourceMappingURL=global.css.map */
