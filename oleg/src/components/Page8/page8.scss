@@ -1,0 +1,31 @@
+@import '../catalog-block/catalog-block';
+@import '../buttonMaket/button';
+
+
+.PageText {
+    color: #111111;
+    font: 600 30px/36px 'Inter', 'Arial';
+    text-align: center;
+    margin-top: 115px;      
+}
+
+.Line {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 2px;
+     
+    &-bottom {
+        border-bottom: #F9C859 4px solid;   
+    }      
+}
+
+.Content {
+    margin-top: 30px;
+}
+
+.Page-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}

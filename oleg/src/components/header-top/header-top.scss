@@ -1,0 +1,59 @@
+
+.HeaderTop{
+    background: black;
+    color: #FFFFFF;
+    font: 600 11px/14px Inter, Arial;
+    height: 35px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+
+    & > * {
+        width: calc(100%/3);
+    }
+
+    &-left{
+        padding-left: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+        &-map{
+            padding: 4px 2px;
+        }
+        &-nav{
+            padding: 4px 2px;
+        }
+    &-middle{
+        padding: 4px 0px;
+        text-align: center;
+    }
+    &-right{
+        padding-right: 20px;
+        text-align: end;
+        font: 600 13px/16px Inter, Arial;
+    }
+}
+
+.MapBlock{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    &-icon{
+        padding: 4px 2px;
+    }
+    &-text{
+        padding: 4px 0px;
+    }
+}
+
+.NavBlock{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &-link{
+        padding: 4px 3px;
+    }
+}

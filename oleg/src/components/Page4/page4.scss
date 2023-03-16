@@ -1,0 +1,26 @@
+@import '../doc-step-card/doc-step-card';
+
+.PageBox {
+    display: flex;
+    justify-content: center;
+    margin-top: 47px;
+    }
+
+.PageText {
+    color: #111111;
+    font: 600 30px/36px 'Inter', 'Arial';
+    text-align: center;
+    margin-top: 115px;      
+}
+
+.Line {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 7px;
+     
+    &-bottom {
+        border-bottom: #F9C859 4px solid;   
+    }
+       
+}

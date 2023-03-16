@@ -1,17 +1,38 @@
-.NC {
+.NewItemCard {
+    background: #F1F1F1;
     border-radius: 10px;
-    height: 250px;
-    width: 350px;
+    height: 524px;
+    width: 370px;
     display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 27px 24px 24px;
+    box-sizing: border-box;
+    
+}
+
+.NewItemCard-lab {
+    margin-top: 0px;
+}
+
+.NewItemCard-img {
+    display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.Big {
-    border-radius: 10px;
-    height: 704px;
-    width: 870px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+.NewItemCard-text {
+    margin-top: 0px;
 }
+
+.NewItemCard-textBig {
+    font: 500 18px/22px Inter, Arial;
+    color: #000000;
+}
+
+.NewItemCard-textSmall {
+    margin-top: 9px;
+    font: 400 12px/15px Inter, Arial;
+    color: #9A9A9A;
+}
+

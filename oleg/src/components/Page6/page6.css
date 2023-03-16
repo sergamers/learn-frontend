@@ -1,0 +1,63 @@
+.NewItemCard {
+  background: #F1F1F1;
+  border-radius: 10px;
+  height: 524px;
+  width: 370px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 27px 24px 24px;
+  box-sizing: border-box;
+}
+
+.NewItemCard-lab {
+  margin-top: 0px;
+}
+
+.NewItemCard-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.NewItemCard-text {
+  margin-top: 0px;
+}
+
+.NewItemCard-textBig {
+  font: 500 18px/22px Inter, Arial;
+  color: #000000;
+}
+
+.NewItemCard-textSmall {
+  margin-top: 9px;
+  font: 400 12px/15px Inter, Arial;
+  color: #9A9A9A;
+}
+
+.PageText {
+  color: #111111;
+  font: 600 30px/24px "Inter", "Arial";
+  text-align: center;
+  margin-top: 115px;
+}
+
+.Line {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 2px;
+}
+.Line-bottom {
+  border-bottom: #F9C859 4px solid;
+}
+
+.PageCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.PageCard :not(:first-child) {
+  margin-left: 10px;
+}/*# sourceMappingURL=page6.css.map */

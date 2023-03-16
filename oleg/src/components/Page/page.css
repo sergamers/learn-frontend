@@ -1,0 +1,880 @@
+@charset "UTF-8";
+@import '../label/label.css';
+.Wrapper {
+  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 1760px;
+  min-width: 600px;
+  width: 100%;
+}
+
+.helper, .helper * {
+  outline: 1px solid red;
+}
+
+.HeaderTop {
+  background: black;
+  color: #FFFFFF;
+  font: 600 11px/14px Inter, Arial;
+  height: 35px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+.HeaderTop > * {
+  width: 33.3333333333%;
+}
+.HeaderTop-left {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.HeaderTop-map {
+  padding: 4px 2px;
+}
+.HeaderTop-nav {
+  padding: 4px 2px;
+}
+.HeaderTop-middle {
+  padding: 4px 0px;
+  text-align: center;
+}
+.HeaderTop-right {
+  padding-right: 20px;
+  text-align: end;
+  font: 600 13px/16px Inter, Arial;
+}
+
+.MapBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.MapBlock-icon {
+  padding: 4px 2px;
+}
+.MapBlock-text {
+  padding: 4px 0px;
+}
+
+.NavBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.NavBlock-link {
+  padding: 4px 3px;
+}
+
+.Conteiner {
+  background: #FFFFFF;
+  height: 120px;
+  display: flex;
+  align-items: center;
+}
+.Conteiner > * {
+  width: 33.3333333333%;
+}
+.Conteiner-left {
+  padding: 20px;
+}
+.Conteiner-center {
+  text-align: center;
+}
+.Conteiner-right {
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.Conteiner-right-man {
+  margin-right: 25px;
+}
+.Conteiner-right-lop {
+  margin-right: 25px;
+}
+
+.HeaderBottom {
+  background: #FFFFFF;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.HeaderBottom-text {
+  font: 600 13px/16px Inter, Arial;
+  color: #111111;
+  text-transform: uppercase;
+  padding: 4px 5px;
+}
+
+.Wrapper {
+  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 1760px;
+  min-width: 600px;
+  width: 100%;
+}
+
+.helper, .helper * {
+  outline: 1px solid red;
+}
+
+.HeaderBlock {
+  padding: 0px;
+}
+
+.Btn {
+  --bg-default: #000;
+  --bg-hover-default: #222;
+  --textColor-default: #fff;
+  --msAnimate: .2s;
+  --text-default: 600 10px/1.5em Arial;
+}
+
+.Btn {
+  display: inline-block;
+  padding: 12px 17px;
+  border-radius: 3px;
+  cursor: pointer;
+  background: var(--bg-default);
+  color: var(--textColor-default);
+  font: 600 10px/1.5em Arial;
+  text-align: center;
+  text-transform: uppercase;
+  transition: background-color var(--msAnimate);
+}
+
+.Btn:hover {
+  background-color: var(--bg-hover-default);
+}
+
+.Btn--block {
+  display: block;
+}
+
+.Page2 {
+  background-image: url(../../assets/header-top/Women.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #E0DBD8;
+  height: 800px;
+}
+.Page2-box {
+  display: flex;
+  justify-content: center;
+}
+
+.Women {
+  display: flex;
+  justify-content: space-between;
+}
+.Women-arrowLinkL {
+  background: no-repeat;
+  padding-left: 30px;
+}
+.Women-arrowLinkR {
+  background: no-repeat;
+  padding-right: 30px;
+}
+
+.WomenBlock {
+  width: 535px;
+  height: 150px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 250px;
+  margin-left: 800px;
+}
+.WomenBlock-text {
+  color: #000000;
+  font: 300 34px/41px "Inter", "Arial";
+}
+.WomenBlock-btn {
+  padding: 0px;
+}
+
+.PartCard {
+  --bg-default: #F3F3F3;
+  --w-default: 310px;
+  --h-default: 171px;
+}
+
+.PartCard {
+  background: var(--bg-default);
+  border-radius: 10px;
+  width: var(--w-default);
+  height: var(--h-default);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.PC > * {
+  max-height: var(--h-default);
+  max-width: var(--w-default);
+}
+
+.PageCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.PageCard :not(:first-child) {
+  margin-left: 10px;
+}
+
+.PageText {
+  color: #111111;
+  font: 600 30px/36px "Inter", "Arial";
+  text-align: center;
+  margin-top: 115px;
+}
+
+.Line {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 2px;
+}
+.Line-bottom {
+  border-bottom: #F9C859 4px solid;
+}
+
+.Box {
+  display: flex;
+  width: 1006px;
+  justify-content: space-between;
+}
+
+.docStepCard {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.docStepCard-num {
+  font: 400 16px/1.5em Stapel, Arial;
+  color: #BFBFBF;
+}
+
+.docStepCard-icon {
+  margin-top: 42px;
+}
+
+.docStepCard-text {
+  font: 500 22px/1.5em Inter, Arial;
+  color: #000000;
+  margin-top: 15px;
+}
+
+.docStepCard-btn {
+  width: 216px;
+  margin-top: 47px;
+}
+
+.docStepCard--iconEnv {
+  margin-top: 38px;
+}
+
+.docStepCard--iconDoc {
+  margin-top: 38px;
+}
+
+.PageBox {
+  display: flex;
+  justify-content: center;
+  margin-top: 47px;
+}
+
+.PageText {
+  color: #111111;
+  font: 600 30px/36px "Inter", "Arial";
+  text-align: center;
+  margin-top: 115px;
+}
+
+.Line {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 7px;
+}
+.Line-bottom {
+  border-bottom: #F9C859 4px solid;
+}
+
+.PageText1 {
+  color: #111111;
+  font: 600 30px/36px "Inter", "Arial";
+  text-align: center;
+  margin-top: 115px;
+}
+
+.Line {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 2px;
+}
+.Line-bottom {
+  border-bottom: #F9C859 4px solid;
+}
+
+.PageText2 {
+  color: #000000;
+  font: 300 20px/26px "Inter", "Arial";
+  text-align: center;
+  margin-top: 28px;
+}
+
+.VideoBox {
+  text-align: center;
+  height: 600px;
+  margin-top: 50px;
+}
+
+.NewItemCard {
+  background: #F1F1F1;
+  border-radius: 10px;
+  height: 524px;
+  width: 370px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 27px 24px 24px;
+  box-sizing: border-box;
+}
+
+.NewItemCard-lab {
+  margin-top: 0px;
+}
+
+.NewItemCard-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.NewItemCard-text {
+  margin-top: 0px;
+}
+
+.NewItemCard-textBig {
+  font: 500 18px/22px Inter, Arial;
+  color: #000000;
+}
+
+.NewItemCard-textSmall {
+  margin-top: 9px;
+  font: 400 12px/15px Inter, Arial;
+  color: #9A9A9A;
+}
+
+.PageText {
+  color: #111111;
+  font: 600 30px/24px "Inter", "Arial";
+  text-align: center;
+  margin-top: 115px;
+}
+
+.Line {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 2px;
+}
+.Line-bottom {
+  border-bottom: #F9C859 4px solid;
+}
+
+.PageCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.PageCard :not(:first-child) {
+  margin-left: 10px;
+}
+
+.Wrapper {
+  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 1760px;
+  min-width: 600px;
+  width: 100%;
+}
+
+.helper, .helper * {
+  outline: 1px solid red;
+}
+
+.Page7 {
+  margin-top: 150px;
+  background-image: url(../../assets/woman/png/woman2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+.Page7-box {
+  display: flex;
+  justify-content: end;
+}
+
+.Page7-text {
+  color: #FFFFFF;
+  font: 400 30px/33px "Inter", "Arial";
+  margin-top: 150px;
+  margin-right: 100px;
+}
+
+.CatalogCard { /* блок для карточек*/
+  box-sizing: border-box;
+  height: 310px;
+  width: 310px;
+  background: #F1F1F1 no-repeat center;
+  border-radius: 10px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 23px 19px;
+}
+
+.CatalogCard-text { /* элемент текста в карточке*/
+  font: 400 20px/24px Inter, Arial;
+  color: #000000;
+}
+
+.CatalogCard--lab {
+  margin-top: 3px;
+}
+
+.CatalogCard--md { /* модификатор для карточки запонки*/
+  width: 630px;
+}
+
+.CatalogCard--lg { /* модификатор для карточки колье*/
+  width: 630px;
+  height: 630px;
+}
+
+.Content {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.CatalogBlock {
+  display: inline-grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  grid-auto-flow: row dense;
+}
+@media screen and (min-width: 990px) {
+  .CatalogBlock {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 1310px) {
+  .CatalogBlock {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media screen and (min-width: 1630px) {
+  .CatalogBlock {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+.CatalogCard {
+  grid-row: span 1;
+  grid-column: span 1;
+}
+.CatalogCard--md {
+  grid-column: span 2;
+}
+.CatalogCard--lg {
+  grid-row: span 2;
+  grid-column: span 2;
+}
+
+.Btn {
+  --bg-default: #000;
+  --bg-hover-default: #222;
+  --textColor-default: #fff;
+  --msAnimate: .2s;
+  --text-default: 600 10px/1.5em Arial;
+}
+
+.Btn {
+  display: inline-block;
+  padding: 12px 17px;
+  border-radius: 3px;
+  cursor: pointer;
+  background: var(--bg-default);
+  color: var(--textColor-default);
+  font: 600 10px/1.5em Arial;
+  text-align: center;
+  text-transform: uppercase;
+  transition: background-color var(--msAnimate);
+}
+
+.Btn:hover {
+  background-color: var(--bg-hover-default);
+}
+
+.Btn--block {
+  display: block;
+}
+
+.PageText {
+  color: #111111;
+  font: 600 30px/36px "Inter", "Arial";
+  text-align: center;
+  margin-top: 115px;
+}
+
+.Line {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 2px;
+}
+.Line-bottom {
+  border-bottom: #F9C859 4px solid;
+}
+
+.Content {
+  margin-top: 30px;
+}
+
+.Page-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+* {
+  font-family: "Inter", "Arial";
+  box-sizing: border-box;
+}
+
+.BtnMenuMap {
+  display: inline-block;
+  padding: 30px 55px 30px 20px;
+  color: #FFFFFF;
+  background: #000000;
+  font: 500 24px/29px "Inter", "Arial";
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.List {
+  display: inline-flex;
+  flex-direction: column;
+  color: #FFFFFF;
+  background: #000000;
+  font: 400 14px/40px "Inter", "Arial";
+}
+.List-item {
+  padding: 5px 5px;
+  border-radius: 3px;
+  transition: background 0.5s;
+  cursor: pointer;
+}
+.List-item:hover {
+  color: #000000;
+  background: #ffffff;
+}
+
+.Dropdown {
+  display: inline-flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.Dropdown-content {
+  opacity: 0;
+  transition-property: opacity;
+  transition-delay: 0.6s;
+}
+.Dropdown:hover .Dropdown-content {
+  opacity: 1;
+  transition-delay: 0.1s;
+}
+
+.BoxMenuMap {
+  width: 335px;
+  height: 500px;
+  background: #000000;
+  border-radius: 15px;
+}
+
+.BoxMap {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 600px;
+  background: no-repeat center url(../../assets/icon/PNG/MapGroup.png);
+}
+.BoxMap-menuL {
+  margin-right: 400px;
+}
+.BoxMap-menuR {
+  margin-left: 0;
+}
+
+.PageText91 {
+  color: #111111;
+  font: 600 30px/36px "Inter", "Arial";
+  text-align: center;
+  margin-top: 115px;
+}
+
+.Line {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 2px;
+}
+.Line-bottom {
+  border-bottom: #F9C859 4px solid;
+}
+
+.PageText92 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  font: 300 20px/26px "Inter", "Arial";
+  margin-top: 28px;
+}
+.PageText92-left {
+  padding: 2px 10px;
+}
+.PageText92-right {
+  padding: 2px 10px;
+}
+
+.NewCard { /* блок для карточки*/
+  height: 350px;
+  width: 350px;
+  background: white no-repeat top;
+  display: inline-flex;
+}
+.NewCard-textBox { /* расположение текста в карточке*/
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: end;
+  margin-bottom: 35px;
+}
+.NewCard-textBox-data { /* текст-дата в карточке*/
+  font: 500 12px/15px Inter, Arial;
+  color: #000000;
+}
+.NewCard-textBox-text { /* текст в карточке*/
+  font: 500 14px/140% Inter, Arial;
+  color: #000000;
+}
+
+.NewCard--lg { /* блок большой для карточки, модификатор*/
+  height: 710px;
+  width: 710px;
+  border-radius: 10px;
+}
+.NewCard--lg-textBox { /* расположение блок-текста в большой карточке*/
+  margin-bottom: 0px;
+  width: 100%;
+}
+.NewCard--lg-textBox-data { /* текст-дата в карточке*/
+  font: 600 12px/15px Inter, Arial;
+  color: #FFFFFF;
+  padding: 7px 21px;
+}
+.NewCard--lg-textBox-text { /* текст в карточке*/
+  font: 500 18px/140% Inter, Arial;
+  color: #FFFFFF;
+  padding: 7px 21px 28px;
+}
+
+.Content {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.NewCatalogBlock {
+  display: inline-grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  grid-auto-flow: row dense;
+}
+@media screen and (min-width: 1110px) {
+  .NewCatalogBlock {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 1470px) {
+  .NewCatalogBlock {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.NewCatalogCard {
+  grid-row: span 1;
+  grid-column: span 1;
+}
+.NewCatalogCard--lg {
+  grid-row: span 2;
+  grid-column: span 2;
+}
+
+.Wrapper {
+  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 1760px;
+  min-width: 600px;
+  width: 100%;
+}
+
+.helper, .helper * {
+  outline: 1px solid red;
+}
+
+.Page10 {
+  margin-top: 0px;
+}
+
+.PageText10 {
+  color: #111111;
+  font: 600 30px/36px "Inter", "Arial";
+  text-align: center;
+  margin-top: 115px;
+}
+
+.Conteiner10 {
+  display: flex;
+  justify-content: center;
+}
+.Conteiner10 > * {
+  width: 33.3333333333%;
+}
+.Conteiner10-left {
+  padding: 0;
+}
+.Conteiner10-center {
+  padding: 0;
+}
+.Conteiner10-right {
+  display: inline-flex;
+  align-items: center;
+  justify-content: end;
+}
+.Conteiner10-right-text {
+  padding: 2px 5px;
+}
+.Conteiner10-right-line {
+  padding: 2px 150px 2px 5px;
+}
+
+.Line10 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 2px;
+}
+.Line10-bottom {
+  border-bottom: #F9C859 4px solid;
+}
+
+.Content10 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.FooterTop {
+  background: black;
+  color: #FFFFFF;
+  height: 120px;
+  font: 600 10px/12px "Inter", "Arial";
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+.FooterTop > * {
+  width: 33.3333333333%;
+}
+.FooterTop-left {
+  display: flex;
+  margin-left: 40px;
+}
+.FooterTop-left-nav {
+  font: 600 10px/12px "Inter", "Arial";
+}
+.FooterTop-center {
+  text-align: center;
+}
+.FooterTop-right {
+  margin-right: 50px;
+}
+.FooterTop-right-tei {
+  font: 600 13px/16px "Inter", "Arial";
+}
+
+.NavBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.NavBlock-link {
+  padding: 4px 20px;
+}
+
+.TelBlock {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.TelBlock-link {
+  padding: 0px 15px;
+}
+
+.FooterBottom {
+  background: #000000;
+  height: 80px;
+  display: flex;
+}
+.FooterBottom > * {
+  width: 33.3333333333%;
+}
+.FooterBottom-left {
+  color: #FFFFFF;
+  font: 600 10pxx/12px "Inter", "Arial";
+  margin-left: 60px;
+}
+.FooterBottom-center {
+  text-align: center;
+}
+.FooterBottom-center :not(:first-child) {
+  margin-left: 15px;
+}
+.FooterBottom-right {
+  text-align: end;
+  color: #FFFFFF;
+  font: 600 10px/12px "Inter", "Arial";
+  margin-right: 60px;
+}
+
+.FooterBlock {
+  margin-top: 160px;
+}
+
+.Page {
+  margin: 0px;
+}/*# sourceMappingURL=page.css.map */

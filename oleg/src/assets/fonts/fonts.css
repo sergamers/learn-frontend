@@ -1,0 +1,13 @@
+@import "./Roboto/400/roboto.css";
+@import "./Roboto/500/roboto.css";
+@import "./Roboto/900/roboto.css";
+
+@import "./Inter/300/inter.css";
+@import "./Inter/400/inter.css";
+@import "./Inter/500/inter.css";
+@import "./Inter/600/inter.css";
+
+/* * {
+    font: 400 16px/1.5em 'Inter', 'Arial';
+} */ 
+/* для проекта Санис верхняя строка ломает меню на карте */

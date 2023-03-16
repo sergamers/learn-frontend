@@ -1,0 +1,16 @@
+.Wrapper{
+    padding: 0 20px;
+    margin: 0 auto;
+    max-width: 1760px;
+    min-width: 600px;
+    width: 100%;
+} 
+
+.helper, .helper * {
+    outline: 1px solid red;
+}
+
+// * {
+//     font: 400 16px/1.5em 'Inter', 'Arial';
+//     box-sizing: border-box;
+// }

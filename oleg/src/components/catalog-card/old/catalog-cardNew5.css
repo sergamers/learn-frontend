@@ -1,0 +1,90 @@
+.CatalogCard { /* блок для карточек*/
+    box-sizing: border-box;
+    height: 310px;
+    width: 310px;
+    background: #F1F1F1 no-repeat center;
+    border-radius: 10px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 23px 19px;   
+}
+
+.CatalogCard-text { /* элемент текста в карточке*/
+    font: 400 20px/24px Inter, Arial;
+    color: #000000;
+}
+
+.CatalogCard-lab {
+}
+
+.CatalogCard--lab {
+    margin-top: 3px;
+}
+
+.CatalogCard--md { /* модификатор для карточки запонки*/
+    width: 630px;
+}
+
+.CatalogCard--lg { /* модификатор для карточки колье*/
+    width: 630px;
+    height: 630px;
+}
+
+/* Подключение грядок*/
+
+.angry-grid {
+   display: inline-grid; 
+   grid-template: repeat(3, 1fr) / repeat(5, 1fr);
+   grid-template-areas: 
+	'lb lb a b c'
+	'lb lb md md d'
+	'k h g f e';
+   
+   gap: 10px;
+   height: 100%;  
+}
+  
+#item-0 {
+   grid-area: lb; 
+}
+
+#item-1 {
+   grid-area: md;
+}
+
+#item-2 {
+   grid-area: a;  
+}
+
+#item-3 {
+   grid-area: b;  
+}
+
+#item-4 {
+   grid-area: c;  
+}
+
+#item-5 {
+   grid-area: d; 
+}
+
+#item-6 {
+   grid-area: e; 
+}
+
+#item-7 { 
+   grid-area: f;  
+}
+
+#item-8 {
+   grid-area: g;  
+}
+
+#item-9 {
+   grid-area: h; 
+}
+
+#item-10 {
+   grid-area: k;   
+}

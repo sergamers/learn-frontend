@@ -1,0 +1,51 @@
+@import '../menuMap/menuMap';
+
+.BoxMap {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 600px;
+    background: no-repeat center url(../../assets/icon/PNG/MapGroup.png);
+
+    &-menuL {
+        margin-right: 400px;
+    }
+    &-menuR {
+        margin-left: 0;
+    }
+}
+
+
+.PageText91 {
+    color: #111111;
+    font: 600 30px/36px 'Inter', 'Arial';
+    text-align: center;
+    margin-top: 115px;      
+}
+
+.Line {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 2px;
+     
+    &-bottom {
+        border-bottom: #F9C859 4px solid;   
+    }       
+}
+
+.PageText92 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    font: 300 20px/26px 'Inter', 'Arial';
+    margin-top: 28px; 
+    
+    &-left {
+        padding: 2px 10px;
+    }
+    &-right {
+        padding: 2px 10px;
+    }
+}

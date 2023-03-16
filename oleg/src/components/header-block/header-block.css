@@ -1,0 +1,117 @@
+.HeaderTop {
+  background: black;
+  color: #FFFFFF;
+  font: 600 11px/14px Inter, Arial;
+  height: 35px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+.HeaderTop > * {
+  width: 33.3333333333%;
+}
+.HeaderTop-left {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.HeaderTop-map {
+  padding: 4px 2px;
+}
+.HeaderTop-nav {
+  padding: 4px 2px;
+}
+.HeaderTop-middle {
+  padding: 4px 0px;
+  text-align: center;
+}
+.HeaderTop-right {
+  padding-right: 20px;
+  text-align: end;
+  font: 600 13px/16px Inter, Arial;
+}
+
+.MapBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.MapBlock-icon {
+  padding: 4px 2px;
+}
+.MapBlock-text {
+  padding: 4px 0px;
+}
+
+.NavBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.NavBlock-link {
+  padding: 4px 3px;
+}
+
+.Conteiner {
+  background: #FFFFFF;
+  height: 120px;
+  display: flex;
+  align-items: center;
+}
+.Conteiner > * {
+  width: 33.3333333333%;
+}
+.Conteiner-left {
+  padding: 20px;
+}
+.Conteiner-center {
+  text-align: center;
+}
+.Conteiner-right {
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.Conteiner-right-man {
+  margin-right: 25px;
+}
+.Conteiner-right-lop {
+  margin-right: 25px;
+}
+
+.HeaderBottom {
+  background: #FFFFFF;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.HeaderBottom-text {
+  font: 600 13px/16px Inter, Arial;
+  color: #111111;
+  text-transform: uppercase;
+  padding: 4px 5px;
+}
+
+.Wrapper {
+  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 1760px;
+  min-width: 600px;
+  width: 100%;
+}
+
+.helper, .helper * {
+  outline: 1px solid red;
+}
+
+* {
+  font: 400 16px/1.5em "Inter", "Arial";
+  box-sizing: border-box;
+}
+
+.HeaderBlock {
+  padding: 0px;
+}/*# sourceMappingURL=header-block.css.map */

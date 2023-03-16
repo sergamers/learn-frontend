@@ -1,0 +1,60 @@
+@import '../new-item-card-block-adap/new-item-card-block-ad';
+@import '../../assets/styles/global';
+
+.Page10 {
+    margin-top: 0px;
+}
+
+.PageText10 {
+    color: #111111;
+    font: 600 30px/36px 'Inter', 'Arial';
+    text-align: center;
+    margin-top: 115px;      
+}
+
+.Conteiner10 {
+    display: flex;
+    justify-content: center;
+
+    & > * {
+        width: calc(100%/3);
+    }
+
+    &-left {
+        padding: 0;
+    }
+
+    &-center {
+        padding: 0;
+    }
+    
+    &-right {
+        display: inline-flex;
+        align-items: center;
+        justify-content: end;
+
+        &-text {
+            padding: 2px 5px;
+        }
+        &-line {
+            padding: 2px 150px 2px 5px;
+        }
+    }
+      
+}
+.Line10 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 2px;
+     
+    &-bottom {
+        border-bottom: #F9C859 4px solid;   
+    }      
+}
+
+.Content10 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}

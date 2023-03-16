@@ -1,0 +1,54 @@
+* {
+  font-family: "Inter", "Arial";
+  box-sizing: border-box;
+}
+
+.BtnMenuMap {
+  display: inline-block;
+  padding: 30px 55px 30px 20px;
+  color: #FFFFFF;
+  background: #000000;
+  font: 500 24px/29px "Inter", "Arial";
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.List {
+  display: inline-flex;
+  flex-direction: column;
+  color: #FFFFFF;
+  background: #000000;
+  font: 400 14px/40px "Inter", "Arial";
+}
+.List-item {
+  padding: 5px 5px;
+  border-radius: 3px;
+  transition: background 0.5s;
+  cursor: pointer;
+}
+.List-item:hover {
+  color: #000000;
+  background: #ffffff;
+}
+
+.Dropdown {
+  display: inline-flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.Dropdown-content {
+  opacity: 0;
+  transition-property: opacity;
+  transition-delay: 0.6s;
+}
+.Dropdown:hover .Dropdown-content {
+  opacity: 1;
+  transition-delay: 0.1s;
+}
+
+.BoxMenuMap {
+  width: 335px;
+  height: 500px;
+  background: #000000;
+  border-radius: 15px;
+}/*# sourceMappingURL=menuMap.css.map */

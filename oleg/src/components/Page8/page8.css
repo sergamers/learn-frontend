@@ -1,0 +1,127 @@
+@charset "UTF-8";
+@import '../label/label.css';
+.CatalogCard { /* блок для карточек*/
+  box-sizing: border-box;
+  height: 310px;
+  width: 310px;
+  background: #F1F1F1 no-repeat center;
+  border-radius: 10px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 23px 19px;
+}
+
+.CatalogCard-text { /* элемент текста в карточке*/
+  font: 400 20px/24px Inter, Arial;
+  color: #000000;
+}
+
+.CatalogCard--lab {
+  margin-top: 3px;
+}
+
+.CatalogCard--md { /* модификатор для карточки запонки*/
+  width: 630px;
+}
+
+.CatalogCard--lg { /* модификатор для карточки колье*/
+  width: 630px;
+  height: 630px;
+}
+
+.Content {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.CatalogBlock {
+  display: inline-grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  grid-auto-flow: row dense;
+}
+@media screen and (min-width: 990px) {
+  .CatalogBlock {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 1310px) {
+  .CatalogBlock {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media screen and (min-width: 1630px) {
+  .CatalogBlock {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+.CatalogCard {
+  grid-row: span 1;
+  grid-column: span 1;
+}
+.CatalogCard--md {
+  grid-column: span 2;
+}
+.CatalogCard--lg {
+  grid-row: span 2;
+  grid-column: span 2;
+}
+
+.Btn {
+  --bg-default: #000;
+  --bg-hover-default: #222;
+  --textColor-default: #fff;
+  --msAnimate: .2s;
+  --text-default: 600 10px/1.5em Arial;
+}
+
+.Btn {
+  display: inline-block;
+  padding: 12px 17px;
+  border-radius: 3px;
+  cursor: pointer;
+  background: var(--bg-default);
+  color: var(--textColor-default);
+  font: 600 10px/1.5em Arial;
+  text-align: center;
+  text-transform: uppercase;
+  transition: background-color var(--msAnimate);
+}
+
+.Btn:hover {
+  background-color: var(--bg-hover-default);
+}
+
+.Btn--block {
+  display: block;
+}
+
+.PageText {
+  color: #111111;
+  font: 600 30px/36px "Inter", "Arial";
+  text-align: center;
+  margin-top: 115px;
+}
+
+.Line {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 2px;
+}
+.Line-bottom {
+  border-bottom: #F9C859 4px solid;
+}
+
+.Content {
+  margin-top: 30px;
+}
+
+.Page-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}/*# sourceMappingURL=page8.css.map */

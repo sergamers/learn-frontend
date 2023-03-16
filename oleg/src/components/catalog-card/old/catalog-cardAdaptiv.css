@@ -1,0 +1,34 @@
+
+
+.CatalogCard { /* блок для карточек*/
+    box-sizing: border-box;
+    height: 310px;
+    width: 310px;
+    background: #F1F1F1 no-repeat center;
+    border-radius: 10px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 23px 19px;   
+}
+
+.CatalogCard-text { /* элемент текста в карточке*/
+    font: 400 20px/24px Inter, Arial;
+    color: #000000;
+}
+
+.CatalogCard-lab {
+}
+
+.CatalogCard--lab {
+    margin-top: 3px;
+}
+
+.CatalogCard--md { /* модификатор для карточки запонки*/
+    width: 630px;
+}
+
+.CatalogCard--lg { /* модификатор для карточки колье*/
+    width: 630px;
+    height: 630px;
+}

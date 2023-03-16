@@ -1,38 +1,41 @@
-.NewItemCard {
-    background: rgb(220, 220, 220);
-    border-radius: 10px;
-    height: 524px;
-    width: 390px;
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 27px 24px 24px;
-    box-sizing: border-box;
-    
+@charset "UTF-8";
+.NewCard { /* блок для карточки*/
+  height: 350px;
+  width: 350px;
+  background: white no-repeat top;
+  display: inline-flex;
+}
+.NewCard-textBox { /* расположение текста в карточке*/
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: end;
+  margin-bottom: 35px;
+}
+.NewCard-textBox-data { /* текст-дата в карточке*/
+  font: 500 12px/15px Inter, Arial;
+  color: #000000;
+}
+.NewCard-textBox-text { /* текст в карточке*/
+  font: 500 14px/140% Inter, Arial;
+  color: #000000;
 }
 
-.NewItemCard-lab {
-
+.NewCard--lg { /* блок большой для карточки, модификатор*/
+  height: 710px;
+  width: 710px;
+  border-radius: 10px;
 }
-
-.NewItemCard-img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.NewCard--lg-textBox { /* расположение блок-текста в большой карточке*/
+  margin-bottom: 0px;
+  width: 100%;
 }
-
-.NewItemCard-text {
-
+.NewCard--lg-textBox-data { /* текст-дата в карточке*/
+  font: 600 12px/15px Inter, Arial;
+  color: #FFFFFF;
+  padding: 7px 21px;
 }
-
-.NewItemCard-textBig {
-    font: 500 18px/22px Inter, Arial;
-    color: #000000;
-}
-
-.NewItemCard-textSmall {
-    margin-top: 9px;
-    font: 400 12px/15px Inter, Arial;
-    color: #9A9A9A;
-}
-
+.NewCard--lg-textBox-text { /* текст в карточке*/
+  font: 500 18px/140% Inter, Arial;
+  color: #FFFFFF;
+  padding: 7px 21px 28px;
+}/*# sourceMappingURL=new-item-card.css.map */

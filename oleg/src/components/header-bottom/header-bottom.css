@@ -1,0 +1,13 @@
+.HeaderBottom {
+  background: #FFFFFF;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.HeaderBottom-text {
+  font: 600 13px/16px Inter, Arial;
+  color: #111111;
+  text-transform: uppercase;
+  padding: 4px 5px;
+}/*# sourceMappingURL=header-bottom.css.map */

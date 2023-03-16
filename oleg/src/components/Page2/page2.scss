@@ -1,0 +1,48 @@
+@import '../buttonMaket/button';
+
+.Page2 {
+    background-image: url(../../assets/header-top/Women.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #E0DBD8;
+    height: 800px;
+
+    &-box {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.Women {
+    display: flex;
+    justify-content: space-between;
+    
+    &-arrowLinkL {
+        background: no-repeat;
+        padding-left: 30px;       
+    }
+    &-arrowLinkR {
+        background: no-repeat;
+        padding-right: 30px;        
+    }  
+}
+
+.WomenBlock {
+    width: 535px;
+    height: 150px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 250px;
+    margin-left: 800px;
+    
+
+    &-text{ 
+        color: #000000;
+        font: 300 34px/41px 'Inter', 'Arial';
+    }
+    &-btn {
+        padding: 0px;
+    }
+}
+
